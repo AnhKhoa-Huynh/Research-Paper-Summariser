@@ -94,7 +94,7 @@ def summarize(record, session=None):
     key=os.environ.get('GEMINI_API_KEY','').strip()
     if not key or not record.get('abstract'):
         return default
-    model=os.environ.get('GEMINI_MODEL','gemini-2.5-flash-lite')
+    model=os.environ.get('GEMINI_MODEL','gemini-3.5-flash-lite')
     prompt=(
       'You are a critical research assistant. Use ONLY the source metadata. Be accurate, cautious and concise. '
       'Do not infer benchmarks, methods, results or limitations absent from the supplied excerpt. '
