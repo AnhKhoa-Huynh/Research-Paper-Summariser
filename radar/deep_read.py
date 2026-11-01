@@ -90,7 +90,7 @@ def analyse(item,text,pages,session):
              "generationConfig":{"temperature":0.1,"responseMimeType":"application/json",
                                   "maxOutputTokens":1700}}
     url=("https://generativelanguage.googleapis.com/v1beta/models/"+
-         os.getenv("GEMINI_MODEL","gemini-2.5-flash-lite")+":generateContent")
+         os.getenv("GEMINI_MODEL","gemini-3.5-flash-lite")+":generateContent")
     try:
         r=session.post(url,json=payload,headers={"x-goog-api-key":key},timeout=75)
         r.raise_for_status()
