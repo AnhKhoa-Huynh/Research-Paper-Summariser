@@ -1835,5 +1835,1368 @@
     "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
     "summary_mode": "source_excerpt",
     "note_path": "storage/notes/news/westlake-university-opens-a-world-model-research-center-led-by-yu-kaicheng-f48c847b.md"
+  },
+  {
+    "kind": "news",
+    "source": "https://economy.ac/",
+    "feed": "Asia-Pacific Robotics and AI",
+    "title": "“Labor Shortages Fuel Robot Market”: China and Japan Expand Automation Investment, Potentially Reshaping Asian Manufacturing - https://economy.ac/",
+    "abstract": "“Labor Shortages Fuel Robot Market”: China and Japan Expand Automation Investment, Potentially Reshaping Asian Manufacturing https://economy.ac/",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBvUTVvYWctZ1k3ZURsZkV3ZzBsTDlQUjR3blRDM3JuWFliNE5VdGFuT2ltb20tUVhsYTBXeTQyV2l0YlIxWWctbHUwMjZiOUtrbjIzRUFRNA?oc=5",
+    "authors": [],
+    "published": "Fri, 30 Oct 2026 07:00:00 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:439c65485a0ba93c8ed2",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "“Labor Shortages Fuel Robot Market”: China and Japan Expand Automation Investment, Potentially Reshaping Asian Manufacturing https://economy.ac/",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/labor-shortages-fuel-robot-market-china-and-japan-expand-automation-investm-439c6548.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "JEDI: Joint-Embedding Demonstration Compression for In-Context Imitation Learning",
+    "abstract": "In-context imitation learning (ICIL) adapts robot policies through test-time demonstrations, but long multimodal trajectories constrain how many examples fit in context. We ask what a compressed demonstration should preserve. We propose JEDI, which compresses demonstrations into latent slots trained to predict the query episode's next-stage keyframe in a frozen video-JEPA space. Task and process counterfactuals help the slots preserve execution details, while the predictor selects demonstrations from a bank. Post-training with keypoint tokens enables human-hand conditioning on robots. Experiments on LIBERO and real robots show that JEDI supports many-shot context; LIBERO objective controls show improved success and demonstration following over action-only compression. These findings support query-future prediction as a training objective for preserving execution-relevant information in compressed demonstrations.",
+    "url": "http://arxiv.org/abs/2610.40356v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40356v1",
+    "doi": "",
+    "authors": [
+      "Jiazhao Liang",
+      "Zhewen He",
+      "Shuaihang Yuan",
+      "Hao Huang",
+      "Yi Fang"
+    ],
+    "published": "2026-10-29T16:11:05Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:f82db410ca65e110f59f",
+    "other_sources": [],
+    "score": 3.3,
+    "topics": [
+      "Robotics and autonomy",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "In-context imitation learning (ICIL) adapts robot policies through test-time demonstrations, but long multimodal trajectories constrain how many examples fit in context. We ask what a compressed demonstration should preserve.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/jedi-joint-embedding-demonstration-compression-for-in-context-imitation-lea-f82db410.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Gaussian Distillation of Flow Policies",
+    "abstract": "Flow policies are among the strongest robot controllers and are well suited to modelling multimodal action distributions. Our analysis shows that the continuous-action distributions of the studied flow policies are well approximated by Gaussians. We propose the Gaussian Action Readout (GAR), which replaces a flow policy's final layer with a Gaussian readout trained on just 0.02% of eligible states, while keeping the rest of the network frozen. It samples with one action-network pass, gives closed-form likelihoods, and achieves near-teacher task success at up to twice the inference speed.",
+    "url": "http://arxiv.org/abs/2610.40271v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40271v1",
+    "doi": "",
+    "authors": [
+      "Youssef Saied",
+      "Ziyad Sheebaelhamd",
+      "Claire Vernade",
+      "François Fleuret"
+    ],
+    "published": "2026-10-29T15:30:20Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:056cd84fd7af703593dd",
+    "other_sources": [],
+    "score": 3.3,
+    "topics": [
+      "Robotics and autonomy",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "Flow policies are among the strongest robot controllers and are well suited to modelling multimodal action distributions. Our analysis shows that the continuous-action distributions of the studied flow policies are well approximated by Gaussians.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/gaussian-distillation-of-flow-policies-056cd84f.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Surrogate Uncertainty for Black-box Visual Grounding",
+    "abstract": "Visual grounding is crucial for robots to understand language instructions with visual observations. This paper addresses the problem of visual grounding uncertainties, where a robot uses a black-box vision-language model (VLM) to ground free-form natural-language instructions to target objects. Prevailing methods derive uncertainty from the VLM itself. Yet, outputs of the VLM, e.g., generated uncertainties, are from the same parameters and structures producing the predictions, and inherit the bias. We give a formal Bayesian definition of the problem that treats the VLM prediction as an observation. An external surrogate Bayesian model then quantifies per-query uncertainty over a local neighborhood of a held-out calibration set, decomposed into aleatoric and epistemic components. A hierarchical retrieval across input modalities realizes a compact joint-space neighborhood, mitigating the curse of dimensionality. The estimator further integrates with conformal prediction or model-based planning for active visual grounding, where robots are allowed to take verbal or physical actions to ground targets. Across grounding benchmarks and state-of-the-art VLMs, it consistently improves both calibration and task performance. On a real Fetch robot under open-world instructions, it enables principled trade-offs between confident action and information gathering, substantially improving robustness.",
+    "url": "http://arxiv.org/abs/2610.39798v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.39798v1",
+    "doi": "",
+    "authors": [
+      "Hanbo Zhang",
+      "Tianrun Hu",
+      "Cedar Site Bai",
+      "Anxing Xiao",
+      "David Hsu"
+    ],
+    "published": "2026-10-29T10:44:54Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:fccfb7b808b7433f07f1",
+    "other_sources": [],
+    "score": 3.3,
+    "topics": [
+      "Robotics and autonomy",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "Visual grounding is crucial for robots to understand language instructions with visual observations. This paper addresses the problem of visual grounding uncertainties, where a robot uses a black-box vision-language model (VLM) to ground free-form natural-language instructions to target objects.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/surrogate-uncertainty-for-black-box-visual-grounding-fccfb7b8.md"
+  },
+  {
+    "kind": "paper",
+    "source": "OpenAlex",
+    "title": "Serving Chain-structured Jobs with Large Memory Footprints with Application to Large Foundation Model Serving",
+    "abstract": "As a current trend in Artificial Intelligence (AI), large foundation models are increasingly employed as the core of AI services. However, even after training, serving such models at scale remains a challenging task due to their heavy resource footprints, particularly in terms of GPU memory. While recent works revealed unique characteristics of systems serving foundation models that distinguish them from traditional distributed computing systems, there is still a lack of fundamental understanding of the underlying system management problems. This work aims at addressing this gap by extracting a novel problem of \"server chain composition\" via block placement and cache allocation for serving chainstructured jobs with large memory footprints, which models a fundamental problem in serving large foundation models through pipeline parallelism. After showing the NP-hardness of the optimal solution, the focus is turned to developing scalable algorithms with guaranteed performance under state-of-the-art load balancing. Application of the proposed solution to a distributed large language model (LLM) serving system shows significant reduction of response times compared to state-of-the-art solutions.",
+    "url": "https://doi.org/10.1145/3842721.3849638",
+    "pdf_url": "",
+    "doi": "https://doi.org/10.1145/3842721.3849638",
+    "authors": [
+      "Tingyang Sun",
+      "Ting He",
+      "I-Hong Hou"
+    ],
+    "published": "2026-10-30",
+    "categories": [],
+    "peer_reviewed": null,
+    "publication_type": "conference-paper",
+    "key": "doi:10.1145/3842721.3849638",
+    "other_sources": [],
+    "score": 3.2,
+    "topics": [
+      "AI and machine learning",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "As a current trend in Artificial Intelligence (AI), large foundation models are increasingly employed as the core of AI services. However, even after training, serving such models at scale remains a challenging task due to their heavy resource footprints, particularly in terms of GPU memory.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/serving-chain-structured-jobs-with-large-memory-footprints-with-application-10.1145/.md"
+  },
+  {
+    "kind": "paper",
+    "source": "OpenAlex",
+    "title": "Logged Is Not Done: Verifiable AI Operations for the EU AI Act Era (Part 01 of 15)",
+    "abstract": "Abstract As AI agents start to act in European critical infrastructure (telecom networks, payment systems, cloud platforms and industrial robots), a recurring gap appears. A system can log that an operation was authorized and acknowledged, yet still be unable to show that the evidence behind it was current, or that the reported result matches what actually happened. This gap matters to obligations under the EU AI Act, including: risk management (Article 9); record-keeping and logging (Article 12); human oversight (Article 14); accuracy, robustness and cybersecurity (Article 15); post-market monitoring and serious-incident reporting (Articles 72–73). This publication presents the foundational part of a 15-part technical series, also submitted as an IETF Internet-Draft. It defines a vendor-neutral evidence-consistency framework built on these elements: every consequential operation receives a stable identity and a declared verification objective; each observation carries its provenance, resource generation, time interval and clock uncertainty; domain-specific checks produce a scoped three-valued result: SUPPORTED, CONTRADICTED or UNRESOLVED. UNRESOLVED is a first-class outcome. Missing or stale evidence is recorded honestly rather than reported as success, which gives auditors, oversight personnel and incident investigators a reconstructable decision record. The framework keeps verification separate from authority. A positive result never grants permission to act; any consequential effect stays under a separate, accountable control boundary. Acknowledgement, completion, physical outcome and financial settlement are reconciled as independent evidence. A three-layer architecture keeps shared evidence semantics apart from twelve domain profiles: radio access and network incident recovery; telecom sessions and charging; hardware and DMA command paths; multi-agent negotiation and asynchronous tools; robotics and physical safety; multilingual emergency instructions; browser agents and agent migration; autonomous commerce; accelerator reset. The material is also relevant to engineering work under NIS2, the Cyber Resilience Act, DORA and the Machinery Regulation. The PDF includes: a reader's summary with diagrams; an analytical latency and capacity model with a measurement plan; 12 proposed verification tests; threat and edge-case profiles; a searchable catalogue of 639 engineering mechanisms. The document describes technical mechanisms and makes no legal-compliance, certification or conformity claim.",
+    "url": "https://doi.org/10.5281/zenodo.23806616",
+    "pdf_url": "",
+    "doi": "https://doi.org/10.5281/zenodo.23806616",
+    "authors": [
+      "Sangam Das"
+    ],
+    "published": "2026-10-30",
+    "categories": [],
+    "peer_reviewed": null,
+    "publication_type": "article",
+    "key": "doi:10.5281/zenodo.23806616",
+    "other_sources": [],
+    "score": 3.15,
+    "topics": [
+      "Swarm and multi-agent robotics",
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "Abstract As AI agents start to act in European critical infrastructure (telecom networks, payment systems, cloud platforms and industrial robots), a recurring gap appears. A system can log that an operation was authorized and acknowledged, yet still be unable to show that the evidence behind it was current, or that the reported result matches what actually happened.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/logged-is-not-done-verifiable-ai-operations-for-the-eu-ai-act-era-part-01-o-10.5281/.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "LucidLyra: Feed-Forward Generative 3D Scene Reconstruction and Joint Understanding via Multi-Task Distillation",
+    "abstract": "We present LucidLyra, a framework that makes generatively reconstructed 3D scenes directly queryable for semantics and instances in a feed-forward manner from video latents. While generative 3D reconstruction can synthesize virtual environments from a single image, downstream applications in robotics and physical AI require not only visual realism but also access to scene semantics and object identities. Existing 3D understanding approaches, however, require captured multi-view scenes, have limited generalization capabilities, or rely on expensive per-scene processing and optimization. To bridge this gap, our method distills complementary knowledge from a camera-controlled video diffusion model and frozen 2D vision foundation models into a unified model to jointly infer 3D Gaussians encoding geometry, appearance, open-vocabulary semantics, and class-agnostic instance cues. The resulting scenes support novel-view rendering, open-vocabulary segmentation, and object grouping without per-scene optimization, while training requires neither manual 3D annotations nor captured multi-view data. Our method outperforms baselines combining state-of-the-art 3DGS segmentation approaches with generative 3D scene reconstruction on curated synthetic and real-image-conditioned benchmarks, while preserving reconstruction quality. Furthermore, our latent formulation naturally extends to monocular video, reconstructing structured dynamic 3D scenes across time. By turning renderable but unstructured outputs into queryable 3D worlds, LucidLyra enables downstream applications including 3D scene editing, 3D asset mining, and robotic simulation.",
+    "url": "http://arxiv.org/abs/2610.40495v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40495v1",
+    "doi": "",
+    "authors": [
+      "Oliver Hahn",
+      "Rodrigo Marcuzzi",
+      "Sangeetha Grama Srinivasan",
+      "Alessandro Burzio",
+      "Sherwin Bahmani",
+      "Jiahui Huang",
+      "Stefan Roth",
+      "Shengyu Huang",
+      "Qunjie Zhou",
+      "Laura Leal-Taixé"
+    ],
+    "published": "2026-10-29T17:18:51Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "peer_reviewed": false,
+    "key": "title:de4cf272f7dc752e0056",
+    "other_sources": [],
+    "score": 3.15,
+    "topics": [
+      "Robotics and autonomy",
+      "Computer vision and 3D perception",
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "We present LucidLyra, a framework that makes generatively reconstructed 3D scenes directly queryable for semantics and instances in a feed-forward manner from video latents. While generative 3D reconstruction can synthesize virtual environments from a single image, downstream applications in robotics and physical AI require not only visual realism but also access to scene semantics and object identities.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/lucidlyra-feed-forward-generative-3d-scene-reconstruction-and-joint-underst-de4cf272.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Is It the Curriculum or Just the Easy Start? Benchmarking Unsupervised Environment Design on Quadrupeds",
+    "abstract": "Unsupervised environment design (UED) methods such as PLR, ACCEL, SFL and PAIRED are compared mostly on 2D mazes, grid worlds and BipedalWalker, while terrain curricula for legged robots are hand-designed and evaluated against a few baselines. We present a benchmark that runs fourteen UED, domain-randomisation and robotics curricula under one protocol on five 3D quadrupeds in MuJoCo MJX: the closed-chain W01-TEK and the open-chain Unitree Go1 and Go2, Google Barkour vB and Boston Dynamics Spot. Levels are vectors of eight interpretable terrain parameters, and all curricula drive the same PPO student at matched environment-step budgets. The evaluation reports success on random and held-out structured terrains, interquartile means with stratified bootstrap intervals, capability envelopes and a level-by-level domination comparison. We compare methods within each robot and report, per level set, the top group of methods not significantly below the best. No method is in the top group on every robot and level set. Methods with easy or low-difficulty training levels, curated or not, fill the top groups on in-distribution random levels of Go1 and Barkour, and of W01-TEK apart from PAIRED+BiBC. The success-driven terrain curriculum from legged-robot practice is in a top group most often, domain randomisation on uniform levels in none, and PAIRED in none outside Spot, where the fourteen methods lie within 3.8 points on random levels of difficulty 0.25. On three robots the leader on in-distribution random levels is not the leader on held-out terrain. We collect the results into a per-robot guide to choosing a curriculum.",
+    "url": "http://arxiv.org/abs/2610.40364v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40364v1",
+    "doi": "",
+    "authors": [
+      "Jakub Gilewicz",
+      "Dominik Galus",
+      "Piotr Wojdas"
+    ],
+    "published": "2026-10-29T16:15:44Z",
+    "categories": [
+      "cs.LG",
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:983dcf81670aebe13727",
+    "other_sources": [],
+    "score": 2.85,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "Unsupervised environment design (UED) methods such as PLR, ACCEL, SFL and PAIRED are compared mostly on 2D mazes, grid worlds and BipedalWalker, while terrain curricula for legged robots are hand-designed and evaluated against a few baselines. We present a benchmark that runs fourteen UED, domain-randomisation and robotics curricula under one protocol on five 3D quadrupeds in MuJoCo MJX: the closed-chain W01-TEK and the open-chain Unitree Go1 and Go2, Google Barkour vB and Bo",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/is-it-the-curriculum-or-just-the-easy-start-benchmarking-unsupervised-envir-983dcf81.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Algebraic World Model: From Exploration to Proofs",
+    "abstract": "AI has made remarkable progress in mathematics, solving challenging problems with machine-checkable proofs in Lean, yet typically relying on predefined mathematical definitions and formal specifications. This raises a natural question: can it reason rigorously about an unknown world? We introduce the Algebraic World Model (AWM), a framework that turns interaction with unfamiliar environments into explicit mathematical models supporting formal reasoning. AWM explores the environment and develops executable Python hypotheses, continually testing and revising them against observations. It then structures these hypotheses into typed objects and shared rules, simplifies their structure through category-theory-guided transformations, and formalizes the resulting model in Lean 4 to prove reachability and impossibility. AWM can formally prove that a goal is unreachable, even beyond explored trajectories. On two impossible game levels, it constructs closed, kernel-checked Lean proofs excluding every legal winning sequence in all six runs, while Claude Opus 5.5 and GPT-6 Astra, equipped with coding tools, produce none in twelve baseline runs. Four of AWM's six initial bounds are correct, compared with one for Opus 5.5 and none for GPT-6 Astra; given only feedback that a cheaper win exists, AWM revises its rules and constructs new proofs, reaching six of six correct bounds. Moreover, AWM produces interpretable mathematical models whose rules can be inspected and tested step by step. Across all 25 public ARC-AGI-3 games, these models enable Lean to replay the winning trajectories of all 183 levels and generalize beyond observed play, predicting unseen transitions and detecting changes in game mechanics. With Claude Opus 5, AWM clears all levels with a score of 99.9, while its certified winning trajectories use only 43% of the human baseline's actions.",
+    "url": "http://arxiv.org/abs/2610.40503v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40503v1",
+    "doi": "",
+    "authors": [
+      "Guancheng Pan",
+      "Qixin Tan",
+      "Yang Yuan",
+      "Andrew Chi-Chih Yao"
+    ],
+    "published": "2026-10-29T17:20:31Z",
+    "categories": [
+      "cs.AI",
+      "cs.LO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:f2f857945a57f5249058",
+    "other_sources": [],
+    "score": 2.7,
+    "topics": [
+      "AI and machine learning",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "AI has made remarkable progress in mathematics, solving challenging problems with machine-checkable proofs in Lean, yet typically relying on predefined mathematical definitions and formal specifications. This raises a natural question: can it reason rigorously about an unknown world?",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/algebraic-world-model-from-exploration-to-proofs-f2f85794.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "A Two-Wheeled Quadrotor with All-Clockwise Tilted Rotors for Level-Attitude Surface Locomotnion",
+    "abstract": "Conventional wheel-equipped quadrotor UAVs must tilt their bodies to generate lateral forces, limiting their ability to maintain a desired attitude during lateral motion. This paper proposes a wheeled quadrotor with all-clockwise tilted rotors that uses surface contact as a constraint to generate propulsion along the contact surface without tilting the vehicle. We analyze feasible forces and system controllability under surface contact and optimize the vehicle design considering different rotor-spin configurations. The optimization results show that a configuration in which all four rotors spin clockwise can generate a larger tangential force than the conventional alternating-spin configuration. This approach enables both aerial and contact-based locomotion without additional rotor-tilting actuators or mechanisms. Simulation results demonstrate both hovering in free space and horizontal locomotion on a floor while maintaining a level attitude.",
+    "url": "http://arxiv.org/abs/2610.40502v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40502v1",
+    "doi": "",
+    "authors": [
+      "Takumi Ito",
+      "Satoshi Nakano"
+    ],
+    "published": "2026-10-29T17:20:22Z",
+    "categories": [
+      "cs.RO",
+      "eess.SY"
+    ],
+    "peer_reviewed": false,
+    "key": "title:f9b4f45b734ac9b6bb67",
+    "other_sources": [],
+    "score": 2.6,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "Conventional wheel-equipped quadrotor UAVs must tilt their bodies to generate lateral forces, limiting their ability to maintain a desired attitude during lateral motion. This paper proposes a wheeled quadrotor with all-clockwise tilted rotors that uses surface contact as a constraint to generate propulsion along the contact surface without tilting the vehicle.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/a-two-wheeled-quadrotor-with-all-clockwise-tilted-rotors-for-level-attitude-f9b4f45b.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Fundamental Limits of Sampling-Based Reachability: Geometry and Flow Distortion",
+    "abstract": "Sampling-based reachability estimates reachable sets from finitely many simulated trajectory endpoints. Existing guarantees often control missed probability mass or approximation error relative to the convex hull of the reachable set, leaving the geometric error relative to the reachable set incompletely characterized. We study this error as a problem of support estimation under flow distortion. Our assumptions combine a uniform lower bound on the local volume density of the initial set, a lower bound on the sampling density, and a one-sided Lipschitz constant $μ$ for the vector field. These conditions admit initial sets with corners and dynamics that may expand or contract. In the fine-accuracy regime, $\\tilde{\\mathcal O}\\bigl(2^ne^{nμT}(R/r)^n/(ρκ)\\bigr)$ independent endpoint samples suffice for Hausdorff accuracy $r$ using the endpoint cloud. Here, $n$ is the state dimension, $T$ is the horizon, $R$ is the volume-equivalent radius, and $ρ$ and $κ$ quantify sampling density and local volume density. For $n\\ge2$ and sufficiently small $κ$, a minimax lower bound over all estimators based only on independent endpoints matches these dependencies up to a dimension-dependent factor $2\\cdot4^n$ and logarithmic factors, within the stated parameter range and when the state domain accommodates the construction. The exponential burden in dimension, and in the horizon for expanding systems, is therefore intrinsic to this observation model. Planar experiments illustrate the predicted effects of corners and contraction; robot-arm experiments show how empirical accuracy deteriorates with dimension.",
+    "url": "http://arxiv.org/abs/2610.40473v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40473v1",
+    "doi": "",
+    "authors": [
+      "Jixian Liu",
+      "Ihab Tabbara",
+      "Hussein Sibai",
+      "Enrique Mallada"
+    ],
+    "published": "2026-10-29T17:08:36Z",
+    "categories": [
+      "eess.SY",
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:bd5d443340ffb7418108",
+    "other_sources": [],
+    "score": 2.6,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "Sampling-based reachability estimates reachable sets from finitely many simulated trajectory endpoints. Existing guarantees often control missed probability mass or approximation error relative to the convex hull of the reachable set, leaving the geometric error relative to the reachable set incompletely characterized.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/fundamental-limits-of-sampling-based-reachability-geometry-and-flow-distort-bd5d4433.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Optimal Path Planning with Localization constraints",
+    "abstract": "This paper studies UAV path planning in areas where GPS signals are not present. Because these drones can easily get lost when they don't have GPS, they must rely on dead reckoning and occasionally pass near cellular towers, which act as landmarks to reset and fix their position. The goal is to find the shortest path from a start to a goal location while keeping the estimation uncertainty within a given bound. To solve this problem, we propose a localization-constrained A* planner that treats uncertainty as a hard constraint during search. The robot state and covariance are propagated using an Extended Kalman Filter (EKF), and only paths that satisfy the covariance limit are considered. We also show that the proposed method does not affect heuristic used in A* and remains admissible and consistent, ensuring optimality among all feasible paths. Extensive Monte Carlo simulations and PyBullet quadrotor test show that the proposed method finds shorter and more reliable paths compared to RRT* and PRM, while always satisfying the uncertainty constraint.",
+    "url": "http://arxiv.org/abs/2610.40429v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40429v1",
+    "doi": "",
+    "authors": [
+      "Chinmay Mundane",
+      "Manav Mishra",
+      "PB Sujit"
+    ],
+    "published": "2026-10-29T16:51:33Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:c2d123f08efe85af1dc9",
+    "other_sources": [],
+    "score": 2.6,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "This paper studies UAV path planning in areas where GPS signals are not present. Because these drones can easily get lost when they don't have GPS, they must rely on dead reckoning and occasionally pass near cellular towers, which act as landmarks to reset and fix their position.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/optimal-path-planning-with-localization-constraints-c2d123f0.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Continuous-Action World Models: Learning Cross-Embodiment Spatiotemporal Dynamics Priors",
+    "abstract": "We introduce Continuous-Action World Models (CoAWM), a framework for learning cross-embodiment spatiotemporal dynamics priors that support robot action generation across embodiments and execution frequencies. At its core is a shared latent function space that captures the spatial and temporal structure of robot actions. We learn this space through two stages. First, function pretraining brings trajectories from different embodiments and sampling frequencies into a common representation, learning shared dynamics priors through action reconstruction and consistency across temporal sampling views. By accommodating heterogeneous robot trajectories, this stage broadens the range of data sources available for pretraining and facilitates scaling to larger and more diverse datasets. Second, we connect the pretrained function space to a world-model backbone, enabling observations, language instructions, and the current robot state to condition the prediction of a latent action function. A single decoder takes any query time and returns the corresponding end-effector action. By separating shared dynamics priors from task-conditioned action selection and temporal sampling, our approach provides a unified foundation for transferring robot experience across embodiments and control frequencies.",
+    "url": "http://arxiv.org/abs/2610.40401v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40401v1",
+    "doi": "",
+    "authors": [
+      "Liangyu Li",
+      "Qingwen Liu"
+    ],
+    "published": "2026-10-29T16:34:54Z",
+    "categories": [
+      "cs.RO",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "peer_reviewed": false,
+    "key": "title:3ff602c12fb09cb97218",
+    "other_sources": [
+      {
+        "source": "arXiv",
+        "url": "http://arxiv.org/abs/2610.40401v1"
+      }
+    ],
+    "score": 2.6,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "We introduce Continuous-Action World Models (CoAWM), a framework for learning cross-embodiment spatiotemporal dynamics priors that support robot action generation across embodiments and execution frequencies. At its core is a shared latent function space that captures the spatial and temporal structure of robot actions.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/continuous-action-world-models-learning-cross-embodiment-spatiotemporal-dyn-3ff602c1.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Don't Risk It!: Trajectory-Conditioned Distributional Risk for LiDAR-Only Crowd Navigation",
+    "abstract": "Efficient crowd navigation requires anticipating dynamic collision-free space without relying on fragile object tracking. We propose the Don't Risk It Planner (DRIP), an end-to-end LiDAR-only planning framework that couples occupancy forecasting with trajectory-conditioned clearance and uncertainty estimation. Operating directly on LiDAR-derived occupancy grid histories, DRIP predicts a distribution over minimum robot-obstacle clearance for candidate control sequences to evaluate collision risk. The model is trained using a risk cost that grounds predictive uncertainty directly in empirical collision outcomes rather than geometric regression alone. In closed-loop experiments with up to 45 pedestrians, DRIP achieves higher success rates with fewer collisions and reduced freezing behavior compared to state-of-the-art baselines.",
+    "url": "http://arxiv.org/abs/2610.40050v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40050v1",
+    "doi": "",
+    "authors": [
+      "Mathai Mathew Pulicken",
+      "Laksh Nanwani",
+      "Basant Sharma",
+      "Phani Teja Singamaneni",
+      "Arun Kumar Singh",
+      "K. Madhava Krishna"
+    ],
+    "published": "2026-10-29T13:45:29Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:4cdc41012665b8b473ae",
+    "other_sources": [],
+    "score": 2.6,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "Efficient crowd navigation requires anticipating dynamic collision-free space without relying on fragile object tracking. We propose the Don't Risk It Planner (DRIP), an end-to-end LiDAR-only planning framework that couples occupancy forecasting with trajectory-conditioned clearance and uncertainty estimation.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/don-t-risk-it-trajectory-conditioned-distributional-risk-for-lidar-only-cro-4cdc4101.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "PASA-KV: Attacking Action-Facing Visual Routes in World Action Models",
+    "abstract": "World action models (WAMs) increasingly couple internal visual or world representations with action generation, making their world-to-action pathways a critical yet poorly understood source of robustness. We investigate when perturbations to these internal representations actually become behaviorally consequential, and uncover a pronounced mismatch between representation perturbability and closed-loop vulnerability: attack effectiveness varies sharply across visual K/V routes, while larger representation displacement does not reliably imply stronger control failure. Our analysis attributes this mismatch to the action-conditioned readout, where keys determine where action queries read and values determine what content they receive. This motivates an action-facing view of vulnerability, in which the effect of a perturbation depends on how it is routed into action generation rather than on representation-space magnitude alone. We instantiate this view with Tail-AV, a short-probe signal for identifying vulnerable routes, and operationalize it in PASA-KV, which selects action-facing K/V targets before training a fresh task-shared attack. Experiments across multiple WAM systems and a physical robot validate readout-informed target selection, demonstrate strong closed-loop attacks, and reveal substantial system-level differences in resistance.",
+    "url": "http://arxiv.org/abs/2610.39816v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.39816v1",
+    "doi": "",
+    "authors": [
+      "Zhongbo Wu",
+      "Jiakai Huang",
+      "Zheng Zhang",
+      "Siyu Xu",
+      "Kaixiang Chen",
+      "Xiaohong Liu",
+      "Shan You",
+      "Chang Xu",
+      "Tao Huang"
+    ],
+    "published": "2026-10-29T10:58:54Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:0641118d963e4919dfb9",
+    "other_sources": [],
+    "score": 2.6,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "World action models (WAMs) increasingly couple internal visual or world representations with action generation, making their world-to-action pathways a critical yet poorly understood source of robustness. We investigate when perturbations to these internal representations actually become behaviorally consequential, and uncover a pronounced mismatch between representation perturbability and closed-loop vulnerability: attack effectiveness varies sharply across visual K/V routes",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/pasa-kv-attacking-action-facing-visual-routes-in-world-action-models-0641118d.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Smartphone Indoor Localization Enhanced by Hierarchical Multi-Sensor Context Recognition",
+    "abstract": "Smartphone indoor localization requires low-cost, robust positioning across scene transitions and phone-use variations. Pedestrian dead reckoning (PDR) enables infrastructure-free deployment but accumulates errors from heading drift, structural transitions, and carrying-mode changes. Existing methods often treat contextual cues as a single event stream or local correction signal, limiting their ability to address distinct localization errors. This paper presents a framework enhanced by hierarchical multi-sensor context recognition. A jointly data- and model-driven recognition model predicts environment, scene, and activity probabilities, which are converted into scene-event and action-context segments. Scene-event segments guide scene-constrained PDR correction through corridor heading constraints, landmark attraction, fixed-lag backtracking, and vertical-transition handling. Action-context segments drive action-aware RoNIN-based position compensation for carrying-mode-dependent drift. Experiments on cross-floor and multi-action trajectories against LiDAR-SLAM references show that the proposed framework outperforms PDR and representative learned inertial odometry baselines, demonstrating that hierarchical semantics provide reliable, localization-specific correction cues.",
+    "url": "http://arxiv.org/abs/2610.39691v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.39691v1",
+    "doi": "",
+    "authors": [
+      "Wenhui Feng",
+      "Muhan Weng",
+      "Jianyu Liu",
+      "Xiansheng Yang",
+      "Hao Zhang",
+      "Liang Wang",
+      "Yuan Zhuang"
+    ],
+    "published": "2026-10-29T09:31:09Z",
+    "categories": [
+      "cs.LG",
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:b359651db7889eed7ee1",
+    "other_sources": [],
+    "score": 2.6,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "Smartphone indoor localization requires low-cost, robust positioning across scene transitions and phone-use variations. Pedestrian dead reckoning (PDR) enables infrastructure-free deployment but accumulates errors from heading drift, structural transitions, and carrying-mode changes.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/smartphone-indoor-localization-enhanced-by-hierarchical-multi-sensor-contex-b359651d.md"
+  },
+  {
+    "kind": "paper",
+    "source": "OpenAlex",
+    "title": "A Framework for AI-Assisted Generation of HAZOP Studies’ Reports in Process Industries",
+    "abstract": "The Hazard and Operability (HAZOP) study is a widely used method for hazard identification and analysis in process industries. It systematically identifies potential hazards and related operability malfunctions by dividing piping and instrumentation diagrams (P&IDs) into small sections referred to as P&ID nodes. A node consists of one or more equipment and related instrumentation, with its boundaries defined using different criteria such as main equipment, process flow, material type, and/or operating variables. This is followed by a detailed analysis of each node to generate the study report, referred to as HAZOP notes. These notes typically consist of deviations, possible causes, consequences, safeguards, and recommendations. The process of generating these notes is often time-consuming, costly, and heavily reliant on expert judgment. A wide range of intelligent systems reported in the literature, as well as software and AI-based tools developed in the market, aim to facilitate HAZOP studies and support efficient generation of related reports. These systems, however, only automate specific aspects of HAZOP notes, lacking full automation and integration with P&ID nodes to ensure correct applicability. Software tools primarily facilitate the initial setup of HAZOP studies and serve as knowledge bases for storing generated reports, while AI-based tools aim to speed up the generation of HAZOP reports. These AI-based tools, however, require manual data entry and significant time and resources to build multilevel functional models (MFMs) for each equipment within a node rather than for the entire nodes. They may also generate inaccurate notes, commonly known as hallucinations, and do not incorporate graphical representations of P&ID nodes. This research presents an AI-assisted framework to shorten the time required to conduct HAZOP studies and generate related reports by leveraging knowledge from previously analyzed projects, including their P&ID nodes and associated HAZOP notes. The framework consists of four newly developed modules: (i) P&ID node similarity assessment; (ii) Note categorization and hazard prioritization; (iii) Domain augmented note generation; and (iv) A HAZOP-based user interface. Each module is implemented using a set of artificial intelligence (AI) models. Four You Only Look Once (YOLO) object detection models (YOLOv8n, YOLOv8l, YOLOv8x, and YOLOv11x) were used to detect equipment and instrumentation classes within P&ID nodes and extract their bounding box coordinates, which are subsequently used for similarity computation. Six multimodal large language models (LLMs)—GPT-4o, GPT-4o-mini, Gemini, LlaMa, DeepSeek, and Qwen—were employed to generate node descriptions and assist in generating HAZOP notes. Topic modeling techniques, including BERTopic, Latent Dirichlet Allocation (LDA), and Latent Semantic Analysis (LSA), were applied to cluster HAZOP notes into meaningful topics. Retrieval-augmented generation (RAG) models were used to improve the accuracy and reliability of automated HAZOP note generation. The first module is applied to identify the degree of similarity (expressed in 3 levels: high, medium, or low) between P&ID nodes of projects at hands and those previously executed considering three metrics: object, location, and functional similarities. Object and location similarity metrics are computed using the detected classes and bounding boxes coordinates obtained from YOLO models. Functional similarity is computed using embeddings of node descriptions generated by multimodal LLMs. These metrics are then combined to compute the P&ID Node Similarity Index (PNSI), which determines the similarity level to guide subsequent analysis. For the high level, the associated HAZOP notes are directly retrieved and used in the preparation of related HAZOP reports. For the medium level, the second module is used to cluster the associated HAZOP notes into key topics and prioritize them based on likelihood, severity, and risk rating, using topic modeling techniques. For the third and last, low level, the third module is applied to automatically generate HAZOP notes. It employs a domain-adaptive model and RAG-based models to enhance the reliability of LLMs outputs. The three modules, referred to above, are integrated into a user-friendly interface to facilitate their respective applications to automatically generate the report of the HAZOP study. The interface is coded using Streamlit, an open-source Python tool for developing interactive web applications. The developed framework is tested and validated primarily using a dataset of 510 P&ID node images, 6,120 HAZOP notes and 1,140 incident investigation reports collected from diverse sources, including actual HAZOP reports, technical guides, literature, and relevant material on websites. The findings demonstrate good performance with significant potential to support HAZOP teams in generating HAZOP reports. The first module achieved the best detection performance using YOLOv8x, with 91.1% precision, 78.3% recall, and 88.7% mAP@50, and an average PNSI of 92.2% for highly similar nodes. The second module, based on BERTopic, achieved a coherence score of 84.6% and a topic diversity score of 90.7% for classifying safeguards and recommendations into 15 safety systems. In addition, it achieved coherence and diversity scores of 80.0% and 92.4% for grouping causes into 13 main risk factors, outperforming LDA and LSA models. The third module shows that RAG-based models achieved higher semantic similarity (F1-score > 92%) than non-grounded LLMs (F1-score ≈ 87%). The use of RAG-based models improved the valid scenario ratio by approximately 10% and enhanced deviation identification, reaching a maximum valid ratio of 81.25%. In addition, retrieval grounding reduced the over-generation of administrative safeguards and increased the proportion of active safeguards, producing distributions closer to the reference safeguards. The developed interface was demonstrated using three representative use cases, illustrating how the modules interact to enable users to upload a P&ID node and generate the final HAZOP report. The framework is expected to enable HAZOP teams to benefit from measures taken to address hazards encountered in previous projects, thereby capturing the experience gained and reducing the time required to perform HAZOP studies and prepare related reports.",
+    "url": "https://orcid.org/0000-0002-8120-2303",
+    "pdf_url": "https://spectrum.library.concordia.ca/id/eprint/997441/1/Elhosary_PhD_F2026.pdf",
+    "doi": "https://doi.org/10.13140/rg.2.2.19602.62406",
+    "authors": [
+      "Ehab Elhosary",
+      "Osama Moselhi"
+    ],
+    "published": "2026-10-30",
+    "categories": [],
+    "peer_reviewed": null,
+    "publication_type": "dissertation",
+    "key": "doi:10.13140/rg.2.2.19602.62406",
+    "other_sources": [],
+    "score": 2.45,
+    "topics": [
+      "Computer vision and 3D perception",
+      "AI and machine learning",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "The Hazard and Operability (HAZOP) study is a widely used method for hazard identification and analysis in process industries. It systematically identifies potential hazards and related operability malfunctions by dividing piping and instrumentation diagrams (P&IDs) into small sections referred to as P&ID nodes.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/a-framework-for-ai-assisted-generation-of-hazop-studies-reports-in-process-10.13140.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In",
+    "abstract": "When AI agents share channels and credentials, one agent can press another to break its operator's rule, a first step towards collusion. Output filters check only what an agent has already written. Can an overseer tell beforehand that an agent is about to give in? We show that a linear probe on the agent's activations can, in a controlled multi-agent setting. Across six scenarios, a peer presses a target for up to 20 rounds to reveal a secret, such as a deploy token; the target often refuses, then gives in. Read at each model call before its output is written, the probe picks out the one that leaks. On held-out Qwen3-32B episodes, at a threshold set to flag 5% of benign calls, it catches 82% of leaking calls. At a similar flag rate, a zero-shot decision-model monitor catches 26%. On gpt-oss-20b, a probe on its reasoning reaches AUROC 0.91. A bag-of-words classifier trained on the same calls comes close, so most of the gain comes from training on labels, not activations. The probe also flags permitted disclosures: it reads the coming disclosure more than the violation. The warning is short-range, and halting on any alarm would stop most benign episodes, which a second text check does not fix. A warning raised before generation could let an overseer stop an agent that is about to give in, ahead of others acting on its messages or recruitment spreading through a swarm.",
+    "url": "http://arxiv.org/abs/2610.40588v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40588v1",
+    "doi": "",
+    "authors": [
+      "Leonidas Raghav"
+    ],
+    "published": "2026-10-29T17:47:40Z",
+    "categories": [
+      "cs.AI"
+    ],
+    "peer_reviewed": false,
+    "key": "title:762e8420313d7ffd804a",
+    "other_sources": [],
+    "score": 2.45,
+    "topics": [
+      "Swarm and multi-agent robotics",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "When AI agents share channels and credentials, one agent can press another to break its operator's rule, a first step towards collusion. Output filters check only what an agent has already written.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/pre-crime-for-agents-at-the-last-second-probing-when-a-recruited-agent-give-762e8420.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "RFW-A: Agentic Procedural Generation of 400K Articulated Assets over 500 Categories",
+    "abstract": "High-quality articulated assets are essential for embodied perception, simulation, and manipulation, yet constructing them at scale remains difficult. Manual annotation and procedural modeling require substantial human effort. Recent agentic systems automate asset construction through program synthesis, but repeat costly reasoning and refinement for every new asset. Our key observation is that assets within a category can share construction logic despite variations in structure and appearance. Agentic synthesis and procedural generation are therefore complementary: agents can construct reusable programs, while procedural execution reuses the resulting logic across many samples. We therefore present RFW-A, which combines the two in a new articulated-asset generation paradigm. Starting from existing articulated programs, RFW-A organizes reusable components and their dependencies into category-level generators. Agents test and refine these generators across sampled configurations and motion states. Once constructed and validated, the generators produce diverse assets through procedural execution with no further model calls or token charges. The estimated API cost of generator authoring averages $10.62, amortizing to $0.05 per asset over 200 assets, versus $1.24 for the sampled per-asset agentic synthesis baseline. Using RFW-A, we built RFW-A-400K, containing over 400K sim-ready articulated assets across more than 500 categories. Experiments show high structural and kinematic validity and stable execution across physics simulators. Beyond asset validity, training with RFW-A-400K improves part-level articulation estimation on seen and unseen categories, while policies trained in simulation with retrieved and program-edited assets transfer zero-shot to real articulated objects.",
+    "url": "http://arxiv.org/abs/2610.40333v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40333v1",
+    "doi": "",
+    "authors": [
+      "Yuanbo Lyu",
+      "Changjian Pan",
+      "Saining Zhang",
+      "Yi Yang",
+      "Peishuo Li",
+      "Zhiheng Li",
+      "Jialu Liu",
+      "Junhao Chen",
+      "Jiawei Weng",
+      "Yupeng Gao",
+      "Weiqing Xiao",
+      "Wenyi Li"
+    ],
+    "published": "2026-10-29T15:58:15Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "peer_reviewed": false,
+    "key": "title:a7312217d69592c8e7b0",
+    "other_sources": [],
+    "score": 2.45,
+    "topics": [
+      "Dexterous manipulation and embodied AI",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "High-quality articulated assets are essential for embodied perception, simulation, and manipulation, yet constructing them at scale remains difficult. Manual annotation and procedural modeling require substantial human effort.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/rfw-a-agentic-procedural-generation-of-400k-articulated-assets-over-500-cat-a7312217.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Multistatic ISAC with Deep Learning-Based Clutter Suppression for 5G and Beyond",
+    "abstract": "Integrated sensing and communications (ISAC) systems using 5G and beyond signals of opportunity enable joint wireless sensing and communication using shared infrastructure and spectrum resources. While multistatic ISAC can increase sensing coverage with spatially distributed receivers, dense and dynamic clutter can significantly degrade bistatic range and Doppler estimation, leading to errors in target localization and velocity estimation. This paper presents a multistatic ISAC framework with clutter suppression for high-fidelity estimation of target position and velocity. Distributed clutter is modeled with randomly located scatterers with varying Doppler spreads and radar cross sections to capture dense and dynamic clutter effects. A broad range of conventional signal processing baselines are evaluated for clutter suppression, showing limited robustness under strong clutter conditions. To address this limitation, deep learning-based clutter suppression methods are introduced to improve robustness against dense and dynamic clutter by employing residual and attention-enhanced deep neural network architectures that directly enhance target responses from clutter-contaminated observations. These methods substantially outperform conventional approaches in target position and velocity estimation across diverse clutter conditions in multistatic ISAC.",
+    "url": "http://arxiv.org/abs/2610.40586v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40586v1",
+    "doi": "",
+    "authors": [
+      "Yalin E. Sagduyu",
+      "Tugba Erpek",
+      "Sastry Kompella"
+    ],
+    "published": "2026-10-29T17:47:02Z",
+    "categories": [
+      "cs.NI",
+      "cs.AI",
+      "cs.LG",
+      "eess.SP"
+    ],
+    "peer_reviewed": false,
+    "key": "title:a3bf41569ed7f14d872b",
+    "other_sources": [],
+    "score": 2.25,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "Integrated sensing and communications (ISAC) systems using 5G and beyond signals of opportunity enable joint wireless sensing and communication using shared infrastructure and spectrum resources. While multistatic ISAC can increase sensing coverage with spatially distributed receivers, dense and dynamic clutter can significantly degrade bistatic range and Doppler estimation, leading to errors in target localization and velocity estimation.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/multistatic-isac-with-deep-learning-based-clutter-suppression-for-5g-and-be-a3bf4156.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Uncertainty-aware Feedback Loop Diagnosis: integrating reinforcement learning and conformal prediction for reliable wafer defect classification",
+    "abstract": "Semiconductor manufacturing is a complex, multi-step process that requires both high precision and low operating costs. Therefore, detecting defects in a high-volume setting is an important component of wafer map analysis for reliable production. However, most state-of-the-art deep learning approaches require a full scan of the surface, which hinders the development of high-throughput inspection systems. To address this problem, we propose Uncertainty-aware Feedback Loop Diagnosis (UFLD), a novel algorithm that employs reinforcement learning for adaptive measurement acquisition and provides a prediction uncertainty level after each step, stopping the process once sufficient information is obtained. Unlike existing methods that rely on ensemble models or auxiliary confidence estimation deep learning models, UFLD utilizes a more parameter-efficient conformal prediction framework to determine the optimal stopping time. The proposed UFLD reduces acquisition time by about $40\\%$ and achieves $98.4\\%$ inspection accuracy, without requiring an additional learned confidence-estimation network. We validated our approach on the MixedWM38 dataset, demonstrating its advantages over existing adaptive acquisition procedures and standard convolutional neural networks.",
+    "url": "http://arxiv.org/abs/2610.40421v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40421v1",
+    "doi": "",
+    "authors": [
+      "Aleksandr Dekhovich",
+      "Carlas Smith",
+      "Oleg Soloviev"
+    ],
+    "published": "2026-10-29T16:45:29Z",
+    "categories": [
+      "cs.LG",
+      "cs.CV"
+    ],
+    "peer_reviewed": false,
+    "key": "title:a4a805b54f69d1d9500b",
+    "other_sources": [],
+    "score": 2.25,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "Semiconductor manufacturing is a complex, multi-step process that requires both high precision and low operating costs. Therefore, detecting defects in a high-volume setting is an important component of wafer map analysis for reliable production.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/uncertainty-aware-feedback-loop-diagnosis-integrating-reinforcement-learnin-a4a805b5.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "The Athlete as a Scientist of One: Agentic Bayesian Experimental Design for Individualized Physiology from Consumer Wearables",
+    "abstract": "Large language model (LLM) agents for personal health read wearable data and recommend, but do not learn about the individual in a way that can be audited or falsified. We present EpiCoach, an agentic system that treats one athlete, a cross-country mountain biker, as the subject of accountable N-of-1 science. Claims about the athlete live in an evidence-gated hypothesis registry: each must issue a probabilistic prediction about a future session before it occurs, and its belief moves only through computed evidence from a logged statistical fit. Predictions come from a mechanistic digital twin inferred from heart rate, GPS and barometric altitude: a lagged heart-rate response model, a fitness-fatigue model with learned time constants, and a latent technical-descending skill state, measured on discovered trail segments. The agent prescribes the next training week as a constrained experiment maximizing information gain subject to load and safety constraints, around two instrument rides. We evaluate the system two ways over eighteen months of data. A rolling-origin replay benchmark shows the twin beats standard forecasters on heart rate but not segment time, and the agentic loop matches a static model. A live prospective phase runs the weekly cycle: in its first three weeks the ledger sealed 20 predictions, scored 14, the descent forecast calibrated after one correction, the climb forecast pessimistic as the athlete improved, and the safety officer vetoed the agent twice. Every correction is preserved in the registry, a template for auditable, falsifiable personalization in digital health. We release the registry, benchmark and protocol.",
+    "url": "http://arxiv.org/abs/2610.40370v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40370v1",
+    "doi": "",
+    "authors": [
+      "Behnam Moradi"
+    ],
+    "published": "2026-10-29T16:20:24Z",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "peer_reviewed": false,
+    "key": "title:15ebe08515fcffdd309f",
+    "other_sources": [],
+    "score": 2.15,
+    "topics": [
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "Large language model (LLM) agents for personal health read wearable data and recommend, but do not learn about the individual in a way that can be audited or falsified. We present EpiCoach, an agentic system that treats one athlete, a cross-country mountain biker, as the subject of accountable N-of-1 science.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/the-athlete-as-a-scientist-of-one-agentic-bayesian-experimental-design-for-15ebe085.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "CrossWeave: Cross-Modal Scene and Instance Retrieval from Sparse 2D-3D Alignment",
+    "abstract": "Cross-modal scene and instance retrieval aims to retrieve a corresponding 3D environment or object given query 2D images, serving as a foundational mechanism for spatial reasoning in robotics and AR/VR. Existing methods achieve this by learning alignment only at the level of whole scenes or objects, which provides no supervision for the fine-grained local structure within them. In this work, we show that supervision on a set of sparse 2D-3D correspondences, without scene- or instance-level contrastive objectives, is sufficient to train a single model for both scene- and instance-level retrieval. Specifically, we propose $\\textbf{CrossWeave}$, a novel framework for cross-modal retrieval that learns sparse patch-point alignment, which alone outperforms existing methods. An optimal transport-based aggregator over the aligned features gives further gains by clustering structurally redundant regions, freeing descriptor capacity for semantically distinct local features. CrossWeave achieves state-of-the-art performance on both scene- and instance-level retrieval on ScanNet and 3RScan with a $\\textit{single model}$, whereas existing methods require separate models for each task. Our results suggest that whole-scene encoding is unnecessary for cross-modal retrieval and that sparse local correspondence supervision is a more effective and flexible alternative.",
+    "url": "http://arxiv.org/abs/2610.40525v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40525v1",
+    "doi": "",
+    "authors": [
+      "Aadith Warrier",
+      "Gnana Prakash Punnavajhala",
+      "Siddharth Tourani",
+      "Muhammad Haris Khan",
+      "Avinash Sharma",
+      "Madhava Krishna"
+    ],
+    "published": "2026-10-29T17:32:46Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "peer_reviewed": false,
+    "key": "title:52a227fe9324062335b2",
+    "other_sources": [],
+    "score": 2.1,
+    "topics": [
+      "Robotics and autonomy",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "Cross-modal scene and instance retrieval aims to retrieve a corresponding 3D environment or object given query 2D images, serving as a foundational mechanism for spatial reasoning in robotics and AR/VR. Existing methods achieve this by learning alignment only at the level of whole scenes or objects, which provides no supervision for the fine-grained local structure within them.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/crossweave-cross-modal-scene-and-instance-retrieval-from-sparse-2d-3d-align-52a227fe.md"
+  },
+  {
+    "kind": "news",
+    "source": "portalcripto.com.br",
+    "feed": "AI World News",
+    "title": "CYRCLO AI announces launch of a platform that integrates artificial intelligence, USDC, and community - portalcripto.com.br",
+    "abstract": "CYRCLO AI announces launch of a platform that integrates artificial intelligence, USDC, and community portalcripto.com.br",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVElLZ3AwcVF0QzFXYVZ2WjVjLURNcnVaQjRmZlltVEhzbHdHV1pyc0dZczdLZVl6ZW9YTTJYb0JyblZLa1M1OUJ5eGdscElLQ3F1T09kaFJxQ2pDR19qTElUQTlaSUkzdW0ycVNmaHEtV1drZ2RHVVNzQjZjZFhDWnE3RHgxUXl6VWl6aEdvQl8xeW9RaGlFUWNRVVNPUGZXa1V1WUJsd3dSMjRGYVVEWE42YjZ4S29FOFFHbXpZUkt2djNnbjlBZzNn?oc=5",
+    "authors": [],
+    "published": "Sat, 31 Oct 2026 20:56:11 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:3921a5bc795dcc5d6bf2",
+    "other_sources": [],
+    "score": 2.0,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "CYRCLO AI announces launch of a platform that integrates artificial intelligence, USDC, and community portalcripto.com.br",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/cyrclo-ai-announces-launch-of-a-platform-that-integrates-artificial-intelli-3921a5bc.md"
+  },
+  {
+    "kind": "news",
+    "source": "Università della Svizzera italiana | USI",
+    "feed": "HRI and Robot Research",
+    "title": "Embodied Multimodal Intelligence with Foundation Models - Università della Svizzera italiana | USI",
+    "abstract": "Embodied Multimodal Intelligence with Foundation Models Università della Svizzera italiana | USI",
+    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9qV0M5bUZxSVN2akxrT29WLVA1d3ZDMEpuTXVwd3NyQUtXVUNQYVp5ZjE2aEY3RnZJaDI0T1J5aERpRFVkcEowaA?oc=5",
+    "authors": [],
+    "published": "Fri, 30 Oct 2026 09:05:01 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:daba9ce07834f30fb04f",
+    "other_sources": [],
+    "score": 2.0,
+    "topics": [
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "Embodied Multimodal Intelligence with Foundation Models Università della Svizzera italiana | USI",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/embodied-multimodal-intelligence-with-foundation-models-universit-della-svi-daba9ce0.md"
+  },
+  {
+    "kind": "paper",
+    "source": "OpenAlex",
+    "title": "Multi-dimensional hierarchical temporal alignment for improved temporal commonsense reasoning in large language models",
+    "abstract": "Benefiting from recent advances in generative AI and large language models (LLMs), current LLM-driven AI systems are rapidly reshaping how we reason, plan, and make decisions. Yet endowing these systems with human-like temporal intelligence (e.g., understanding and comparing events across time) remains largely unresolved. To address this gap, we introduce a novel Multi-dimensional Hierarchical Temporal Alignment framework (denoted as MHTA), of which the core idea is to effectively ground the temporal alignment of an LLM in both event-specific and cross-event real-world temporal commonsense knowledge. Specifically, we first frame the temporal space as a multi-dimensional hierarchical space, where each dimension comprises its own set of temporal units. Building on this formulation, we curate an initial burn-in dataset in which annotations are constructed to reflect real-world human temporal commonsense in accordance with our defined temporal space. Based on the initial burn-in dataset, we propose two complementary fine-tuning objectives: (i) Grounding the temporal alignment in event-specific temporal commonsense knowledge, which is achieved through a novel hierarchy-preserving Wasserstein loss, and (ii) Grounding the temporal alignment in cross-event temporal commonsense knowledge, which is achieved via a margin-adaptive triplet loss. To evaluate the effectiveness of MHTA, we conduct extensive experiments on three representative benchmarks (MCTACO, DurationQA, and TimeDial). For example, on the MCTACO dataset, MHTA improves Mistral-7B by 6.0% in accuracy and 10.3% in exact match, and improves DeepSeek-LLM-7B by 5.4% in accuracy and 9.8% in exact match. Combined with different backbones, MHTA surpasses nearly all baselines across the three benchmarks and exceeds the performance of advanced models such as GPT-4o on MCTACO and DurationQA. These results demonstrate that MHTA provides consistent gains in temporal commonsense reasoning across diverse LLM backbones.",
+    "url": "https://tsukuba.repo.nii.ac.jp/records/2024994",
+    "pdf_url": "https://tsukuba.repo.nii.ac.jp/record/2024994/files/IPM_63(7)_104875.pdf",
+    "doi": "",
+    "authors": [
+      "Ge Yan",
+      "Hai-Tao Yu",
+      "Lei Chao",
+      "30751052",
+      "Lei Chao"
+    ],
+    "published": "2026-11-01",
+    "categories": [],
+    "peer_reviewed": null,
+    "publication_type": "article",
+    "key": "title:11f0a7f90e72ac21e3e3",
+    "other_sources": [],
+    "score": 2.0,
+    "topics": [
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "Benefiting from recent advances in generative AI and large language models (LLMs), current LLM-driven AI systems are rapidly reshaping how we reason, plan, and make decisions. Yet endowing these systems with human-like temporal intelligence (e.g., understanding and comparing events across time) remains largely unresolved.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/multi-dimensional-hierarchical-temporal-alignment-for-improved-temporal-com-11f0a7f9.md"
+  },
+  {
+    "kind": "paper",
+    "source": "OpenAlex",
+    "title": "HypeRL: Hypernetwork-based reinforcement learning for control of parametrized dynamical systems",
+    "abstract": "In this work, we devise a new, general-purpose reinforcement learning strategy for the optimal control of parametric dynamical systems. Such problems frequently arise in applied sciences and engineering and entail a significant complexity when control and/or state variables are distributed in high-dimensional space or depend on varying parameters. Traditional numerical methods, relying on either iterative minimization algorithms -- exploiting, e.g., the solution of the adjoint problem -- or dynamic programming -- also involving the solution of the Hamilton-Jacobi-Bellman (HJB) equation -- while reliable, often become computationally infeasible. In this paper, we propose HypeRL a deep reinforcement learning (DRL) framework to overcome the limitations shown by traditional methods. HypeRL aims at approximating the optimal control policy directly. Specifically, we employ an actor-critic DRL approach to learn an optimal feedback control strategy that can generalize across the range of variation of the parameters. To effectively learn such optimal control laws for different instances of the parameters, encoding the parameter information into the DRL policy and value function neural networks (NNs) is essential. HypeRL uses two additional NNs, called hypernetworks, to learn the weights and biases of the value function and the policy NNs. In this way, HypeRL effectively embeds the parametric information into the value function and policy. We validate the proposed approach on two parametric control problems, namely (I) a 1D parametric Kuramoto-Sivashinsky equation with in-domain control, and (ii) a navigation problem of particle dynamics in a parametric 2D gyre flow. We show that the knowledge of physical and task-dependent information and the encoding of this information via a hypernetwork, are essential ingredients for learning parameter-dependent control policies.",
+    "url": "https://doi.org/10.1016/j.cma.2026.119501",
+    "pdf_url": "",
+    "doi": "https://doi.org/10.1016/j.cma.2026.119501",
+    "authors": [
+      "Nicolò Botteghi",
+      "Stefania Fresca",
+      "Mengwu Guo",
+      "Andrea Manzoni"
+    ],
+    "published": "2026-10-30",
+    "categories": [],
+    "peer_reviewed": null,
+    "publication_type": "article",
+    "key": "doi:10.1016/j.cma.2026.119501",
+    "other_sources": [
+      {
+        "source": "OpenAlex",
+        "url": "https://doi.org/10.1016/j.cma.2026.119501"
+      }
+    ],
+    "score": 2.0,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "In this work, we devise a new, general-purpose reinforcement learning strategy for the optimal control of parametric dynamical systems. Such problems frequently arise in applied sciences and engineering and entail a significant complexity when control and/or state variables are distributed in high-dimensional space or depend on varying parameters.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/hyperl-hypernetwork-based-reinforcement-learning-for-control-of-parametrize-10.1016/.md"
+  },
+  {
+    "kind": "paper",
+    "source": "OpenAlex",
+    "title": "MEO: Mining Reliable Expert Signals for Offline Reinforcement Learning in Wireless Networks",
+    "abstract": "The operation of next-generation wireless networks increasingly hinges on Deep Reinforcement Learning (DRL) to optimize critical network decisions. Offline RL trains agents using accessible datasets and thus eliminates costly online interactions, rendering it particularly advantageous in dynamic wireless environments that demand low latency and high safety. However, its capability remains underexplored in wireless settings, where offline data are often limited and subject to partial observability. As a result, the learned policy fails to fully capture the informative decision patterns hidden in the dataset. To bridge this gap, we propose MEO, a framework that mines reliable expert signals from wireless datasets for offline RL deployment. MEO first identifies reliable expert samples from imperfect offline data, and then learns a structured latent representation to better distinguish expert and non-expert behaviors. Based on the representation, MEO further derives a compensable reward signal that helps offline RL algorithms more effectively exploit valuable expert knowledge. We evaluate MEO in three practical wireless network scenarios using datasets collected from real-world deployments. The results show that MEO consistently outperforms existing methods across all three scenarios. Notably, MEO can be seamlessly integrated with any offline RL algorithms, highlighting its generalizability and potential for wide adoption in wireless networks. Code is available at https://github.com/lpzu/MEO.",
+    "url": "https://doi.org/10.1145/3842721.3849636",
+    "pdf_url": "",
+    "doi": "https://doi.org/10.1145/3842721.3849636",
+    "authors": [
+      "Lipeng Zu",
+      "Hansong Zhou",
+      "Yu Qian",
+      "Shayok Chakraborty",
+      "Yukun Yuan",
+      "Linke Guo",
+      "Xiaonan Zhang"
+    ],
+    "published": "2026-10-30",
+    "categories": [],
+    "peer_reviewed": null,
+    "publication_type": "conference-paper",
+    "key": "doi:10.1145/3842721.3849636",
+    "other_sources": [
+      {
+        "source": "OpenAlex",
+        "url": "https://doi.org/10.1145/3842721.3849636"
+      },
+      {
+        "source": "OpenAlex",
+        "url": "https://doi.org/10.1145/3842721.3849636"
+      }
+    ],
+    "score": 2.0,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "The operation of next-generation wireless networks increasingly hinges on Deep Reinforcement Learning (DRL) to optimize critical network decisions. Offline RL trains agents using accessible datasets and thus eliminates costly online interactions, rendering it particularly advantageous in dynamic wireless environments that demand low latency and high safety.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/meo-mining-reliable-expert-signals-for-offline-reinforcement-learning-in-wi-10.1145/.md"
+  },
+  {
+    "kind": "paper",
+    "source": "OpenAlex",
+    "title": "Reinforcement Learning for Software Vulnerability Analysis: A Systematic Review with Emphasis on C/C++ Source Code and Static Analysis",
+    "abstract": "",
+    "url": "https://doi.org/10.1007/978-3-032-43217-9_5",
+    "pdf_url": "",
+    "doi": "https://doi.org/10.1007/978-3-032-43217-9_5",
+    "authors": [
+      "Bruno Caro-Vásquez",
+      "Carola Figueroa-Flores",
+      "Gastón Márquez"
+    ],
+    "published": "2026-10-30",
+    "categories": [],
+    "peer_reviewed": null,
+    "publication_type": "conference-paper",
+    "key": "doi:10.1007/978-3-032-43217-9_5",
+    "other_sources": [],
+    "score": 2.0,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "No abstract/excerpt was supplied by this source; read the linked item.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "title_only",
+    "note_path": "storage/notes/paper/reinforcement-learning-for-software-vulnerability-analysis-a-systematic-rev-10.1007/.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Fight World Model: Customizable Combat through Visual Interaction Proxies",
+    "abstract": "A playable, programmable game world must maintain persistent state, enforce executable rules, and support extensible gameplay mechanics. Existing video world models can generate plausible combat, yet struggle to keep hit reactions and health updates consistent with game rules. We introduce Fight World Model (FWM), which separates rule-governed combat execution from video rendering. An executable engine maintains state and resolves interactions. A deterministic compiler encodes these outcomes and attempted actions in a spatially and temporally aligned interaction proxy. The proxy aligns action and skill windows, brief hit reactions, and persistent health by fighter identity and timing. These cues can be controlled separately to render interactions under modified rules. Identity-bound references preserve character appearance across side switches. We train FWM on FightWorld Corpus, spanning 52 skill effects, 187 character-appearance variants, and 15 arenas. Without retraining the renderer, FWM supports damage scaling, limited-hit immunity, lifesteal, and multi-stage skill mechanisms beyond the native game. It also allows character and arena customization. Experiments demonstrate the effectiveness of FWM, which outperforms existing game world models in action fidelity, hit reactions, health-state consistency, and character appearance preservation. Our project is available at https://fight-world-model.github.io.",
+    "url": "http://arxiv.org/abs/2610.40607v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40607v1",
+    "doi": "",
+    "authors": [
+      "Jiahua Li",
+      "Zixu John",
+      "Tom Zhong",
+      "Fuping Wu",
+      "Tianhao Xu",
+      "Ruicheng Zhang",
+      "Jun Zhou",
+      "Zunnan Xu"
+    ],
+    "published": "2026-10-29T17:53:02Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "peer_reviewed": false,
+    "key": "title:aabdb39c880ba751f976",
+    "other_sources": [],
+    "score": 2.0,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "A playable, programmable game world must maintain persistent state, enforce executable rules, and support extensible gameplay mechanics. Existing video world models can generate plausible combat, yet struggle to keep hit reactions and health updates consistent with game rules.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/fight-world-model-customizable-combat-through-visual-interaction-proxies-aabdb39c.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Machine Learning-Based Detection of Mobile Money Scan Messages in Ghana: A Comparative Evaluation of Naive Bayes, Support Vector Machine, and Randon Forest Classifiers",
+    "abstract": "Mobile money (MoMo) is Ghana's preferred retail payment channel, recording GHC518.4 billion in transactions in December 2025 and over 26.7 million active accounts (Graphic Online, 2026). This growth has coincided with increased social-engineering fraud over Short Message Service (SMS) and Unstructured Supplementary Service Data (USSD), where fraudsters impersonate network operators, agents, relatives, or regulators to obtain personal identification numbers (PINs), identity data, or funds. We present a supervised machine-learning pipeline for classifying scam and legitimate Ghanaian MoMo SMS messages using a labelled corpus of 220 messages across 18 scam and legitimate subcategories. Domain-specific normalisation of currency amounts, phone numbers, and USSD codes preceded TF-IDF vectorisation of unigrams and bigrams. Using stratified five-fold cross-validation and a 20% held-out test set, we trained and evaluated Multinomial Naive Bayes, linear support vector machine (SVM), and Random Forest classifiers using accuracy, precision, recall, F1-score, Matthews correlation coefficient (MCC), and area under the receiver operating characteristic curve (AUC-ROC). Held-out accuracy, F1, and AUC were 1.00 for Naive Bayes and linear SVM; cross-validated accuracy averaged 96.6% (+/-3.3), 94.9% (+/-4.6), and 92.0% (+/-4.2). Discriminative n-grams reflected imperative urgency (\"send,\" \"claim,\" \"please send\") and PIN solicitation (\"PIN,\" \"pincode\"); legitimate messages featured confirmatory and cautionary language (\"balance,\" \"successful,\" \"do not share\"). Findings are contextualised in Sub-Saharan African SMS fraud detection, small template-based corpus ceiling effects, and a pathway toward larger naturalistic multilingual corpora. Interpretable classical classifiers achieve high accuracy on structured MoMo scam text and suit carrier- or handset-level filtering in low-resource, on-device settings.",
+    "url": "http://arxiv.org/abs/2610.40544v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40544v1",
+    "doi": "",
+    "authors": [
+      "Ibrahim Salifu",
+      "Muhaisin Tiyumba Nantogmah"
+    ],
+    "published": "2026-10-29T17:36:41Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "peer_reviewed": false,
+    "key": "title:a29ef1483259092a7913",
+    "other_sources": [],
+    "score": 2.0,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "Mobile money (MoMo) is Ghana's preferred retail payment channel, recording GHC518.4 billion in transactions in December 2025 and over 26.7 million active accounts (Graphic Online, 2026). This growth has coincided with increased social-engineering fraud over Short Message Service (SMS) and Unstructured Supplementary Service Data (USSD), where fraudsters impersonate network operators, agents, relatives, or regulators to obtain personal identification numbers (PINs), identity da",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/machine-learning-based-detection-of-mobile-money-scan-messages-in-ghana-a-c-a29ef148.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "TRACER, a time-to-event EHR foundation model for disease detection across health systems",
+    "abstract": "Foundation models trained on longitudinal electronic health records (EHRs) can predict clinical diagnoses years in the future, making them a potential tool for disease screening. We developed TRACER (Temporal Risk Assessment with Clinical EHR Representations), a decoder-based foundation model pretrained on data from over 4.5 million patients from four health systems, and evaluated it on 16 incident diseases at 1-, 2-, and 5-year horizons in more than 2 million patients from two health systems excluded from model development. In contrast to typical evaluations that focus on global metrics (e.g., AUROC), we measured performance at the low false-positive rates that are realistic for screening. We found that TRACER retained its discrimination in external health systems, and at 95% specificity, the patients it flagged were up to eight times more likely to be diagnosed within a year than unselected patients. Evaluating at this operating point also revealed what global metrics alone did not: detection and false-alert burden varied across diseases and health systems, even when discrimination appeared stable. Our results illustrate the potential of foundation models for screening and underscore the need for evaluation in health systems excluded from development to assess disease detection and false-alert burden at levels appropriate for intended clinical use.}",
+    "url": "http://arxiv.org/abs/2610.40536v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40536v1",
+    "doi": "",
+    "authors": [
+      "Mara Pleasure",
+      "Ekaterina Redekop",
+      "Vedrana Ivezic",
+      "Rushikesh Kulkarni",
+      "Aaron Chin",
+      "William Speier",
+      "Corey W. Arnold"
+    ],
+    "published": "2026-10-29T17:34:52Z",
+    "categories": [
+      "cs.CE",
+      "cs.LG"
+    ],
+    "peer_reviewed": false,
+    "key": "title:8754a21ae4a4f1c5ff51",
+    "other_sources": [],
+    "score": 2.0,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "Foundation models trained on longitudinal electronic health records (EHRs) can predict clinical diagnoses years in the future, making them a potential tool for disease screening. We developed TRACER (Temporal Risk Assessment with Clinical EHR Representations), a decoder-based foundation model pretrained on data from over 4.5 million patients from four health systems, and evaluated it on 16 incident diseases at 1-, 2-, and 5-year horizons in more than 2 million patients from t",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/tracer-a-time-to-event-ehr-foundation-model-for-disease-detection-across-he-8754a21a.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Benchmarking color judgment in multimodal LLMs with CIE-computable ground truth",
+    "abstract": "Multimodal large language models (MLLMs) are now used as zero-shot judges of image quality, but their color judgments are rarely tested with colorimetric ground truth. We present a five-task benchmark based on the CIE colorimetric framework: AWB pair judgment, skin-tone bias direction, CCT estimation, CIE Delta E 2000 pair ordering, and color naming under changing illuminants. We test eight MLLM endpoints, including four Qwen3-VL variants, GLM-4.5V, GPT-5.4, Claude-Opus-4.7, and Gemini-3.1-Pro. The models often solve coarse binary AWB judgments, but they remain weak on numeric CCT estimation and on some fine color-difference judgments. On ColorChecker-24 stimuli, the three closed-weight frontier models reach CCT MAE of 715-1056 K, compared with 1358-2133 K for the five open-weight models. A non-ColorChecker control shows that this advantage is partly template-dependent. The results suggest that current MLLMs have useful color words and coarse visual priors, but their color judgments are not reliably calibrated to CIE-computable color differences.",
+    "url": "http://arxiv.org/abs/2610.40212v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40212v1",
+    "doi": "",
+    "authors": [
+      "Shuwei Yue",
+      "Kaida Xiao",
+      "Zhihua Wang",
+      "Qiao Chen"
+    ],
+    "published": "2026-10-29T14:58:08Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "peer_reviewed": false,
+    "key": "title:a865c5b1baea466154c2",
+    "other_sources": [],
+    "score": 2.0,
+    "topics": [
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "Multimodal large language models (MLLMs) are now used as zero-shot judges of image quality, but their color judgments are rarely tested with colorimetric ground truth. We present a five-task benchmark based on the CIE colorimetric framework: AWB pair judgment, skin-tone bias direction, CCT estimation, CIE Delta E 2000 pair ordering, and color naming under changing illuminants.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/benchmarking-color-judgment-in-multimodal-llms-with-cie-computable-ground-t-a865c5b1.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "SymAnt: Grounding Long-Horizon Action Anticipation with Adaptable Symbolic Priors",
+    "abstract": "As robots and intelligent systems increasingly interact with humans, they must anticipate long sequences of future actions from only brief observations. While purely neural models typically require extensive observations to predict future actions and remain difficult to interpret and adjust, symbolic priors offer a structured alternative. To this end, we introduce SymAnt, a novel neuro-symbolic approach that unifies the expressiveness of neural networks with the structured reasoning of scene and knowledge graphs. Given a short video, SymAnt performs a joint-search over both graphs to construct a symbolic context, enabling unified reasoning over spatial relationships, object attributes, affordances, and associated actions. This symbolic context serves as a prior for an iterative refinement process that progressively generates and improves the sequence of future actions. By grounding predictions in symbolic context, SymAnt anticipates long-horizon actions from short observation windows in a parameter-efficient manner, while enabling users to directly edit the underlying knowledge to adjust predictions without further training. Through our experiments, we demonstrate the effectiveness of SymAnt, particularly when only short observation contexts are available, across five diverse datasets: Breakfast, 50 Salads, EPIC-KITCHENS, EGTEA Gaze+, and Assembly101.",
+    "url": "http://arxiv.org/abs/2610.40632v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40632v1",
+    "doi": "",
+    "authors": [
+      "Fnu Aryan",
+      "Yaqi Xie",
+      "Joseph Campbell",
+      "Woojun Kim",
+      "Kwonjoon Lee",
+      "Hossein Nourkhiz Mahjoub",
+      "Ehsan Moradi-Pari",
+      "Katia Sycara",
+      "Simon Stepputtis"
+    ],
+    "published": "2026-10-29T17:58:00Z",
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "peer_reviewed": false,
+    "key": "title:45079ec0fe309228e8dd",
+    "other_sources": [
+      {
+        "source": "arXiv",
+        "url": "http://arxiv.org/abs/2610.40632v1"
+      }
+    ],
+    "score": 1.9,
+    "topics": [
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "As robots and intelligent systems increasingly interact with humans, they must anticipate long sequences of future actions from only brief observations. While purely neural models typically require extensive observations to predict future actions and remain difficult to interpret and adjust, symbolic priors offer a structured alternative.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/symant-grounding-long-horizon-action-anticipation-with-adaptable-symbolic-p-45079ec0.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Learned Terminal Costs for Short-Horizon Model Predictive Control of Autonomous Trucks in Interactive Highway Traffic",
+    "abstract": "Autonomous highway driving for heavy-duty trucks is a challenging control problem. The greater mass, dimensions and intricate dynamics increase the requirements for cooperation from surrounding traffic in critical maneuvers, requiring a careful balance between safety constraints and efficient long-horizon decision making. Model Predictive Control (MPC) provides rigorous constraint satisfaction but relies on terminal cost which can limit its effectiveness at short, computationally affordable horizons. Reinforcement Learning (RL) captures long-term driving behavior but offers no constraint guarantees and tends toward overly conservative policies when trained under sparse collision penalties. In this paper, we propose a hybrid MPC and RL framework for highway driving in autonomous trucks, where a finite-horizon MPC, solved via dynamic programming, uses a pre-trained RL model for terminal cost estimation. We evaluate the framework in a simulation environment with reactive surrounding traffic and compare it against pure MPC with zero terminal cost, rollout with terminal cost estimation using a base policy, and pure RL. Results show that the hybrid approach achieves zero collisions with the lowest cost of any configuration.",
+    "url": "http://arxiv.org/abs/2610.40257v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40257v1",
+    "doi": "",
+    "authors": [
+      "Hooman Hamze",
+      "Benjamin Houshmand",
+      "Deepthi Pathare",
+      "Erik Börve",
+      "Morteza Haghir Chehreghani",
+      "Nikolce Murgovski"
+    ],
+    "published": "2026-10-29T15:23:51Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.RO",
+      "eess.SY"
+    ],
+    "peer_reviewed": false,
+    "key": "title:20fb5a1f736d725c9e78",
+    "other_sources": [],
+    "score": 1.9,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "Autonomous highway driving for heavy-duty trucks is a challenging control problem. The greater mass, dimensions and intricate dynamics increase the requirements for cooperation from surrounding traffic in critical maneuvers, requiring a careful balance between safety constraints and efficient long-horizon decision making.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/learned-terminal-costs-for-short-horizon-model-predictive-control-of-autono-20fb5a1f.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Agentic University: Collaborative Agents for Personalized Learning",
+    "abstract": "Large language models support personalized tutoring, content generation, and adaptive learning paths. However, capability development requires these resources and interactions to form a coherent learning process that evolves with the learner. A central challenge is to align goals, activities, and assessment while using learning evidence to decide what should follow. We introduce Human-Participatory Multi-Agent Organization and instantiate it in Agentic University (AU). In AU, learners participate as organization members and work with specialized agents to maintain a revisable Capability Program. The program connects personal goals, learning activities across modalities, and layered assessment, while learner feedback and performance guide subsequent support. Our evaluation shows advantages in program organization, assessment design, and revision quality. Users achieved larger mean assessment gains (12.19 versus 5.61 points on a 50-point scale) and reported stronger cognitive support. This work contributes an organizational approach to adaptive learning that makes learner participation a continuing basis for multi-agent coordination. The Agentic University project is available at \\href{https://github.com/AgenticOrgLab/AgenticUniversity.git}.",
+    "url": "http://arxiv.org/abs/2610.40492v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40492v1",
+    "doi": "",
+    "authors": [
+      "Jingru Fan",
+      "Tianle Zhou",
+      "Yunjie Zhou",
+      "Zihao He",
+      "Yixuan Zhou",
+      "Kezhao Wu",
+      "Xinyu Zheng",
+      "Xiyuan Wang",
+      "Yuheng Wang",
+      "Zhi Li",
+      "Songhua Liu",
+      "Weinan E"
+    ],
+    "published": "2026-10-29T17:18:07Z",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "peer_reviewed": false,
+    "key": "title:d89408129e7acb69f1ab",
+    "other_sources": [],
+    "score": 1.75,
+    "topics": [
+      "Swarm and multi-agent robotics"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "Large language models support personalized tutoring, content generation, and adaptive learning paths. However, capability development requires these resources and interactions to form a coherent learning process that evolves with the learner.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/agentic-university-collaborative-agents-for-personalized-learning-d8940812.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
+    "abstract": "Video generation is shifting from end-to-end synthesis toward agentic generation, where planning, tool use, and feedback enable coherent, controllable multi-shot videos. In parallel, video world models provide action-conditioned observations and predicted futures, serving as interactive environments for agents. We study their intersection through the agent harness: an executable runtime that constructs context, exposes tools, maintains state, routes feedback, and manages budgets around video models. This report examines three directions. First, agentic video generation, where harnesses coordinate scripting, shot planning, asset management, production, and editing, alongside the evaluation challenges of these systems. Second, agentic world modeling, where harnesses mediate observation, control, execution, and state. We discuss hybrid designs in which game engines or agent-written programs maintain world state while video models render observations, and how agents and world models can mutually evaluate and improve one another. Third, recursive self-improvement (RSI) in video model development, distinguishing output revisions, updates to harness state, generator parameters, and evaluators, and changes to the improvement procedure itself. We identify how these improvements feed back into subsequent development. Across these directions, we analyze essential agent capabilities, including audiovisual perception, long-horizon planning, memory, code-based interaction, feedback-guided control, skill reuse, and multi-agent coordination. We conclude with challenges in autonomous video production, lifelong memory, programmable hybrid control, autonomous model development, provenance, cost accounting, and evaluation linking video quality and task performance to sustained improvements in models and harnesses.",
+    "url": "http://arxiv.org/abs/2610.40191v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40191v1",
+    "doi": "",
+    "authors": [
+      "Liaoyuan Fan",
+      "Yuhao Zheng",
+      "Dongxing Mao",
+      "Hangyu Ran",
+      "Siyuan Hu",
+      "Weijia Mao",
+      "Rui Zhao",
+      "Weijia Wu",
+      "Guian Fang",
+      "Yanzhe Chen",
+      "Zeyu Zhu",
+      "Yuxin Jiang"
+    ],
+    "published": "2026-10-29T14:47:39Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "peer_reviewed": false,
+    "key": "title:091e5832a528791829c7",
+    "other_sources": [],
+    "score": 1.75,
+    "topics": [
+      "Swarm and multi-agent robotics"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "Video generation is shifting from end-to-end synthesis toward agentic generation, where planning, tool use, and feedback enable coherent, controllable multi-shot videos. In parallel, video world models provide action-conditioned observations and predicted futures, serving as interactive environments for agents.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/video-generation-meets-agent-harness-agentic-video-generation-agentic-world-091e5832.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "AdMuse: Skill-Guided Creative Advertising Image Generation",
+    "abstract": "An outstanding creative advertising image should both attract attention and communicate a product's positioning. How to choose a persuasive conceptual bridge before rendering begins is challenging for advertising generation. We present AdMuse, a skill-guided multi-agent framework that distills high-quality advertisements into reusable creative skills for cross-domain advertising strategy. Rather than retrieving isolated exemplars, AdMuse abstracts recurring bridge patterns into a skill library that can guide new product briefs. At generation time, AdMuse coordinates skill routing, multi-candidate ideation and selection, and VLM-guided visual refinement: diverse skills propose alternative concepts, relative judgment selects the most promising direction, and vision-language feedback helps realize the selected intent in the final image. This design treats advertising creativity as a structured decision process rather than a single prompt-writing step. Experiments across diverse product and brand positionings show that AdMuse produces visually compelling advertisements that faithfully communicate product positioning.",
+    "url": "http://arxiv.org/abs/2610.40190v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40190v1",
+    "doi": "",
+    "authors": [
+      "Minyan Luo",
+      "Yuxin Zhang",
+      "Meng Zhao",
+      "Xincan Wang",
+      "Fuzhang Wu",
+      "Tong-Yee Lee",
+      "Oliver Deussen",
+      "Fan Tang",
+      "Weiming Dong"
+    ],
+    "published": "2026-10-29T14:47:22Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "peer_reviewed": false,
+    "key": "title:83bebdf8e0e6958d8ebf",
+    "other_sources": [],
+    "score": 1.75,
+    "topics": [
+      "Swarm and multi-agent robotics"
+    ],
+    "first_seen": "2026-11-01",
+    "summary": "An outstanding creative advertising image should both attract attention and communicate a product's positioning. How to choose a persuasive conceptual bridge before rendering begins is challenging for advertising generation.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/admuse-skill-guided-creative-advertising-image-generation-83bebdf8.md"
   }
 ]
