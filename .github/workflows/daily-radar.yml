@@ -1,8 +1,8 @@
 name: Daily research and robotics radar
 on:
   schedule:
-    # 07:15 UK time throughout GMT/BST; GitHub may delay busy scheduled jobs.
-    - cron: '15 7 * * *'
+    # 05:00 UK time throughout GMT/BST; GitHub may delay busy scheduled jobs.
+    - cron: '0 5 * * *'
       timezone: 'Europe/London'
   workflow_dispatch:
 
