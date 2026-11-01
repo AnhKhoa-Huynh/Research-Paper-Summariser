@@ -1,0 +1,48 @@
+name: Test Telegram research notifications
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  telegram-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Send a private Telegram test message
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import sys
+          import urllib.error
+          import urllib.parse
+          import urllib.request
+
+          token = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
+          chat_id = os.getenv("TELEGRAM_CHAT_ID", "").strip()
+          if not token or not chat_id:
+              sys.exit("FAILED: TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID is missing from repository Actions secrets.")
+
+          url = "https://api.telegram.org/bot" + token + "/sendMessage"
+          payload = urllib.parse.urlencode({
+              "chat_id": chat_id,
+              "text": "✅ Research Radar: Telegram connected successfully! Your daily robotics and AI briefings can be delivered here.",
+              "disable_web_page_preview": "true",
+          }).encode()
+          try:
+              request = urllib.request.Request(url, data=payload, method="POST")
+              with urllib.request.urlopen(request, timeout=25) as response:
+                  data = json.load(response)
+              if data.get("ok") is not True:
+                  sys.exit("FAILED: Telegram did not confirm delivery. Check bot token, chat ID, and /start.")
+              print("SUCCESS: Telegram accepted the test message. Check your bot chat.")
+          except urllib.error.HTTPError as exc:
+              sys.exit(f"FAILED: Telegram returned HTTP {exc.code}. Check bot token and numerical chat ID; send /start to your bot.")
+          except (urllib.error.URLError, ValueError, TimeoutError):
+              sys.exit("FAILED: Telegram connection or response error. Please retry later.")
+          PY
