@@ -1,0 +1,47 @@
+name: Daily research and robotics radar
+on:
+  schedule:
+    # 07:15 UK time throughout GMT/BST; GitHub may delay busy scheduled jobs.
+    - cron: '15 7 * * *'
+      timezone: 'Europe/London'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: research-radar-storage
+  cancel-in-progress: false
+
+jobs:
+  research-radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Python dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Fetch, rank, summarize and archive
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-2.5-flash-lite
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m radar.cli
+      - name: Save new notes and digests to repository
+        run: |
+          git config user.name 'research-radar-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add storage/
+          if ! git diff --cached --quiet; then
+            git commit -m "research radar: $(date -u +%F)"
+            git push
+          else
+            echo 'No new items to commit.'
+          fi
