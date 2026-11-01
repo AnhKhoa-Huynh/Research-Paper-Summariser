@@ -1,0 +1,65 @@
+# Edit freely: interests, sources, results and time window are all configurable.
+settings:
+  lookback_days: 3          # prevents missed weekends / late indexing
+  max_papers_digest: 7
+  max_news_digest: 6
+  max_new_papers_saved: 35
+  max_new_news_saved: 20
+  min_score: 0.8
+  arxiv_max_per_query: 45
+  openalex_max_per_query: 20
+  request_timeout_seconds: 25
+  lang: en
+
+# Weighted topics: includes broad AI and specific embodied/HRI research.
+interests:
+  - name: Human–robot interaction
+    weight: 6
+    phrases: ["human-robot interaction", "human robot collaboration", "human-robot collaboration", "physical human-robot interaction", "shared autonomy", "human motion prediction", "human intention", "contact-rich", "human response prediction", "handover"]
+  - name: Dexterous manipulation and embodied AI
+    weight: 5
+    phrases: ["dexterous", "manipulation", "hand-object", "grasping", "embodied ai", "vision-language-action", "robot learning", "tactile sensing", "physical intelligence", "sim-to-real"]
+  - name: Swarm and multi-agent robotics
+    weight: 5
+    phrases: ["swarm robotics", "multi-agent", "multi-robot", "quadcopter", "drone", "collision avoidance", "formation control", "decentralized", "multi-agent reinforcement learning"]
+  - name: Robotics and autonomy
+    weight: 4
+    phrases: ["robotics", "robot", "humanoid", "mobile manipulation", "autonomous navigation", "motion planning", "trajectory optimization", "slam", "locomotion", "robot policy"]
+  - name: Computer vision and 3D perception
+    weight: 3
+    phrases: ["computer vision", "3d reconstruction", "visual perception", "scene understanding", "object detection", "depth estimation", "pose estimation", "3d vision", "video understanding"]
+  - name: AI and machine learning
+    weight: 2
+    phrases: ["artificial intelligence", "machine learning", "neural network", "reinforcement learning", "foundation model", "diffusion model", "transformer", "world model", "deep learning"]
+  - name: NLP and language models
+    weight: 2
+    phrases: ["natural language processing", "large language model", "language model", "multimodal", "retrieval augmented generation", "reasoning", "language understanding", "speech recognition"]
+
+arxiv_queries:
+  - "cat:cs.RO"
+  - "cat:cs.CV"
+  - "cat:cs.AI OR cat:cs.LG OR cat:cs.CL"
+
+openalex_queries:
+  - "human robot interaction"
+  - "robot learning dexterous manipulation"
+  - "multi agent robotics"
+  - "computer vision foundation models"
+
+rss_feeds:
+  - name: The Robot Report
+    url: https://www.therobotreport.com/feed/
+  - name: IEEE Spectrum Robotics
+    url: https://spectrum.ieee.org/rss/robotics/fulltext
+  - name: Robotics Industry News
+    url: https://news.google.com/rss/search?q=robotics+humanoid+robot+breakthrough+when%3A2d&hl=en-US&gl=US&ceid=US:en
+  - name: AI World News
+    url: https://news.google.com/rss/search?q=%22artificial+intelligence%22+model+launch+research+when%3A2d&hl=en-US&gl=US&ceid=US:en
+  - name: HRI and Robot Research
+    url: https://news.google.com/rss/search?q=%22robot+learning%22+OR+%22human-robot%22+when%3A2d&hl=en-US&gl=US&ceid=US:en
+  - name: Europe Robotics and AI
+    url: https://news.google.com/rss/search?q=robotics+AI+Europe+UK+Germany+when%3A2d&hl=en-GB&gl=GB&ceid=GB:en
+  - name: Asia-Pacific Robotics and AI
+    url: https://news.google.com/rss/search?q=robotics+Japan+China+Korea+when%3A2d&hl=en-US&gl=US&ceid=US:en
+  - name: Open AI Models and Tools
+    url: https://news.google.com/rss/search?q=open+source+AI+model+release+when%3A2d&hl=en-US&gl=US&ceid=US:en
