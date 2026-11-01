@@ -1,0 +1,57 @@
+name: Test Gemini research AI
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  gemini-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Verify Gemini free-tier inference
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-2.5-flash-lite
+        run: |
+          python - <<'PY'
+          import os, json, sys, urllib.request, urllib.error
+
+          key=os.getenv("GEMINI_API_KEY","").strip()
+          if not key:
+              sys.exit("FAILED: GEMINI_API_KEY secret is missing or empty.")
+          model=os.getenv("GEMINI_MODEL","gemini-2.5-flash-lite")
+          url=f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+          payload=json.dumps({
+              "contents":[{"parts":[{"text":"Reply with exactly: ready"}]}],
+              "generationConfig":{"maxOutputTokens":40}
+          }).encode()
+          request=urllib.request.Request(url,data=payload,method="POST",
+                 headers={"x-goog-api-key":key,"Content-Type":"application/json"})
+          advice={400:"Invalid key, invalid request or free tier unavailable; check AI Studio project.",
+                  401:"Authentication rejected; check your key.",
+                  403:"Permission denied; check key access and whether this project has free-tier access.",
+                  404:"Model is unavailable or unsupported for this API version.",
+                  429:"Free-tier quota or request rate limit reached. Wait and check quotas.",
+                  500:"Google server error; try again later.",
+                  503:"Gemini temporarily unavailable; try later."}
+          try:
+              with urllib.request.urlopen(request,timeout=35) as response:
+                  obj=json.load(response)
+              if not obj.get("candidates"):
+                  sys.exit("FAILED: Gemini HTTP 200 but response had no generation candidate.")
+              print(f"SUCCESS: Gemini inference works for {model}.")
+          except urllib.error.HTTPError as e:
+              status=e.code
+              # Print only numeric status and a generic explanation. Never print the raw body or key.
+              try:
+                  obj=json.loads(e.read(8192))
+                  code=str(obj.get("error",{}).get("status",""))
+              except (ValueError,TypeError):
+                  code=""
+              if not code.replace("_","").isalpha():code=""
+              sys.exit(f"FAILED: Gemini HTTP {status} {code}. "+advice.get(status,"See AI Studio for API errors."))
+          except (urllib.error.URLError,TimeoutError):
+              sys.exit("FAILED: Unable to connect to Gemini API. Check service availability.")
+          PY
