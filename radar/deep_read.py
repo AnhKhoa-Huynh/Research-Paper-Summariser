@@ -191,17 +191,24 @@ def run(root=".",max_papers=2):
     registry=folder/"reviewed.json"
     known=json.loads(registry.read_text(encoding="utf-8")) if registry.exists() else {}
     session=requests.Session();outcomes=[]
+    target=max(0,min(4,max_papers))
+    extracted_count=0
+    fetch_attempts=0
     for item in items:
-        if len(outcomes)>=max(0,min(4,max_papers)):break
+        # Failed/oversized PDFs do not use up the day's actual reading slots.
+        # Cap download attempts to protect free runner time and source servers.
+        if extracted_count>=target or fetch_attempts>=max(4,target*4):break
         key=item.get("key") or item.get("url")
         if known.get(key,{}).get("status")=="reviewed":continue
         url=pdf_url(item)
         if not url:continue
+        fetch_attempts+=1
         e={"paper":item,"url":url,"status":"unreviewed","complete":False}
         try:
             data=download(session,url)
             text,pages,total,complete=extract(data)
             e.update(read=len(pages),total=total,complete=complete)
+            extracted_count+=1
             review,error=analyse(item,text,pages,session)
             e["review"]=review;e["error"]=error
             e["status"]="reviewed" if review else "extracted, needs AI review"
