@@ -13,7 +13,7 @@ jobs:
       - name: Verify Gemini free-tier inference
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: gemini-2.5-flash-lite
+          GEMINI_MODEL: gemini-3.5-flash-lite
         run: |
           python - <<'PY'
           import os, json, sys, urllib.request, urllib.error
@@ -21,7 +21,7 @@ jobs:
           key=os.getenv("GEMINI_API_KEY","").strip()
           if not key:
               sys.exit("FAILED: GEMINI_API_KEY secret is missing or empty.")
-          model=os.getenv("GEMINI_MODEL","gemini-2.5-flash-lite")
+          model=os.getenv("GEMINI_MODEL","gemini-3.5-flash-lite")
           url=f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
           payload=json.dumps({
               "contents":[{"parts":[{"text":"Reply with exactly: ready"}]}],
