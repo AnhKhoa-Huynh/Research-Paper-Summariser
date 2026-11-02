@@ -11,10 +11,11 @@ def run(root="."):
     catalog=root/"storage/catalog.json"
     if not catalog.exists():return False
     entries=[r for r in json.loads(catalog.read_text(encoding="utf-8")) if r.get("first_seen")==day]
-    if not entries:return False
     state=root/"storage/telegram-delivered.json"
     past=json.loads(state.read_text(encoding="utf-8")) if state.exists() else []
-    if day in past:return False
+    if day in past:
+        print("Telegram already delivered for",day)
+        return True
     papers=[r for r in entries if r.get("kind")=="paper"]
     news=[r for r in entries if r.get("kind")=="news"]
     chunks=[f"🤖 Robotics & AI Radar — {day}",f"📚 {len(papers)} papers · 📰 {len(news)} news"]
@@ -31,6 +32,8 @@ def run(root="."):
             chunks.append("\n🔬 DEEP-READ FINDINGS (author claims)")
             for title,finding in reviews[:2]:chunks.append(title[:105]+"\n"+finding[:250])
         else:chunks.append("\n🔬 Deep AI review not available today.")
+    if not entries:
+        chunks.append("\nNo newly qualifying papers or news since the previous scan. The archive and research feeds were checked.")
     chunks.append("\n📚 NEW PAPERS")
     for p in papers[:3]:chunks.append("• "+p["title"][:110]+"\n"+p.get("url",""))
     chunks.append("\n🌍 AI/ROBOTICS NEWS")
@@ -42,8 +45,17 @@ def run(root="."):
         if report.exists():chunks.append("Deep reviews: "+base+"deep/"+day+".md")
     chunks.append("\nCheck the primary source before relying on results.")
     sent=telegram_send("\n".join(chunks)[:3900])
-    if sent:state.write_text(json.dumps(past[-60:]+[day],indent=2)+"\n",encoding="utf-8")
+    if sent:
+        state.write_text(json.dumps(past[-60:]+[day],indent=2)+"\n",encoding="utf-8")
+    else:
+        print("::error::Telegram delivery failed. Check the bot/chat secrets or Telegram availability.")
+    summary=os.getenv("GITHUB_STEP_SUMMARY")
+    if summary:
+        with open(summary,"a",encoding="utf-8") as f:
+            f.write(f"### Telegram delivery {day}\n- Delivered: {sent}\n- New papers: {len(papers)}\n- New news: {len(news)}\n")
     print("Telegram sent:",sent)
     return sent
 
-if __name__=="__main__":run()
+if __name__=="__main__":
+    if not run():
+        raise SystemExit(1)
