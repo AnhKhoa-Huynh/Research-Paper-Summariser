@@ -1,10 +1,21 @@
 name: Daily research and robotics radar
 on:
   schedule:
-    # 05:00 UK time throughout GMT/BST; GitHub may delay busy scheduled jobs.
+    # Primary briefing at 05:00 UK time, followed by backup attempts if GitHub misses it.
     - cron: '0 5 * * *'
       timezone: 'Europe/London'
+    - cron: '23 5 * * *'
+      timezone: 'Europe/London'
+    - cron: '17 6 * * *'
+      timezone: 'Europe/London'
+    - cron: '13 8 * * *'
+      timezone: 'Europe/London'
   workflow_dispatch:
+  # One-time catch-up when this workflow file is updated; normal storage commits do not trigger it.
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/daily-radar.yml'
 
 permissions:
   contents: write
@@ -21,12 +32,18 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
+      - name: Check whether today's briefing was already delivered
+        id: guard
+        run: python3 -m radar.guard
       - uses: actions/setup-python@v5
+        if: steps.guard.outputs.run == 'true'
         with:
           python-version: '3.11'
       - name: Install Python dependencies
+        if: steps.guard.outputs.run == 'true'
         run: python -m pip install -r requirements.txt
       - name: Fetch, rank, summarize and archive
+        if: steps.guard.outputs.run == 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-3.5-flash-lite
@@ -35,18 +52,21 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python -m radar.cli --dry-run
       - name: Review top accessible research PDFs
+        if: steps.guard.outputs.run == 'true'
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-3.5-flash-lite
         run: python -m radar.deep_read --max-papers 2
       - name: Send a single Telegram morning digest
+        if: steps.guard.outputs.run == 'true'
         continue-on-error: true
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python -m radar.deliver
       - name: Save new notes and digests to repository
+        if: steps.guard.outputs.run == 'true'
         run: |
           git config user.name 'research-radar-bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -57,3 +77,20 @@ jobs:
           else
             echo 'No new items to commit.'
           fi
+      - name: Confirm daily Telegram delivery
+        if: steps.guard.outputs.run == 'true'
+        run: |
+          python - <<'PY'
+          import json
+          import sys
+          from datetime import datetime
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+
+          today = datetime.now(ZoneInfo("Europe/London")).date().isoformat()
+          path = Path("storage/telegram-delivered.json")
+          records = json.loads(path.read_text()) if path.exists() else []
+          if today not in records:
+              sys.exit("ERROR: No successful Telegram delivery was recorded for today.")
+          print("Confirmed morning briefing delivered:", today)
+          PY
