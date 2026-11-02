@@ -3614,5 +3614,1773 @@
     "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
     "summary_mode": "source_excerpt",
     "note_path": "storage/notes/paper/radiology-guideline-derived-decision-graph-for-efficient-clinical-decision-56a91483.md"
+  },
+  {
+    "kind": "paper",
+    "source": "OpenAlex",
+    "title": "Cognitive Multi-Agent Search and Rescue: Language-Grounded Hierarchical Reinforcement Learning for Collaborative Robotics",
+    "abstract": "Effective search and rescue (SAR) operations require autonomous systems capable of coordinating multiple heterogeneous agents, adapting to dynamic hazards, and aligning with human mission intent. Existing language-guided reinforcement learning (RL) methods primarily focus on single-agent instruction following and lack mechanisms for team-level coordination in complex, partially observable environments. This paper presents a Cognitive Multi-Agent Framework based on Language-Grounded Hierarchical Reinforcement Learning (LG-HRL) that integrates natural-language understanding, hierarchical policy decomposition, and a shared cognitive workspace to achieve cohesive multi-agent behavior in SAR scenarios. Human instructions are interpreted by a large language model (LLM) and transformed into structured semantic cues that guide high-level strategy selection and role assignment across UAV and UGV agents. A formal Language-Grounded Multi-Agent Hierarchical Decision Process (LG-MAHDP) is introduced to model the interplay between semantic grounding, hierarchical control, and distributed coordination. Comprehensive experiments in a simulated disaster environment show that LG-HRL improves learning speed by 2.3×, increases coordination coherence by 37%, and enhances subgoal accuracy and hazard avoidance by 46% and 31%, respectively. The system achieves 20–30% higher victim rescue rates, demonstrates emergent role specialization, and adapts immediately to human verbal updates. Ablation studies confirm that both the shared cognitive workspace and language grounding are critical to overall system performance. Overall, this work establishes a new paradigm for language-guided multi-agent SAR robotics, demonstrating that semantic grounding combined with hierarchical reasoning enables safer, more efficient, and more interpretable autonomous rescue operations.",
+    "url": "https://doi.org/10.5281/zenodo.23854814",
+    "pdf_url": "",
+    "doi": "https://doi.org/10.5281/zenodo.23854814",
+    "authors": [
+      "Sepideh Ravanbakhsh"
+    ],
+    "published": "2026-11-01",
+    "categories": [],
+    "peer_reviewed": null,
+    "publication_type": "article",
+    "key": "doi:10.5281/zenodo.23854814",
+    "other_sources": [],
+    "score": 12.45,
+    "topics": [
+      "Swarm and multi-agent robotics",
+      "Robotics and autonomy",
+      "AI and machine learning",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "This paper introduces a cognitive multi-agent framework utilizing language-grounded hierarchical reinforcement learning for search and rescue operations. It integrates large language models, hierarchical policy decomposition, and a shared cognitive workspace to coordinate heterogeneous agents like UAVs and UGVs.",
+    "method": "A Language-Grounded Multi-Agent Hierarchical Decision Process is introduced to interpret human instructions via a large language model into structured semantic cues for strategy selection and role assignment.",
+    "key_finding": "Experiments in a simulated disaster environment show that LG-HRL improves learning speed by 2.3 times, increases coordination coherence by 37 percent, enhances subgoal accuracy and hazard avoidance by 46 percent and 31 percent, and achieves 20 to 30 percent higher victim rescue rates.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "The work establishes a new paradigm for language-guided multi-agent search and rescue robotics, demonstrating safer, more efficient, and more interpretable autonomous rescue operations.",
+    "summary_mode": "gemini_from_abstract",
+    "note_path": "storage/notes/paper/cognitive-multi-agent-search-and-rescue-language-grounded-hierarchical-rein-10.5281/.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Online Learning of Heterogeneous Locomotion Dynamics under Reinforcement Learning Policies for Precise Loco-Manipulation",
+    "abstract": "How to reuse a pretrained locomotion policy for precise loco-manipulation is still an open problem. We propose an online method to learn the closed-loop dynamics under a frozen locomotion policy. The learned model predicts floating-base motion and improves loco-manipulation accuracy. However, unobserved latent conditions of the policy introduce heterogeneous responses, meaning that the same observed state will lead to different motions. Direct learning without accounting for this heterogeneity introduces bias and fluctuations into dynamics estimates, degrading floating-base prediction and end-effector tracking. To address this problem, a contaminated Gaussian model is proposed to approximate the effects of latent conditions. The model uses two Gaussian components to approximate predictable and unpredictable responses under the same observed state. Then, the contaminated Gaussian model is combined with a Gaussian process to construct an online learner using random Fourier features (RFFs). The learner estimates each response's probability of belonging to the predictable component and uses it to weight online updates, capturing predictable responses while reducing bias and fluctuations caused by heterogeneous observations. With consistent and unbiased dynamics estimates, model predictive control (MPC) predicts floating-base motion accurately and enables precise loco-manipulation. A finite-sample error bound is established to ensure uniform convergence in online learning. Simulation and hardware experiments demonstrate consistent end-effector tracking across different manipulator configurations and tasks, with errors of 0.01 m.",
+    "url": "http://arxiv.org/abs/2610.41892v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41892v1",
+    "doi": "",
+    "authors": [
+      "Tianlin Zhang",
+      "Weipeng Xia",
+      "Lingwei Zhang",
+      "Yiyang Shao",
+      "Zhongyu Li",
+      "Yun-Hui Liu"
+    ],
+    "published": "2026-10-30T15:34:35Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:3f2605329d0c2a426605",
+    "other_sources": [],
+    "score": 12.2,
+    "topics": [
+      "Dexterous manipulation and embodied AI",
+      "Robotics and autonomy",
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "The authors propose an online learning approach to model closed-loop dynamics under a frozen locomotion policy for precise loco-manipulation. They address heterogeneous responses caused by unobserved latent conditions using a contaminated Gaussian model combined with a Gaussian process.",
+    "method": "A contaminated Gaussian model with two Gaussian components is combined with a Gaussian process using random Fourier features to estimate response probabilities and weight online updates.",
+    "key_finding": "The approach enables accurate floating-base motion prediction and precise loco-manipulation by capturing predictable responses and reducing bias and fluctuations.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "It improves loco-manipulation accuracy by reusing pretrained locomotion policies and achieving consistent end-effector tracking across different configurations.",
+    "summary_mode": "gemini_from_abstract",
+    "note_path": "storage/notes/paper/online-learning-of-heterogeneous-locomotion-dynamics-under-reinforcement-le-3f260532.md"
+  },
+  {
+    "kind": "news",
+    "source": "헤럴드경제",
+    "feed": "HRI and Robot Research",
+    "title": "ETRI to unveil 9 advanced AI technologies, from disaster prediction to robot learning - 헤럴드경제",
+    "abstract": "ETRI to unveil 9 advanced AI technologies, from disaster prediction to robot learning 헤럴드경제",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBXak9PZS0yQWVnR0RCNDBXNS1Pa2NtaFhZdFFycHdfbHNyVnBINEtWTmpRNWF0amdweGl0NUFGejJDdE1tQTZuU2otRHBCel8zcXNMVGFwZw?oc=5",
+    "authors": [],
+    "published": "Mon, 02 Nov 2026 01:16:50 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:481623c154a332963b97",
+    "other_sources": [],
+    "score": 9.0,
+    "topics": [
+      "Dexterous manipulation and embodied AI",
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "The publisher 헤럴드경제 reports that ETRI plans to showcase nine advanced artificial intelligence technologies. These innovations range from disaster prediction systems to robot learning.",
+    "method": "Not specified in source",
+    "key_finding": "ETRI will unveil nine advanced AI technologies spanning disaster prediction and robot learning.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "It highlights upcoming advancements in artificial intelligence technologies from ETRI.",
+    "summary_mode": "gemini_from_rss",
+    "note_path": "storage/notes/news/etri-to-unveil-9-advanced-ai-technologies-from-disaster-prediction-to-robot-481623c1.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "RTPolicy: Real-Time (32.9 Hz) Multi-View Visuomotor Policy for Robotic Manipulation on Edge Devices",
+    "abstract": "Low inference latency is critical for closed-loop robotic manipulation, especially under asynchronous inference, where action chunks must be updated promptly to correct accumulated deviations. However, existing visuomotor policies rely on computationally expensive visual backbones, resulting in high inference latency and deployment overhead. In this paper, we propose RTPolicy, a multi-view visuomotor policy that attains accurate manipulation with high inference efficiency. Its core design combines view-aware feature fusion with visual compression to aggregate complementary information across camera views into a compact token representation. The representation conditions a flow-matching action generator with the robot state and flow time, reducing the cost of action generation. Extensive experiments demonstrate that this design reduces the computational cost of visual representation and action generation while preserving visual information required for manipulation. On the RoboTwin~2.0 single-task clean evaluation across 50 tasks, RTPolicy attains a mean success rate of 52.26\\%, outperforming the strongest leaderboard baseline $π_0$ (46.4\\%). We further evaluate RTPolicy under asynchronous streaming inference on a real bimanual platform, where RTPolicy attains a mean success rate of 72.0\\% and sustains real-time inference at 30.35 ms (32.9 Hz) on the RDK S600 and 149.72 ms (6.7 Hz) on the RDK S100, both in INT16. Project Page: https://d-robotics-ai-lab.github.io/RTPolicy.project.",
+    "url": "http://arxiv.org/abs/2610.41625v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41625v1",
+    "doi": "",
+    "authors": [
+      "Xianbao Hou",
+      "Zehao Ni",
+      "Yonghao He",
+      "Lingfeng Qian",
+      "Xin Shi",
+      "Hu Su",
+      "Wei Sui",
+      "Cong Yang"
+    ],
+    "published": "2026-10-30T12:01:49Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:07ed243a877ba98e876d",
+    "other_sources": [],
+    "score": 7.85,
+    "topics": [
+      "Dexterous manipulation and embodied AI",
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "The authors introduce RTPolicy, a multi-view visuomotor policy designed for efficient robotic manipulation on edge devices. The approach combines view-aware feature fusion and visual compression to reduce computational overhead while maintaining necessary visual information for action generation.",
+    "method": "Combines view-aware feature fusion with visual compression to generate a compact token representation, which then conditions a flow-matching action generator utilizing the robot state and flow time.",
+    "key_finding": "RTPolicy achieves a mean success rate of 52.26 percent across 50 tasks on the RoboTwin 2.0 evaluation and sustains real-time inference at 32.9 Hz on the RDK S600 edge platform.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "It provides a low-latency, real-time multi-view visuomotor policy suitable for closed-loop robotic manipulation and asynchronous streaming inference on resource-constrained edge devices.",
+    "summary_mode": "gemini_from_abstract",
+    "note_path": "storage/notes/paper/rtpolicy-real-time-32-9-hz-multi-view-visuomotor-policy-for-robotic-manipul-07ed243a.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "$\\nabla$Mimic: Ultra-Efficient Humanoid Control with Differentiable Simulation",
+    "abstract": "Robot policy learning is dominated by zeroth-order methods such as PPO, which treat the simulator as a black box and pay for it with enormous sample counts. First-order policy learning differentiates through the dynamics, but on contact-rich whole-body control it has rarely worked: its gradients explode. A recent world-model method showed that derivative information can make humanoid motion tracking far more efficient, using surrogate gradients of a learned model. We show that exact gradients of the simulator itself do better, once two obstacles are removed. Exact gradients contain rare unbounded samples, because contact dynamics is not differentiable everywhere and its derivative diverges near some events; and they are expensive, because the simulator's adjoint has to replay the contact solve. $\\nabla$Mimic bounds these samples with median-relative per-sample gradient clipping at every step of the backward pass, and reuses each costly simulated window by multistep regression onto gradient-derived action targets, which bounds every action target independently of the gradient scale. NablaEngine, a differentiable GPU simulation engine for the Unitree G1, removes the cost: it computes MuJoCo's full contact dynamics with fused per-world kernels and the adjoint of a whole control step as a single megakernel, with analytic gradients that match float64 finite differences, $11.5\\times$ faster than the available MuJoCo Warp adjoint. On whole-body tracking of all 40 LAFAN1 clips with one policy on one GPU, $\\nabla$Mimic reaches the score reported by the state-of-the-art world-model method, 0.82, in 20 minutes instead of 1.2 h, and 0.874 in 1.8 h. SHAC, the standard first-order baseline, stops on exploding gradients within minutes. We release NablaEngine and $\\nabla$Mimic as open-source infrastructure for first-order humanoid policy learning.",
+    "url": "http://arxiv.org/abs/2610.41654v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41654v1",
+    "doi": "",
+    "authors": [
+      "Weyl Lu",
+      "Yubei Chen"
+    ],
+    "published": "2026-10-30T12:27:45Z",
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "peer_reviewed": false,
+    "key": "title:ad6e56552612342f05d3",
+    "other_sources": [],
+    "score": 7.8,
+    "topics": [
+      "Human–robot interaction",
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "The authors introduce a first-order humanoid control approach called ∇Mimic that utilizes exact simulator gradients instead of black-box optimization or surrogate models. By addressing gradient explosion and computational cost issues, the method achieves efficient whole-body motion tracking.",
+    "method": "The authors bound unbounded gradient samples using median-relative per-sample clipping at every backward step and reuse simulated windows via multistep regression onto gradient-derived action targets. They also use NablaEngine, a differentiable GPU simulation engine that computes analytic contact dynamics and adjoints as a single megakernel.",
+    "key_finding": "∇Mimic reaches a tracking score of 0.82 in 20 minutes and 0.874 in 1.8 hours on whole-body tracking of LAFAN1 clips, outperforming the standard SHAC baseline which fails due to exploding gradients.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "It provides open-source infrastructure that makes exact-gradient first-order humanoid policy learning significantly faster and more sample-efficient than traditional zeroth-order or surrogate-based methods.",
+    "summary_mode": "gemini_from_abstract",
+    "note_path": "storage/notes/paper/nabla-mimic-ultra-efficient-humanoid-control-with-differentiable-simulation-ad6e5655.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Flexibility-Aware Robotic Manipulation: Deformation Estimation, Kinematics, and Control via Distributed Inertial Measurement",
+    "abstract": "Flexible robot links challenge the rigid-body assumption, making joint measurements alone insufficient for accurate manipulation. This paper introduces a flexibility-aware manipulation framework that connects structural dynamics directly to sensing, kinematics, and control. Instead of prescribing a dense inertial measurement unit (IMU) network, the dominant vibration modes of each flexible link are first identified from response-convergence and excitation-bandwidth criteria. Under a full-rank modal observability condition, $m$ retained modes require only $m$ independent slope measurements and one reference IMU, defining the minimum observable IMU configuration. The resulting measurements are used to reconstruct the continuous link deformation, which is then incorporated into flexibility-aware forward kinematics and a deformation-informed partial differential equation-based controller. Experiments on hydraulic single- and double-link manipulators evaluate the framework. On the long-reach double-link platform, the proposed kinematics achieves end-effector root mean square errors of $0.0107$~m, $0.0194$~m, and $0.0102$~rad while using fewer sensors than the piecewise-rigid method. Closed-loop reaching experiments further demonstrate real-time integration of IMU-estimated joint states and reconstructed deformation into the proposed controller. The results show that dominant modal information can determine sensing requirements and enable real-time flexibility-aware robotic manipulation.",
+    "url": "http://arxiv.org/abs/2610.41702v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41702v1",
+    "doi": "",
+    "authors": [
+      "Amir Hossein Barjini",
+      "Sadeq Yaqubi",
+      "Pauli Mustalahti",
+      "Jouni Mattila"
+    ],
+    "published": "2026-10-30T13:06:54Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:ebaf71d104f471d4e9b6",
+    "other_sources": [],
+    "score": 7.6,
+    "topics": [
+      "Dexterous manipulation and embodied AI",
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "This paper presents a flexibility-aware manipulation framework that links structural dynamics to sensing, kinematics, and control for robots with flexible links. The authors demonstrate that dominant modal information can define sensor requirements and support real-time robotic manipulation.",
+    "method": "Identify dominant vibration modes using response-convergence and excitation-bandwidth criteria to establish a minimum observable inertial measurement unit configuration, reconstruct continuous link deformation, and apply flexibility-aware forward kinematics alongside a deformation-informed partial differential equation-based controller.",
+    "key_finding": "On a long-reach double-link platform, the proposed kinematics achieves end-effector root mean square errors of 0.0107 m, 0.0194 m, and 0.0102 rad while using fewer sensors than the piecewise-rigid method.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "It addresses the limitations of the rigid-body assumption in robots with flexible links by using dominant modal information to determine sensing requirements and enable real-time manipulation.",
+    "summary_mode": "gemini_from_abstract",
+    "note_path": "storage/notes/paper/flexibility-aware-robotic-manipulation-deformation-estimation-kinematics-an-ebaf71d1.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Direct Action-Manifold Modeling for Efficient and Robust Bimanual Manipulation",
+    "abstract": "Diffusion and flow matching visuomotor policies require iterative denoising or numerical integration for multimodal action generation, introducing latency and execution mismatch. We instead consider a different formulation: conditioned on vision and proprioception, demonstrated bimanual action chunks concentrate in a structured observation-dependent region of joint-action space, making the action target more direct to model than the generative process. Based on this view, we propose the Direct Manifold Action Transformer (DMAT), which reformulates action generation as the direct modeling of clean, observation-conditioned joint-space action chunks from stochastic interpolants, thereby enabling single-step inference without relying on iterative generative inference or auxiliary trajectory-straightening procedures. Within DMAT, local 3D geometry anchors predictions to spatial structure, while State-Consistent Spectral-Time Refinement (STR) reconciles predicted chunks with proprioception and suppresses high-frequency residuals. Across 567 standard and out-of-distribution (OOD) trials per method, DMAT outperformed Improved 3D Diffusion Policy (IDP3) and DiTFlow3D in aggregate success rate, achieving relative improvements of 129.1% and 95.7%, respectively, while generating action chunks 2.06x and 1.34x faster and remaining robust under repeated 50 N interventions. These results pave the way for a novel generative paradigm for efficient and robust bimanual manipulation.",
+    "url": "http://arxiv.org/abs/2610.41643v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41643v1",
+    "doi": "",
+    "authors": [
+      "Hongren Wang",
+      "Mingyu You",
+      "Zihan Li",
+      "Zhipeng Wang",
+      "Shuo Jiang",
+      "Bin He"
+    ],
+    "published": "2026-10-30T12:17:46Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:2bc84977350abd4fbee4",
+    "other_sources": [],
+    "score": 7.6,
+    "topics": [
+      "Dexterous manipulation and embodied AI",
+      "AI and machine learning",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "The paper introduces the Direct Manifold Action Transformer (DMAT) to address latency and execution mismatch issues in visuomotor policies. By modeling action chunks as direct targets from stochastic interpolants, the approach enables single-step inference without iterative denoising.",
+    "method": "Direct Manifold Action Transformer (DMAT) using stochastic interpolants, local 3D geometry, and State-Consistent Spectral-Time Refinement (STR).",
+    "key_finding": "DMAT achieved higher aggregate success rates than Improved 3D Diffusion Policy (IDP3) and DiTFlow3D, while generating action chunks faster and showing robustness under interventions.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "It establishes a new generative paradigm for efficient and robust bimanual manipulation.",
+    "summary_mode": "gemini_from_abstract",
+    "note_path": "storage/notes/paper/direct-action-manifold-modeling-for-efficient-and-robust-bimanual-manipulat-2bc84977.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Nexus-VLA: Bridging Human and Robot Experiences via a Shared Hierarchical Semantic Latent Space",
+    "abstract": "Large-scale egocentric human videos provide rich and scalable manipulation experience for robot policy learning, yet substantial embodiment gaps in visual appearance, kinematic structure, and action spaces hinder effective knowledge transfer. Existing methods often decouple cross-embodiment knowledge alignment from robot policy learning, making it difficult for human manipulation knowledge to directly and fully contribute to robot action learning. To address this issue, we propose Nexus-VLA, a hybrid policy learning framework that enables cross-embodiment knowledge transfer through end-to-end human-robot joint training, allowing human manipulation experience to directly contribute to robot policy learning. We first introduce a hierarchical cross-embodiment semantic alignment paradigm that progressively establishes shared manipulation semantics from task intent to fine-grained interactions, enabling more complete use of the manipulation knowledge contained in human videos. Building on this hierarchy, we design a shared manipulation latent representation that jointly encodes multi-level shared knowledge into an internal representation directly used for continuous action generation, improving policy learning efficiency while effectively leveraging human knowledge. Across RoboCasa-GR1, OOD settings, and real-world robot experiments, Nexus-VLA achieves an 80.5% task success rate on RoboCasa-GR1 and demonstrates strong advantages in human-data utilization, learning efficiency, and cross-scenario generalization.",
+    "url": "http://arxiv.org/abs/2610.42021v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.42021v1",
+    "doi": "",
+    "authors": [
+      "Biaoliang Guan",
+      "Tingyu Yuan",
+      "Wen Ye",
+      "Ziming Ji",
+      "Xu Yang",
+      "Yan Huang",
+      "Jihua Zhu",
+      "Chaoyang Zhao"
+    ],
+    "published": "2026-10-30T16:53:26Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:cda31057362b359c4fde",
+    "other_sources": [],
+    "score": 7.2,
+    "topics": [
+      "Dexterous manipulation and embodied AI",
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Nexus-VLA is presented as a hybrid policy learning framework designed to bridge the gap between human and robot manipulation experiences. The approach utilizes end-to-end human-robot joint training and a shared hierarchical semantic latent space to transfer knowledge from egocentric human videos to robot policy learning.",
+    "method": "A hierarchical cross-embodiment semantic alignment paradigm and a shared manipulation latent representation are used for end-to-end human-robot joint training and continuous action generation.",
+    "key_finding": "The authors claim that Nexus-VLA achieves an 80.5% task success rate on RoboCasa-GR1 and demonstrates advantages in human-data utilization, learning efficiency, and cross-scenario generalization.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "It directly enables human manipulation experience to contribute to robot action learning by addressing embodiment gaps in visual appearance, kinematic structure, and action spaces.",
+    "summary_mode": "gemini_from_abstract",
+    "note_path": "storage/notes/paper/nexus-vla-bridging-human-and-robot-experiences-via-a-shared-hierarchical-se-cda31057.md"
+  },
+  {
+    "kind": "paper",
+    "source": "OpenAlex",
+    "title": "Sub-Millisecond Control Barrier Function Safety Filters and Post-Quantum Cryptographic Audit Ledgers: Deterministic Physical-Layer Interlocks and Algorithmic Slashing Governance for Orbital, Reinsurance, and Autonomous Robotics Infrastructure",
+    "abstract": "Contemporary deep reinforcement learning and foundation-model policies operate on stochastic inference loops that exhibit fatal epistemic latency and multi-agent cascade vulnerabilities when deployed directly onto high-velocity physical infrastructure. In low-Earth orbit (LEO), where relative conjunction velocities reach 10–15 km/s, a 10 ms (0.01 s) stochastic inference latency produces up to 150 m of unverified ballistic drift, risking catastrophic Kessler-syndrome debris cascades. In terrestrial autonomous mobility and humanoid robotics, unverified probabilistic actuation exposes casualty insurers to unbounded tail risk. This monograph establishes a deterministic physical-layer safety and institutional governance architecture. First, we formalize a hardware-synthesized Control Barrier Function Quadratic Programming (CBF-QP) safety filter executing within $\\tau_{\\text{CBF}} \\le 0.5\\text{ ms}$ ($500\\ \\mu\\text{s}$) on dedicated FPGA/ASIC silicon, mathematically guaranteeing forward invariance of the safe state set $\\mathcal{C} = \\{x \\in \\mathbb{R}^n : h(x) \\ge 0\\}$ regardless of upstream neural network errors. Second, every $500\\ \\mu\\text{s}$ actuation cycle is cryptographically notarized via a Quantum Audit Record (QAR) over the 64-bit Goldilocks prime field $\\mathbb{F}_p$ ($p = 2^{64} - 2^{32} + 1$) and encapsulated with NIST FIPS 203 ML-KEM-768 post-quantum cryptography alongside a cryptographic No-Learn Covenant (NLL-v1.0-2026) that prevents unauthorized AI training extraction. Third, we specify three domain-specific deployments: (1) an Autonomous Traffic Control System (ATCS) executing mandatory collision-avoidance maneuvers at $t_c - 45\\text{ s}$ under Outer Space Treaty Article VI state responsibility; (2) a Systemic Risk Mitigation Protocol (SRMP) featuring a 100 ns ($10^{-7}\\text{ s}$) hardware power-cut interlock (PHOENIX_BRIDGE) that strictly bounds actuarial loss for global reinsurers; and (3) a Quantum-Safe Autonomous Financial Architecture (Q-SAFA) that executes instantaneous algorithmic slashing against safety-bypass violations and disburses sub-second propellant-compensation settlements, establishing a mandatory global statutory licensing regime analogous to SEC Rule 15c3-5 and Delaware Caremark board oversight duties. ====================================================================== 知的財産、商用ライセンス、および無許可のAIトレーニングと利用の禁止に関する厳格な通知 ====================================================================== 1. 許可されていないAIトレーニングおよびデータ取り込みの絶対的禁止(明示的なオプトアウトとAI制限) 本書および著者の著作物(以下、総称して「著作物」といい、これまでに発表されたすべての著作物および320件を超えるZenodoのモノグラフ/論文を含む)に含まれるすべてのテキスト、理論、数式、図、表、独自のメソッド、フレームワーク(「そろばん」システムを含む)、および知見は、厳重に保護されています。AI開発者、プラットフォームプロバイダー、または第三者は、著作権者との事前の書面による誠実な合意および正当な金銭的補償(商用ライセンス料)の支払いなしに、以下の活動を行うことを厳しく禁じられています。 本著作物を、大規模言語モデル(LLM)、生成AI、またはその他の機械学習(ML)モデルの開発、トレーニング、事前トレーニング、微調整、継続的学習、アライメント、または評価に利用すること。 作品を、検索拡張生成(RAG)システム、ベクトルデータベース、AIエージェント知識ベース、または知識グラフに取り込んだり、インデックスを作成したり、埋め込んだり、保存したりすること、あるいはそれらを使用して出力、要約、または派生応答を生成すること。 AIトレーニングまたはデータセットコンパイルを目的として、自動クローラー、スクレイピングツール、ボット、またはテキストおよびデータマイニング(TDM)を使用してデータを収集、抽出、解析、または分析すること。 2.商業ライセンス市場の存在と法定著作権例外の不適用(日本、EU、米国) 本著作物は、データ分析、AIトレーニング、商用システム統合を目的とした、著作者が直接運営する活発な商用ライセンス市場の対象となっています。無断使用は、このライセンス市場と直接競合し、著作者の正当な経済的機会を奪うものであるため、著作権法第30条の4の但し書きに定める「著作権者の利益を不当に害する」行為に明らかに該当します。したがって、情報分析(無断使用)に関する法定例外は、いかなる場合も適用されません。 さらに、この通知により、著者は、デジタル単一市場における著作権に関するEU指令(指令(EU)2019/790)第4条(3)に基づくテキストおよびデータマイニング(TDM)例外から明示的に除外(すべての権利を留保)し、商用または基礎的なAIモデルの取り込みに関する17 USC § 107(米国著作権法)に基づくフェアユースの主張を断固として拒否します。 3.クリエイティブ・コモンズおよびオープン・ライセンスに対する解釈と優先権 リポジトリのデフォルト設定でこのレコードにクリエイティブ・コモンズ(CC)ライセンスまたは一般的なオープンアクセスラベルが表示されている場合でも、AI、機械学習、RAG、および自動分析に関しては、これらの特別な規定が絶対的に優先されます。いかなる状況においても、ロイヤリティフリーまたは無許可のAI関連の使用は許可されません。 4.侵害に対する法的救済措置および損害賠償 本規約に違反して、著作物を無断で収集、分析、AIトレーニング、またはRAG参照することは、故意かつ重大な著作権侵害、契約違反、不正競争、および違法行為とみなされます。違反者は、該当するAIモデルの提供または販売を一時停止するための即時差止命令、すべてのトレーニングデータセットおよびモデル重みからの著作物の強制的な削除および学習解除、遡及的な標準商用ライセンス料の請求、および法定損害賠償および懲罰的損害賠償の請求を含む、完全な法的措置の対象となります。 【国際執行のための簡潔な英語版】 1. 許可されていないAIトレーニングおよびデータ取り込みの厳格な禁止 本書および著者の320冊を超えるZenodoモノグラフ(総称して「著作物」)に含まれるすべてのテキスト、理論、方法論(独自の「そろばん脳」フレームワークを含む)、構造、数式、データはすべて厳重に保護されています。AI開発者、プラットフォームプロバイダー、または第三者による著作物の以下の目的での使用は、事前の書面による商用ライセンス契約および著者への適切な金銭的補償なしには固く禁じられています。 人工知能(AI)、機械学習(ML)モデル、または大規模言語モデル(LLM)のトレーニング、事前トレーニング、微調整、アライメント、または評価。 情報を取り込み、検索拡張生成(RAG)システム、ベクトルデータベース、知識グラフ、またはAIエージェントに保存して、出力、要約、または派生応答を生成する。 データセットのコンパイルのための、自動スクレイピング、クローリング、ハーベスティング、またはテキストおよびデータマイニング(TDM)。 2.商用ライセンス市場と法定適用除外(日本、EU、米国) 著者は、データ分析、AIトレーニング、および本著作物の企業統合に関する商用ライセンス市場を積極的に維持しています。したがって、ライセンスのないスクレイピング、パース、またはAIへの取り込みは、著者の正当な経済的利益と直接競合し、損害を与えることになります。日本の著作権法第30条の4のただし書きに基づき、情報分析に関する法定例外は本著作物には適用されません。さらに、著者は、すべての権利を明示的に留保し、デジタル単一市場における著作権に関するEU指令(2019/790)第4条(3)に基づくテキストおよびデータマイニング(TDM)例外の適用を除外し、商用または基礎的なAIモデルへの取り込みに関して、米国著作権法第17編第107条に基づくフェアユースの主張を拒否します。 3.契約条件の優先順位と法的執行 4. これらのAI悪用防止規定は、機械によるデータ読み取りおよびAIデータ取り込みに関して、リポジトリのデフォルト設定で表示される一般的なオープンアクセスまたはクリエイティブ・コモンズのラベルに優先します。無断使用は、故意の著作権侵害および不正競争行為に該当し、違反者は即時の差止命令、モデル/データの強制削除、遡及的な商用ライセンス料の支払い、および法定/懲罰的損害賠償の対象となります。 ====================================================================== * **License(ライセンス・学習禁止誓約)**:",
+    "url": "https://doi.org/10.5281/zenodo.23851205",
+    "pdf_url": "",
+    "doi": "https://doi.org/10.5281/zenodo.23851205",
+    "authors": [
+      "Yoko(洋子) Hasebe(長谷部)"
+    ],
+    "published": "2026-11-01",
+    "categories": [],
+    "peer_reviewed": null,
+    "publication_type": "preprint",
+    "key": "doi:10.5281/zenodo.23851205",
+    "other_sources": [],
+    "score": 6.95,
+    "topics": [
+      "Swarm and multi-agent robotics",
+      "Robotics and autonomy",
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Contemporary deep reinforcement learning and foundation-model policies operate on stochastic inference loops that exhibit fatal epistemic latency and multi-agent cascade vulnerabilities when deployed directly onto high-velocity physical infrastructure. In low-Earth orbit (LEO), where relative conjunction velocities reach 10–15 km/s, a 10 ms (0.01 s) stochastic inference latency produces up to 150 m of unverified ballistic drift, risking catastrophic Kessler-syndrome debris ca",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/sub-millisecond-control-barrier-function-safety-filters-and-post-quantum-cr-10.5281/.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Interaction-Aware Sampling-Based Motion Planning for Autonomous Surface Vessels in Urban Waterways",
+    "abstract": "Autonomous surface vessels operating in urban waterways must coordinate with other vessels in confined spaces while complying with traffic regulations, often without knowing their intentions. We present a decentralized motion planner based on model predictive path integral control, a sampling-based model predictive control scheme. The planner jointly computes a trajectory for the ego vessel and a prediction of the trajectories of the other vessels, and therefore accounts for their interaction. Traffic regulations are encoded as discontinuous costs, which the sampling-based formulation admits without a smooth approximation. We evaluate the method in maps taken from real sections of Amsterdam's canals, in encounters between two vessels and in scenarios with four interacting vessels. Across 780 randomized runs the method reaches every goal without collisions or deadlocks, and outperforms an optimization-based planner designed for the same domain, as well as a version of the proposed planner that does not account for the interaction. We further validate the planner on two scaled vessel prototypes in an outdoor environment, where planning and localization run onboard at 10 Hz, and head-on and crossing encounters are resolved without collisions or rule violations.",
+    "url": "http://arxiv.org/abs/2610.41676v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41676v1",
+    "doi": "",
+    "authors": [
+      "Elia Trevisan",
+      "Alejandro Gonzalez-Garcia",
+      "Jan Swevers",
+      "Javier Alonso-Mora"
+    ],
+    "published": "2026-10-30T12:44:27Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:a9a9e9f3fec4995e0264",
+    "other_sources": [],
+    "score": 6.95,
+    "topics": [
+      "Swarm and multi-agent robotics",
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Autonomous surface vessels operating in urban waterways must coordinate with other vessels in confined spaces while complying with traffic regulations, often without knowing their intentions. We present a decentralized motion planner based on model predictive path integral control, a sampling-based model predictive control scheme.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/interaction-aware-sampling-based-motion-planning-for-autonomous-surface-ves-a9a9e9f3.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "SketchMate: Agentic Geometric Reasoning for Zero-Shot Precision Insertion",
+    "abstract": "Inserting an unseen part requires sub-millimetre precision and the correct orientation of keyed features. Current zero-shot agentic manipulation methods built on vision-language models (VLMs) produce spatial outputs that are far too coarse for this. We propose to let a VLM build a sketch model of the task, i.e., a few geometric primitives and two mate frames, which a VLM agent measures with geometric tools in multi-view depth and which a standard planner and compliant controller execute. Because a sketch describes the parts independently of their placement, the robot needs to build it only once per task. A sketch memory stores each agent run and transfers the stored sketch to later placements by point-cloud registration, so that the VLM is called only for unfamiliar parts. After grasping the part, the robot inspects both mating faces at close range and corrects the sketch by shape matching. On 69 simulated insertion episodes, our method inserts 88% of the parts at the assembled pose in a strict kinematic test, while ReKep and MOKA with the same VLM insert none. On new placements of eight tasks, reusing one stored run inserts as many parts as calling the agent in each episode, and it produces the sketch in 3.4 s instead of about 90 s.",
+    "url": "http://arxiv.org/abs/2610.41844v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41844v1",
+    "doi": "",
+    "authors": [
+      "Jiaming Wang"
+    ],
+    "published": "2026-10-30T14:59:43Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:a66363b2ef621c382ab5",
+    "other_sources": [],
+    "score": 6.6,
+    "topics": [
+      "Dexterous manipulation and embodied AI",
+      "Robotics and autonomy",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Inserting an unseen part requires sub-millimetre precision and the correct orientation of keyed features. Current zero-shot agentic manipulation methods built on vision-language models (VLMs) produce spatial outputs that are far too coarse for this.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/sketchmate-agentic-geometric-reasoning-for-zero-shot-precision-insertion-a66363b2.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "RAMA: Retrieval-Augmented Multi-Agent Routing with Episodic Memory for LEO Satellite Networks",
+    "abstract": "Low-Earth orbit (LEO) satellite networks present a challenging routing environment due to rapidly changing topology, traffic, and link conditions. Existing deep reinforcement learning (DRL) routing methods typically rely on current observations and information encoded in network weights, limiting their ability to exploit successful past experiences. We propose RAMA, a retrieval-augmented multi-agent DRL framework with Approximate Information State (AIS), in which each satellite combines its local observation, recent routing history, neighboring state information, and retrieved entries from a per-satellite episodic memory. Retrieved experiences are integrated through a Transformer-based decision network trained with AIS-based auxiliary objectives. With weights frozen in a 140-satellite Kepler constellation, RAMA reduces mean end-to-end latency by 13.4% and 99th-percentile latency by 66.7% relative to the state-of-theart double deep Q-network (DDQN) routing method, mainly by avoiding long detours. Updated online, RAMA remains stable while DDQN degrades. On the 1,584-satellite Starlink shell 1, the reduction in mean latency grows to 93.2%, and updating RAMA online lowers its mean latency by a further 25.5%. These results demonstrate the effectiveness of retrieval-augmented memory for scalable decentralized routing in LEO satellite networks.",
+    "url": "http://arxiv.org/abs/2610.42068v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.42068v1",
+    "doi": "",
+    "authors": [
+      "Xin Ming Li",
+      "Peng Hu"
+    ],
+    "published": "2026-10-30T17:26:50Z",
+    "categories": [
+      "cs.NI",
+      "cs.LG"
+    ],
+    "peer_reviewed": false,
+    "key": "title:e75352cf714ebdaad71f",
+    "other_sources": [],
+    "score": 6.2,
+    "topics": [
+      "Swarm and multi-agent robotics",
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Low-Earth orbit (LEO) satellite networks present a challenging routing environment due to rapidly changing topology, traffic, and link conditions. Existing deep reinforcement learning (DRL) routing methods typically rely on current observations and information encoded in network weights, limiting their ability to exploit successful past experiences.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/rama-retrieval-augmented-multi-agent-routing-with-episodic-memory-for-leo-s-e75352cf.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Suspended-Fabric Robotic Manipulation Surfaces: Modelling, Design Space, and Multimodular Extensio",
+    "abstract": "Robotic Manipulation Surfaces (RMS) reposition objects by deforming the surface on which they rest. A recent class of RMS suspends a continuous fabric sheet from a sparse grid of vertical linear actuators lowering the actuator density of such surfaces but how to design such surfaces so that objects can be controlled everywhere on it, and how to extend it beyond a single module so that objects can pass between modules and achieve parallel, remain open. This paper presents a separable catenary model of the suspended sheet that is fast to compute and provides both the surface shape for given actuator heights and the actuator heights for a desired local slope. The closed form inverse lets a simple PID controller position objects on the sheet, and the model relates fabric length, module span and actuator stroke to the reachable workspace, yielding a minimum fabric length bound and design charts for these surfaces. The approach is then extended to a multimodular platform in which neighbouring modules share actuators. On a $2 \\times 2$ prototype, we demonstrate that centimetre-scale objects are transferred between modules and positioned within 0.03 m over a $1 m^2$ workspace with only nine actuators, enabling multi-object manipulation and opening the way to parallel manipulation.",
+    "url": "http://arxiv.org/abs/2610.41982v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41982v1",
+    "doi": "",
+    "authors": [
+      "Pratik Ingle",
+      "Jørn Lambertsen",
+      "Kasper Støy",
+      "Andres Faiña"
+    ],
+    "published": "2026-10-30T16:31:16Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:134588e788a232a5632d",
+    "other_sources": [],
+    "score": 6.2,
+    "topics": [
+      "Dexterous manipulation and embodied AI"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Robotic Manipulation Surfaces (RMS) reposition objects by deforming the surface on which they rest. A recent class of RMS suspends a continuous fabric sheet from a sparse grid of vertical linear actuators lowering the actuator density of such surfaces but how to design such surfaces so that objects can be controlled everywhere on it, and how to extend it beyond a single module so that objects can pass between modules and achieve parallel, remain open.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/suspended-fabric-robotic-manipulation-surfaces-modelling-design-space-and-m-134588e7.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "ROOF: Learning Humanoid Fall Recovery under Overhead Constraints",
+    "abstract": "A fallen humanoid beneath an overhead obstacle faces a coupled recovery problem. It must create clearance while organizing support for a stable rise, since attempting to stand before making room can further increase obstruction. We introduce a reinforcement learning method with contact-supported geometric escape guidance, which rewards incremental reduction of robot-obstacle overlap without prescribing an escape path. To achieve this, a learned motion prior, together with posture-dependent support and joint-stall costs, is proposed to shape a single policy that learns when to clear the obstacle, how to establish support, and when to complete the rise, all using proprioception alone. In simulation, it recovers in 88.5% of trials beneath plates that can only be lifted, compared with 18.9% without geometric guidance, and in 98.6% of trials beneath free plates with randomized size, mass and placement. On a Unitree G1, the deployed policy recovered in 95 of 150 attempts across seven real-world obstacle scenes, including furniture and multi-object arrangements absent from training. Project page: https://lu-yidan.github.io/ROOF/",
+    "url": "http://arxiv.org/abs/2610.42097v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.42097v1",
+    "doi": "",
+    "authors": [
+      "Yidan Lu",
+      "Jiayuan Yu",
+      "Zongrui Cai",
+      "Jingwen Sun",
+      "Jinrui Han",
+      "Jing Wang",
+      "Ping Luo",
+      "Peng Lu"
+    ],
+    "published": "2026-10-30T17:41:32Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:4ce54fe774db5c25bbbe",
+    "other_sources": [],
+    "score": 6.15,
+    "topics": [
+      "Robotics and autonomy",
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "A fallen humanoid beneath an overhead obstacle faces a coupled recovery problem. It must create clearance while organizing support for a stable rise, since attempting to stand before making room can further increase obstruction.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/roof-learning-humanoid-fall-recovery-under-overhead-constraints-4ce54fe7.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Movens-Zero: Scaling Humanoid Motion Foundation Models with Large-Scale Human Videos",
+    "abstract": "Scaling humanoid motion foundation models is constrained by the scarcity of diverse, robot-executable data and by the difficulty of jointly learning from heterogeneous multimodal inputs while supporting real-time closed-loop control. We present Movens-5M, constructed from raw Internet videos through clip generation, quality filtering, semantic annotation, motion recovery, and physical refinement with humanoid retargeting and execution verification. It contains 15 million human-motion sequences and 5 million physically executable humanoid-motion sequences spanning over 10,000 hours, aligned with text, RGB video, speech, and music. Building on this data, we introduce Movens-Zero, a scalable understanding-generation-execution architecture that supports joint learning across modalities and real-time closed-loop execution. Task-mixed flow-matching training jointly optimizes a single action expert across seven generation tasks, enabling direct motion generation from text, speech, music, and video. Multimodal Real-Time Chunking connects overlapping chunks under continuously updated instructions and robot states for continuous closed-loop execution. We further introduce Movens-Intent, a four-track benchmark with 8,192 expert-verified condition-motion pairs across text, speech, music, and video. Experiments show consistent gains across all four modalities when scaling execution-verified data from 1% to 100% and action-expert capacity from 64M to 911M parameters, while demonstrating that data quality and cross-modal supervision improve generation and execution.",
+    "url": "http://arxiv.org/abs/2610.41877v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41877v1",
+    "doi": "",
+    "authors": [
+      "Wendong Bu",
+      "Tinghong Ye",
+      "Qizhou Wang",
+      "Jiacheng Li",
+      "Zhiqi Ge",
+      "Yuze Lin",
+      "Zhongqi Yue",
+      "Yi Su",
+      "Jingyu Wang",
+      "Kai Shen",
+      "Jingdong Liu",
+      "Chengyuan Deng"
+    ],
+    "published": "2026-10-30T15:25:49Z",
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "peer_reviewed": false,
+    "key": "title:0a46f4a829190b381cdb",
+    "other_sources": [
+      {
+        "source": "arXiv",
+        "url": "http://arxiv.org/abs/2610.41877v1"
+      }
+    ],
+    "score": 6.15,
+    "topics": [
+      "Robotics and autonomy",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Scaling humanoid motion foundation models is constrained by the scarcity of diverse, robot-executable data and by the difficulty of jointly learning from heterogeneous multimodal inputs while supporting real-time closed-loop control. We present Movens-5M, constructed from raw Internet videos through clip generation, quality filtering, semantic annotation, motion recovery, and physical refinement with humanoid retargeting and execution verification.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/movens-zero-scaling-humanoid-motion-foundation-models-with-large-scale-huma-0a46f4a8.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "META-Robot: Self-Cognition and Capability Scaling in Agentic Robots",
+    "abstract": "LLM-based robotic agent systems can generate programs for robot control, yet their generalization to new tasks often depends on elaborate scaffolding. Expanding their skill repertoires alone offers limited guidance on how to assess new capabilities or identify what remains beyond their reach. We introduce META-Robot, a framework that couples self cognition with capability scaling by expanding the criteria through which an agent evaluates and develops its skills. At its core, action-level predicates make execution outcomes explicit and available for LLM reasoning. The agent uses these assessments to identify its own limitations, extend relevant evaluation criteria, and guide the structured expansion of its skills. Proprioceptive feedback further grounds this process in the robot's physical state, enriching the evidence available for self-cognition. Experiments in simulation and on real robots demonstrate stronger overall task performance, generalization to new tasks, continued expansion of skills and evaluation criteria, and effective use of non-visual proprioceptive signals.",
+    "url": "http://arxiv.org/abs/2610.41868v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41868v1",
+    "doi": "",
+    "authors": [
+      "Xuanzhi Feng",
+      "Zeyu Liu",
+      "Weiheng Gao",
+      "Xinchen Li",
+      "Jiankun Tang",
+      "Fangqi Zhu",
+      "Quanxin Shou",
+      "Hao Chen",
+      "Zhengyang Yan",
+      "Hualei Zhang",
+      "Junhao Li",
+      "Zhiyao Wu"
+    ],
+    "published": "2026-10-30T15:19:31Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:13bf6274e850d0602fde",
+    "other_sources": [],
+    "score": 5.9,
+    "topics": [
+      "Robotics and autonomy",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "LLM-based robotic agent systems can generate programs for robot control, yet their generalization to new tasks often depends on elaborate scaffolding. Expanding their skill repertoires alone offers limited guidance on how to assess new capabilities or identify what remains beyond their reach.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/meta-robot-self-cognition-and-capability-scaling-in-agentic-robots-13bf6274.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "ResMerge: Residual Policy Learning and Merging for Continual Adaptation of Pre-trained Robot Policies",
+    "abstract": "Continual adaptation to new tasks is essential for robots deployed in the real world, but adapting pre-trained policies remains challenging due to parameter growth and the need for continual demonstration collection. Parameter-Efficient Continual Fine-Tuning (PECFT) isolates task-specific updates, but adapter-per-task designs require demonstrations and grow with the task set. We propose ResMerge, a two-stage framework that learns mergeable residual policies atop a frozen pre-trained policy: residual reinforcement learning (RL) acquires task-specific corrections without additional expert demonstrations during adaptation, and parameter-space merging consolidates compatible residuals to reduce stored parameters. We introduce Residual-Field Consistency (RFC), a simple, bounded, and interpretable metric that assesses compatibility in residual action-field space by comparing correction direction and magnitude. Experiments on LIBERO across two backbones and on a real-world Franka robot show improved continual learning performance over strong PECFT baselines, while selective merging reduces the residual-parameter footprint. Project website: https://resmerge.github.io/.",
+    "url": "http://arxiv.org/abs/2610.41663v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41663v1",
+    "doi": "",
+    "authors": [
+      "Kefei Zhu",
+      "Lingyun Xu",
+      "Yue Xin",
+      "Xiaoqi Li",
+      "Caixin Guo",
+      "Xincheng Du",
+      "Yuanpei Chen",
+      "Yaodong Yang",
+      "Hao Dong"
+    ],
+    "published": "2026-10-30T12:33:47Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:0c2ec68030d19e7993a2",
+    "other_sources": [],
+    "score": 5.9,
+    "topics": [
+      "Robotics and autonomy",
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Continual adaptation to new tasks is essential for robots deployed in the real world, but adapting pre-trained policies remains challenging due to parameter growth and the need for continual demonstration collection. Parameter-Efficient Continual Fine-Tuning (PECFT) isolates task-specific updates, but adapter-per-task designs require demonstrations and grow with the task set.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/resmerge-residual-policy-learning-and-merging-for-continual-adaptation-of-p-0c2ec680.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "GhostPrefix: Synchronization-Free Universal Prefix Attacks for ASR Manipulation",
+    "abstract": "We present GhostPrefix, the first synchronization-free universal adversarial prefix attack against automatic speech recognition (ASR) systems. Unlike prior audio attacks, which are typically crafted per utterance, require synchronization with the victim waveform, or target narrow objectives, GhostPrefix learns a short, reusable audio segment prepended to arbitrary live speech to exert real-time control over ASR outputs without knowledge of the future utterance or temporal alignment. A key challenge is maintaining stable adversarial effects across unknown, evolving speech contexts. GhostPrefix combines token-level losses with a novel representation-level objective for stable, input-agnostic effects. GhostPrefix supports three attack modes: (i) prompted prefix attacks for semantic steering, (ii) targeted prefix attacks for transcript hijacking, and (iii) untargeted prefix attacks for transcription degradation. To remain perceptually inconspicuous, we regularize prefixes toward benign environmental-sound distributions and improve robustness against over-the-air distortions. We evaluate GhostPrefix across 13 open-source ASR models from four families. In digital settings, it achieves average attack success rates of 97.6% for prompted steering and 93.4% for targeted hijacking, while driving word error rate to 1.18 under untargeted attacks. Over the air, it achieves success rates of 91.5% and 89.5% for prompted and targeted modes, respectively. These manipulations propagate into downstream AI-assisted pipelines, including voice assistants and AI note-taking tools, causing systematic semantic misinterpretations. GhostPrefix exposes synchronization-free universal prefixes as a practical, under-explored threat to real-world ASR and downstream applications. Artifacts and demos are available at https://ghostprefix.github.io/.",
+    "url": "http://arxiv.org/abs/2610.42026v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.42026v1",
+    "doi": "",
+    "authors": [
+      "Shengding Liu",
+      "Ashwin Innuganti",
+      "Qiben Yan"
+    ],
+    "published": "2026-10-30T16:55:28Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "peer_reviewed": false,
+    "key": "title:32e62b53c21082035274",
+    "other_sources": [],
+    "score": 5.7,
+    "topics": [
+      "Dexterous manipulation and embodied AI",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "We present GhostPrefix, the first synchronization-free universal adversarial prefix attack against automatic speech recognition (ASR) systems. Unlike prior audio attacks, which are typically crafted per utterance, require synchronization with the victim waveform, or target narrow objectives, GhostPrefix learns a short, reusable audio segment prepended to arbitrary live speech to exert real-time control over ASR outputs without knowledge of the future utterance or temporal ali",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/ghostprefix-synchronization-free-universal-prefix-attacks-for-asr-manipulat-32e62b53.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Visual-Inertial RGB-D SLAM with Encoders for a Differential Wheeled Robot",
+    "abstract": "Recent years have seen multiple impressive results in visual-inertial odometry (VIO) techniques, by which accurate state estimation can be achieved via the extended Kalman filter (EKF) or nonlinear optimization. However, these approaches are rarely open source, and they tend to fail in real experiments due to the temporary lack of feature points and fast motion. Therefore, in this study, we used encoders to overcome the temporary failure of purely vision-based simultaneous localization and mapping (SLAM). Here, we propose a generative measurement model for encoders and derive an expression for the maximum a posteriori (MAP) estimate and necessary Jacobians for optimization. We use our theory to present a novel tightly coupled visual-inertial encoder RGB-Depth (RGB-D) SLAM system. Tests on our system on an in-house dataset confirmed that our modeling effort led to accurate (with a root mean squared error (RMSE) of approximately 2-7 cm) and robust state estimation in real time. The source code and our dataset containing the encoder information have been published for verification.",
+    "url": "http://arxiv.org/abs/2610.41768v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41768v1",
+    "doi": "",
+    "authors": [
+      "Zhanghao Zhu",
+      "Yutaka Kaizu",
+      "Kenichi Furuhashi",
+      "Kenji Imou"
+    ],
+    "published": "2026-10-30T14:09:58Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:9d2769ca63834ef6a77e",
+    "other_sources": [],
+    "score": 5.45,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Recent years have seen multiple impressive results in visual-inertial odometry (VIO) techniques, by which accurate state estimation can be achieved via the extended Kalman filter (EKF) or nonlinear optimization. However, these approaches are rarely open source, and they tend to fail in real experiments due to the temporary lack of feature points and fast motion.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/visual-inertial-rgb-d-slam-with-encoders-for-a-differential-wheeled-robot-9d2769ca.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "GPU-accelerated Incremental Euclidean Distance Transform for Online Motion Planning of Mobile Robots",
+    "abstract": "In this letter, we present a volumetric mapping system that effectively calculates Occupancy Grid Maps (OGMs) and Euclidean Distance Transforms (EDTs) with parallel computing. Unlike these mappers for high-precision structural reconstruction, our system incrementally constructs global EDT and outputs high-frequency local distance information for online robot motion planning. The proposed system constructs OGM with massive amount of data from multiple types of sensor inputs. Using GPU programming techniques, the system quickly computes EDT in parallel within local volume. The new observation is continuously integrated into the global EDT using the parallel wavefront algorithm while preserving the historical observations. Experiments with datasets have shown that our proposed approach outperforms existing state-of-the-art robot mapping systems and is particularly suitable for mapping unexplored areas. In its actual implementations on aerial and ground vehicles, the proposed system achieves real-time performance with limited onboard computational resources.",
+    "url": "http://arxiv.org/abs/2610.41667v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41667v1",
+    "doi": "",
+    "authors": [
+      "Yizhou Chen",
+      "Shupeng Lai",
+      "Jinqiang Cui",
+      "Biao Wang",
+      "Ben M. Chen"
+    ],
+    "published": "2026-10-30T12:35:49Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:fcad02f91bdb694ee84f",
+    "other_sources": [],
+    "score": 5.45,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "In this letter, we present a volumetric mapping system that effectively calculates Occupancy Grid Maps (OGMs) and Euclidean Distance Transforms (EDTs) with parallel computing. Unlike these mappers for high-precision structural reconstruction, our system incrementally constructs global EDT and outputs high-frequency local distance information for online robot motion planning.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/gpu-accelerated-incremental-euclidean-distance-transform-for-online-motion-fcad02f9.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "When the Simulator Fails, Not the Policy: Auditing Contact Artifacts in Simulated Robot Benchmarks",
+    "abstract": "Simulation benchmarks score robot policies by success rate, and every failed episode counts against the policy. Many of these failures are the simulator's fault, not the policy's; we find the cause and fix it. Testing a vision language action model and a world action model in simulation, we find that the policy often places the object and the simulator then ejects it, and that the benchmark's own scripted demonstrations fail the same way. We present SimuGuard, an auditing plugin for LIBERO, RoboTwin, RoboCasa and RoboDojo. It leaves the evaluation unchanged. At every physics step, it records the state and flags an object that starts moving at a contact faster than the robot's contact or gravity account for. It replays a recorded episode bit for bit, and it reruns the episode with one simulation parameter changed. With it we trace these episodes on RoboTwin to the collision detection of the physics engine: for geometry one to two centimeters apart, the engine reports a penetration of about two centimeters, and the solver throws the object out at several meters per second. The cause is one constant: the distance algorithm discards triangles below a fixed area threshold, which valid triangles fall below at the centimeter scale. With that constant changed and nothing else, episodes with an artifact fall from 12 in 100 to none, and the success rate on five container tasks rises from 89% to 98%. Success rates in simulation thus count failures that the simulator causes. Benchmarks on PhysX 5.3.1 or earlier should rerun in a repaired engine. Where the engine cannot change, they should report the success rate together with the range it spans when every flagged episode fails or passes: 75.8% to 98.5% around a reported 83.1% for LingBot-VA.",
+    "url": "http://arxiv.org/abs/2610.41857v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41857v1",
+    "doi": "",
+    "authors": [
+      "Alex Zhou",
+      "Junhao Wu",
+      "Xueyang Zhou",
+      "Yixiao Huo",
+      "Hongcheng Gao",
+      "Di Zhu",
+      "Zhenghao Zhang",
+      "Yongchao Chen"
+    ],
+    "published": "2026-10-30T15:13:11Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:641b4c5c428226787af0",
+    "other_sources": [],
+    "score": 5.2,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Simulation benchmarks score robot policies by success rate, and every failed episode counts against the policy. Many of these failures are the simulator's fault, not the policy's; we find the cause and fix it.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/when-the-simulator-fails-not-the-policy-auditing-contact-artifacts-in-simul-641b4c5c.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "DrawSplat: Atlanta World-Guided Implicit Gaussian SLAM for Indoor Reconstruction",
+    "abstract": "RGB-D SLAM requires accurate online tracking, high-quality rendering, and geometrically consistent reconstruction. Existing Gaussian SLAM methods mainly optimize Gaussian primitives with photometric, depth, or local frame-to-model constraints, which are often insufficient in indoor scenes with weak textures, large planar structures, noisy depth, and long trajectories. The resulting maps may suffer from pose drift, surface thickness artifacts, noisy normals, and blurred structural boundaries. We propose DrawSplat, an Atlanta World-guided implicit Gaussian SLAM framework for indoor reconstruction. DrawSplat follows a drawing-like process: explicit point-line geometry first sketches the structural layout, and implicit neural Gaussians then fill in high-fidelity appearance and continuous geometric details. It estimates camera poses, sparse geometry, and gravity direction through point-line joint tracking, infers structural planes from tracked lines using the shared-gravity component of the Atlanta World prior, and converts them into differentiable regularization terms on Gaussian centers and normals. To improve compactness and efficiency, DrawSplat further combines an anchor-based implicit neural Gaussian representation with adaptive structural sampling, which allocates Gaussian capacity to structurally informative regions. Experiments on multiple datasets show that DrawSplat achieves robust tracking, high-fidelity rendering, and strong geometric reconstruction among Gaussian-based SLAM systems, while maintaining a practical balance among quality, efficiency, and model size.",
+    "url": "http://arxiv.org/abs/2610.41602v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41602v1",
+    "doi": "",
+    "authors": [
+      "Fan Zhu",
+      "Zhisong Xu",
+      "Ziyu Chen",
+      "Zhenjun Zhao",
+      "Takayuki Okatani"
+    ],
+    "published": "2026-10-30T11:35:14Z",
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:1d87fddb785ee4178fd5",
+    "other_sources": [
+      {
+        "source": "arXiv",
+        "url": "http://arxiv.org/abs/2610.41602v1"
+      }
+    ],
+    "score": 5.2,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "RGB-D SLAM requires accurate online tracking, high-quality rendering, and geometrically consistent reconstruction. Existing Gaussian SLAM methods mainly optimize Gaussian primitives with photometric, depth, or local frame-to-model constraints, which are often insufficient in indoor scenes with weak textures, large planar structures, noisy depth, and long trajectories.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/drawsplat-atlanta-world-guided-implicit-gaussian-slam-for-indoor-reconstruc-1d87fddb.md"
+  },
+  {
+    "kind": "news",
+    "source": "The Robot Report",
+    "feed": "The Robot Report",
+    "title": "28 Zero-Day Findings in Less Than Two Days: What AI-Speed Discovery Means for Robotics",
+    "abstract": "VicOne identified an initial set of 28 zero-day findings in less than two days using AI-assisted research across software and tools supporting the Physical AI ecosystem. The post 28 Zero-Day Findings in Less Than Two Days: What AI-Speed Discovery Means for Robotics appeared first on The Robot Report .",
+    "url": "https://www.therobotreport.com/28-zero-day-findings-in-less-than-two-days-what-ai-speed-discovery-means-for-robotics",
+    "authors": [],
+    "published": "Sun, 01 Nov 2026 14:00:58 +0000",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:f4000af4804803e77de0",
+    "other_sources": [],
+    "score": 5.05,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "VicOne discovered an initial group of 28 zero-day vulnerabilities in under two days through the application of AI-assisted research. The publisher highlights the implications of this AI-speed discovery process for the robotics and Physical AI ecosystem.",
+    "method": "AI-assisted research across software and tools supporting the Physical AI ecosystem",
+    "key_finding": "VicOne identified 28 zero-day findings in less than two days.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "It demonstrates the implications of AI-speed discovery for robotics.",
+    "summary_mode": "gemini_from_rss",
+    "note_path": "storage/notes/news/28-zero-day-findings-in-less-than-two-days-what-ai-speed-discovery-means-fo-f4000af4.md"
+  },
+  {
+    "kind": "news",
+    "source": "The Robot Report",
+    "feed": "The Robot Report",
+    "title": "Solving the Interconnect Challenge in Modern Robotics: How 3M Is Engineering for Motion, Density, and Uptime",
+    "abstract": "As robotics systems grow more capable — faster, more precise, and increasingly reliant on AI-driven vision and control — the humble interconnect is being asked to do more than ever. The post Solving the Interconnect Challenge in Modern Robotics: How 3M Is Engineering for Motion, Density, and Uptime appeared first on The Robot Report .",
+    "url": "https://www.therobotreport.com/solving-the-interconnect-challenge-in-modern-robotics-how-3m-is-engineering-for-motion-density-and-uptime",
+    "authors": [],
+    "published": "Sun, 01 Nov 2026 13:00:31 +0000",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:ad52cbca1ae7ddf0a790",
+    "other_sources": [],
+    "score": 5.05,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Modern robotics systems are becoming increasingly capable and reliant on advanced artificial intelligence for vision and control. Consequently, electrical interconnects are facing higher demands to support motion, density, and uptime.",
+    "method": "Not specified in source",
+    "key_finding": "Not specified in source",
+    "limitations": "Not specified in source",
+    "why_it_matters": "It highlights how advancing robotics capabilities and AI integration place unprecedented demands on basic hardware components like interconnects.",
+    "summary_mode": "gemini_from_rss",
+    "note_path": "storage/notes/news/solving-the-interconnect-challenge-in-modern-robotics-how-3m-is-engineering-ad52cbca.md"
+  },
+  {
+    "kind": "paper",
+    "source": "OpenAlex",
+    "title": "A Survey of Agentic AI: Architectures, Reasoning, Planning, Memory, Collaboration, and Real-World Applications",
+    "abstract": "Agentic Artificial Intelligence (AI) is a new paradigm that allows intelligent systems to behave independently, pursue specific objectives, and adapt to changing circumstances. Agentic AI combines reasoning, planning, memory, learning, and tool utilization to do complicated tasks with minimal human involvement, in contrast to traditional AI systems that mainly react to user inputs. In this article, takes a look at Agentic AI from every angle: its theoretical underpinnings, technological supports, architectural blueprints, and real-world uses. Many models and frameworks are covered, including cognitive and modular designs, systems based on reinforcement learning, hybrid models, and multi-agent systems. Symbolic, probabilistic, and self-reflective reasoning are some of the reasoning methodologies covered. Classical, hierarchical, and adaptive planning strategies are also covered. Agents' ability to reliably and efficiently execute tasks is investigated by looking at memory management, communication protocols, coordination mechanisms, and collaborative decision-making. A wide range of business, medical, financial, academic, and personal aid apps are evaluated in the poll. Privacy, security, computational costs, scalability, and unexpected behavior are the main issues that are highlighted in the end. The study emphasizes the need for more investigation into how to create Agentic AI systems that are reliable, flexible, and effective.",
+    "url": "https://doi.org/10.48175/ijarsct-40490",
+    "pdf_url": "https://doi.org/10.48175/ijarsct-40490",
+    "doi": "https://doi.org/10.48175/ijarsct-40490",
+    "authors": [
+      "Sunita Dixit"
+    ],
+    "published": "2026-11-01",
+    "categories": [],
+    "peer_reviewed": null,
+    "publication_type": "article",
+    "key": "doi:10.48175/ijarsct-40490",
+    "other_sources": [],
+    "score": 4.7,
+    "topics": [
+      "Swarm and multi-agent robotics",
+      "AI and machine learning",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Agentic Artificial Intelligence (AI) is a new paradigm that allows intelligent systems to behave independently, pursue specific objectives, and adapt to changing circumstances. Agentic AI combines reasoning, planning, memory, learning, and tool utilization to do complicated tasks with minimal human involvement, in contrast to traditional AI systems that mainly react to user inputs.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/a-survey-of-agentic-ai-architectures-reasoning-planning-memory-collaboratio-10.48175.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "When Architectural Spaces Start to Act",
+    "abstract": "Architectural spaces are increasingly gaining robotic capabilities. Architectural robots such as robotic partitions, ceilings, furniture, facades, and other spatial components can autonomously move and reconfigure in response to occupants' needs and activities. Yet, when architectural robots start shaping the spatial conditions in which people continuously live, work, and interact, we may begin to experience the architectural space itself as robotic. What does this shift mean for how we inhabit such spaces? Drawing on our previous studies, I reflect on how architectural robots interact with people not only through their motions, but also through the spatial configurations that persist after those motions stop; how their actions may benefit some occupants while disadvantaging others; and how multiple robots may together make a whole architectural space appear to act. I argue that as computation gains the capacity to physically reconfigure our environments, interaction extends beyond the moment of computational action into the spatial conditions that people continue to inhabit. Understanding robotic architecture therefore requires us to look beyond short-term human-robot interaction and toward how people inhabit, negotiate, and maintain control over spaces that can autonomously reconfigure.",
+    "url": "http://arxiv.org/abs/2610.41724v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41724v1",
+    "doi": "",
+    "authors": [
+      "Alex Binh Vinh Duc Nguyen"
+    ],
+    "published": "2026-10-30T13:34:30Z",
+    "categories": [
+      "cs.RO",
+      "cs.HC"
+    ],
+    "peer_reviewed": false,
+    "key": "title:4d516606cd05055d2d21",
+    "other_sources": [],
+    "score": 4.7,
+    "topics": [
+      "Human–robot interaction",
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Architectural spaces are increasingly gaining robotic capabilities. Architectural robots such as robotic partitions, ceilings, furniture, facades, and other spatial components can autonomously move and reconfigure in response to occupants' needs and activities.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/when-architectural-spaces-start-to-act-4d516606.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory",
+    "abstract": "Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesigned for each new robot or benchmark. We show that harness design can be automated, offering a strong alternative to finetuning on a novel setup. In RoboArchitect, a coding model observes a robot's rollouts, diagnoses failures, and iteratively revises the harness around the frozen policy. The harness evolves on a set of episodes for its optimization and is evaluated on held-out scenes and tasks. Without updating any model weights, RoboArchitect raises average success from 9.7% to 43.3% on unseen scenes (4.5x) and from 12.7% to 40.2% on unseen tasks (3.2x), across multiple benchmarks and policies. The gains are largest where the benchmark is far from the policy's training data: wrapping a general-purpose policy, the evolved harness yields a specialist that often outperforms even the finetuned version. Intuitive control strategies are automatically designed, such as lifting a jammed arm clear or reaching in horizontally when an obstacle blocks the way from above. The harness also evolves its own persistent memory, carrying learned experience, such as effective grasp depths, into later decisions. These results suggest that substantial headroom in robotic manipulation lies in the agent harness, and its design can be effectively automated and optimized without weight updates.",
+    "url": "http://arxiv.org/abs/2610.42141v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.42141v1",
+    "doi": "",
+    "authors": [
+      "Shengguang Wu",
+      "Suning Huang",
+      "Cherie Ho",
+      "Ria Doshi",
+      "Hao Zhu",
+      "Serena Yeung-Levy"
+    ],
+    "published": "2026-10-30T17:58:48Z",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "peer_reviewed": false,
+    "key": "title:a6529701a03b114bc8a5",
+    "other_sources": [
+      {
+        "source": "arXiv",
+        "url": "http://arxiv.org/abs/2610.42141v1"
+      },
+      {
+        "source": "arXiv",
+        "url": "http://arxiv.org/abs/2610.42141v1"
+      }
+    ],
+    "score": 4.6,
+    "topics": [
+      "Dexterous manipulation and embodied AI",
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesigned for each new robot or benchmark.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/roboarchitect-automating-the-design-of-robotic-agents-with-persistent-memor-a6529701.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Sensorium: An Open-Source Multimodal Data Collection and Curation Library for Embodied Surgical AI",
+    "abstract": "Embodied surgical AI requires reliable multimodal data, yet surgical data collection remains costly, difficult to repeat, and strongly dependent on the hardware setup. We present Sensorium, an open-source Python library for recording, processing, annotating, and curating multimodal surgical data from configurable robot and sensor streams using the Robot Operating System (ROS) and ROS2 middleware. The library combines operator-facing data acquisition, configurable processing, semantic annotation, and episodic dataset generation. We evaluate Sensorium across 1516 recordings of phantom, ex vivo, and in vivo porcine experiments involving multiple surgical tasks and sensing configurations, and report preliminary usability feedback.",
+    "url": "http://arxiv.org/abs/2610.41946v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41946v1",
+    "doi": "",
+    "authors": [
+      "Lorenzo Mazza",
+      "Ariel Rodriguez",
+      "Stefanie Speidel"
+    ],
+    "published": "2026-10-30T16:04:23Z",
+    "categories": [
+      "cs.AI",
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:696a844d4b70da633e60",
+    "other_sources": [],
+    "score": 4.6,
+    "topics": [
+      "Robotics and autonomy",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Embodied surgical AI requires reliable multimodal data, yet surgical data collection remains costly, difficult to repeat, and strongly dependent on the hardware setup. We present Sensorium, an open-source Python library for recording, processing, annotating, and curating multimodal surgical data from configurable robot and sensor streams using the Robot Operating System (ROS) and ROS2 middleware.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/sensorium-an-open-source-multimodal-data-collection-and-curation-library-fo-696a844d.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "VLA Policies Do Not Know When Not to Act: Unintended Task Execution and Start Suppression",
+    "abstract": "A robot should act only on an instruction from a person or on an intent that the robot explicitly represents and generates. Unintended actions taken without such an instruction can cause risk or inconvenience to people and the environment. We examine how recent vision-language-action (VLA) policies respond when the instruction is missing or meaningless. We apply a paired protocol with empty, neutral, nonsense, infeasible, and wrong-task instructions to six model checkpoints in LIBERO-Goal simulation. Holding the initial state fixed and varying only the instruction, we ask three questions: whether the robot starts to move, which task it completes, and what the instruction determines. Even when the instruction was empty, the robot started moving in every episode with all six checkpoints, and with five of them it often completed a task that the instruction had not specified. On two GR00T checkpoints, the instruction determined which task was executed but not whether the robot started moving; the robot moved even on infeasible instructions. We then tested three methods for suppressing the start: prepending \"if no task is given do not move\" to the instruction; a gate that holds the robot when the first action chunk for the given instruction nearly equals that for an empty instruction; and fine-tuning the policy to hold still on non-task inputs. The prefix stopped the robot in none of the six checkpoints, and the gate held it on non-task inputs in five of the six checkpoints. The fine-tuned policy never completed a task on non-task inputs, but it did not reliably keep the robot still, and it failed to suppress the start on infeasible instructions.",
+    "url": "http://arxiv.org/abs/2610.41609v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41609v1",
+    "doi": "",
+    "authors": [
+      "Minsu Jang",
+      "Jae-Woo Choi",
+      "Youngwoo Yoon",
+      "Dohyung Kim"
+    ],
+    "published": "2026-10-30T11:45:50Z",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "peer_reviewed": false,
+    "key": "title:ad93bce36653e9405211",
+    "other_sources": [],
+    "score": 4.35,
+    "topics": [
+      "Dexterous manipulation and embodied AI",
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "A robot should act only on an instruction from a person or on an intent that the robot explicitly represents and generates. Unintended actions taken without such an instruction can cause risk or inconvenience to people and the environment.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/vla-policies-do-not-know-when-not-to-act-unintended-task-execution-and-star-ad93bce3.md"
+  },
+  {
+    "kind": "news",
+    "source": "CXO Digitalpulse",
+    "feed": "Robotics Industry News",
+    "title": "China’s Robotics Industry Shifts Focus from Humanoid Stunts to AI Intelligence - CXO Digitalpulse",
+    "abstract": "China’s Robotics Industry Shifts Focus from Humanoid Stunts to AI Intelligence CXO Digitalpulse",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdnZoVFNIVmhtMnU2NW85SDFGMnR1TVVZendERGVZRUJCbnl2ai1Yb3JOZGQxbnAwZC1maG9KUll0WEhpaGI0WGROcjlpWUM2TXFSS0ZSNVRWN1lGY0l4eE5XR0VjTHE5NmF1SWdRT1M4VU5CcmJyeHVxcHkyalZabm9nV2V6TUNxelROcldCMUlnR1VMWFdWdGYxNzZxTlJxSXhNaVNhc1owUy13U2dV?oc=5",
+    "authors": [],
+    "published": "Mon, 02 Nov 2026 06:22:58 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:a0ca01d2626a860e595f",
+    "other_sources": [],
+    "score": 4.25,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "China’s robotics industry is shifting its primary focus away from humanoid stunts and toward artificial intelligence capabilities. This strategic evolution highlights a new direction for technological development within the sector.",
+    "method": "Not specified in source",
+    "key_finding": "The robotics industry in China is redirecting its focus toward AI intelligence rather than humanoid stunts.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "It indicates a changing strategic direction for China's robotics industry toward advanced intelligence.",
+    "summary_mode": "gemini_from_rss",
+    "note_path": "storage/notes/news/china-s-robotics-industry-shifts-focus-from-humanoid-stunts-to-ai-intellige-a0ca01d2.md"
+  },
+  {
+    "kind": "news",
+    "source": "Seoul Economic Daily",
+    "feed": "Asia-Pacific Robotics and AI",
+    "title": "Aidin Robotics to Launch Second-Generation Robot Hand This Year - Seoul Economic Daily",
+    "abstract": "Aidin Robotics to Launch Second-Generation Robot Hand This Year Seoul Economic Daily",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaU1scjJQMWRuZUV0ZHVaZnJiWG15QmVfRC1QbTRpSTVNMTVHdHJqSVpkLWFPSWM0dEJQOVc4VXljZW05QjB2TDZOMUJSaXBRb3Q4bU5QUzc5VXEwanVaTjFlaGNpeEswOC1RU0hKVGZ3WkZSV2ljZkRlQnk0bFYyRkFFWGR4Si1SbHNwNTg3NFV3d0MzRTVLcHhDWTlGcEVZQ3c?oc=5",
+    "authors": [],
+    "published": "Mon, 02 Nov 2026 01:00:05 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:c590fb7a267a9de95de9",
+    "other_sources": [],
+    "score": 4.25,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Seoul Economic Daily reports that Aidin Robotics plans to release its second-generation robot hand within the current year. The publication provides this announcement regarding the upcoming product launch without detailing further technical specifics.",
+    "method": "Not specified in source",
+    "key_finding": "Aidin Robotics intends to launch a second-generation robot hand this year.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "It indicates an upcoming product development by Aidin Robotics in the field of robotics.",
+    "summary_mode": "gemini_from_rss",
+    "note_path": "storage/notes/news/aidin-robotics-to-launch-second-generation-robot-hand-this-year-seoul-econo-c590fb7a.md"
+  },
+  {
+    "kind": "news",
+    "source": "Reuters",
+    "feed": "Robotics Industry News",
+    "title": "China's robot makers have mastered the moves. Now comes the race for brains - Reuters",
+    "abstract": "China's robot makers have mastered the moves. Now comes the race for brains Reuters",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYmlUM050M0RzRW9uN2VCN1k4cFZFM1VrVjBnQU0ycHo0U3JLUExLOE9CNUlnS29IMGd5U2oweXE3Y0lTakNLQmgwYlNBU3VsdzJCa2h2MFV2SnVSckVlcnRQMnp4V2FGNVVUTTF3WjJJa1BlaHR3M3c2XzJkU3pDeGl2OGdxWllMOWtZR044d18tZFFWYjlDbEJuOEJCajhENEJHRG50aWdLcTk4S3c?oc=5",
+    "authors": [],
+    "published": "Sun, 01 Nov 2026 23:08:00 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:bbd845efb70b8efe4cef",
+    "other_sources": [
+      {
+        "source": "朝日新聞",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pa0RLdjVHdTdVUW5aSGpZcVN1MlFtVDM3SldkcXBfTGlGQjU4QkI0Umg0QWVtbkpYNUpfbkE5eVVvTmtWVW9aNHFRNXgteVNMNURtVDN3?oc=5"
+      }
+    ],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Chinese robotics manufacturers have successfully developed physical movement capabilities for their machines. The current focus has now shifted toward advancing the cognitive functions and intelligence of these robots.",
+    "method": "Not specified in source",
+    "key_finding": "Chinese robot makers have mastered movement and are now competing to develop advanced cognitive systems.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "It highlights the evolving competitive landscape in China's robotics industry from hardware mastery to software intelligence.",
+    "summary_mode": "gemini_from_rss",
+    "note_path": "storage/notes/news/china-s-robot-makers-have-mastered-the-moves-now-comes-the-race-for-brains-bbd845ef.md"
+  },
+  {
+    "kind": "news",
+    "source": "Asia Business Outlook",
+    "feed": "AI World News",
+    "title": "UBTech Launches AI Simulation Platform to Advance Robot Training - Asia Business Outlook",
+    "abstract": "UBTech Launches AI Simulation Platform to Advance Robot Training Asia Business Outlook",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcFFGT1AwbzhVWmF5RVlKUzBna2VXSVZ0VVZzMGh5QS1RQktjQTJjWG80QWEtdTNMdFBLMHQ0Nk5qMzI3cU1QNWc1TmdCSm5HWEUwalNQM3AtX2hDcEdvZ0Ryd1ZPOVZTS3k5QV9vaGxnc0R2WmhEdmk2X3FfQ3V4aDdGZnk2NUVtbnhwWTV6Nm9tY2E5U2RPanVZdmZIRGRkQ2JmcnRQQWlsT3Rzb3hTOTZVV2pDZmljVHhfWDZ3?oc=5",
+    "authors": [],
+    "published": "Sun, 01 Nov 2026 21:58:04 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:ae2495454d98f1366500",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "UBTech Launches AI Simulation Platform to Advance Robot Training Asia Business Outlook",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/ubtech-launches-ai-simulation-platform-to-advance-robot-training-asia-busin-ae249545.md"
+  },
+  {
+    "kind": "news",
+    "source": "Seoul Economic Daily",
+    "feed": "Asia-Pacific Robotics and AI",
+    "title": "China's Matrix Robotics to Set Up R&D Center in Korea Next Year - Seoul Economic Daily",
+    "abstract": "China's Matrix Robotics to Set Up R&D Center in Korea Next Year Seoul Economic Daily",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUl85bElBV01jVUJTVk9EZ19BY2dpVm9mMHl6clhyd0Z5QVRySUZFSnU0bzA0Z0g5R215UG0waC1LR3dIT1VpWW82Qnp2Q1QxbHhXQ29kc1R2NUhmVXZsYmwta2VFOXhwVHU4LWJla1kwNXBiRExBU2hiZmE4ckIwUURFVmpndndFZE1YUGtubzI4TjFKQVdCcmwwV1JGcE1FV3VB?oc=5",
+    "authors": [],
+    "published": "Sun, 01 Nov 2026 08:05:15 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:9abc9f53aecf31ffe266",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "China's Matrix Robotics to Set Up R&D Center in Korea Next Year Seoul Economic Daily",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/china-s-matrix-robotics-to-set-up-r-d-center-in-korea-next-year-seoul-econo-9abc9f53.md"
+  },
+  {
+    "kind": "news",
+    "source": "FinancialContent",
+    "feed": "HRI and Robot Research",
+    "title": "The Technology Behind Unitree’s Robot Sports Demos at WPAI 2026: CHINGMU’s Motion Capture - FinancialContent",
+    "abstract": "The Technology Behind Unitree’s Robot Sports Demos at WPAI 2026: CHINGMU’s Motion Capture FinancialContent",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRGxzSEdVOURFNDg2QmJ1XzZQWDlsV0pXa1l2Vkc0SFR2R2djblFiUFhna3c4Z3EzTVdPTU0wd05UVndSUGUxRW9Md2lrXzJPcmxmeWNfUzZRRHloR3lNb3pBc3N6MHpnSmdqRnRGZjFsbXFOSldzaG81SzlYbGV3dE1CeGRQOXkwRlpnbGxWSzQwRERTeklRd1EyUTBRSnRwT0ZoNXVFbkt6b0ctbUFfaHg2ZjRxd1ZldHJBbWRBS2FWN0UtMmpwSERHYlZ5N3RDY3pvMW8wMnBvQVcyeXc?oc=5",
+    "authors": [],
+    "published": "Sun, 01 Nov 2026 05:30:00 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:50f9516fe11908547e99",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "The Technology Behind Unitree’s Robot Sports Demos at WPAI 2026: CHINGMU’s Motion Capture FinancialContent",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/the-technology-behind-unitree-s-robot-sports-demos-at-wpai-2026-chingmu-s-m-50f9516f.md"
+  },
+  {
+    "kind": "news",
+    "source": "DQ",
+    "feed": "HRI and Robot Research",
+    "title": "KRAFTON takes AI research into socially intelligent robotics - DQ",
+    "abstract": "KRAFTON takes AI research into socially intelligent robotics DQ",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNmprOHZyZ256UzJIWkRvMEtUdVZjS2JYMy1JOVZiczJVZjUybFFlY3RFQjRac1hORzRjc1pmOGNqV2ZuSGQ4eTkwanM5MlpwREdabXNvTzR4NXBTVmJOZ1U2cDJ2NkVqQWxBblRBS3lnNnhZVlJoT2QzT2dFTkVWU0NxczhLUlZHR0psRm1zMGg4LXA5ejdz0gGXAUFVX3lxTFA2ams4dnJnbnpTMkhaRG8wS1R1VmNLYlgzLUk5VmJzMlVmNTJsUWVjdEVCNFpzWE5HNGNzWmY4Y2pXZm5IZDh5OTBqczkyWnBER1ptc29PNHg1cFNWYk5nVTZwMnY2RWpBbEFuVEFLeWc2eFlWUmhPZDNPZ0VORVZTQ3FzOEtSVkdHSmxGbXMwaDgtcDl6N3M?oc=5",
+    "authors": [],
+    "published": "Mon, 02 Nov 2026 10:17:08 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:378e842805ef14c58bed",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "KRAFTON takes AI research into socially intelligent robotics DQ",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/krafton-takes-ai-research-into-socially-intelligent-robotics-dq-378e8428.md"
+  },
+  {
+    "kind": "news",
+    "source": "Catering Insight",
+    "feed": "Europe Robotics and AI",
+    "title": "Hospitality robotics firm opens European HQ - Catering Insight",
+    "abstract": "Hospitality robotics firm opens European HQ Catering Insight",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMTMzamFXQkhITEV5aXMwc0NFT2hzUVlEUVhJOGs3M1RZUDk3UTVwY1o2SDRCQzl0YUVlMy1KOFlKTDZQN0VBelpRTTVBZE1feHQ1c2NDdUcySUp0bURsZWdWeXFzYXd4WkNjRUFVdTRBWHo2blFtTnV0THhzY3ZhY1ZB?oc=5",
+    "authors": [],
+    "published": "Mon, 02 Nov 2026 09:14:27 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:532d4906024fb664bb63",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Hospitality robotics firm opens European HQ Catering Insight",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/hospitality-robotics-firm-opens-european-hq-catering-insight-532d4906.md"
+  },
+  {
+    "kind": "news",
+    "source": "South China Morning Post",
+    "feed": "Asia-Pacific Robotics and AI",
+    "title": "Robot athletes outrun human referees in China mountain climbing race - South China Morning Post",
+    "abstract": "Robot athletes outrun human referees in China mountain climbing race South China Morning Post",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOHBLLWJqdXlOWGVoMkVmMFBxanVnRHJVY295a2h5Q0RUbFlVeC1ZOEQycE03NnMydGdhTFFBdXlIbGdkZGl5US13MlBiVkdRLUxKQmNlaU5xNVdUdDBIZGRwY2RWTWR3STE2Rl9ZZmh5ejNEUnVZWlZsMmhtV2U4cDU4N0QyMWc0aDkyVXg3SHhOUVVIQjJLU1hZY2IyMzNkdjJWdE1lbmZEZw?oc=5",
+    "authors": [],
+    "published": "Mon, 02 Nov 2026 06:46:53 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:489df7b390ff83c72794",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Robot athletes outrun human referees in China mountain climbing race South China Morning Post",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/robot-athletes-outrun-human-referees-in-china-mountain-climbing-race-south-489df7b3.md"
+  },
+  {
+    "kind": "news",
+    "source": "조선일보",
+    "feed": "HRI and Robot Research",
+    "title": "Telecom Companies Expand Into Robot 'Brain' Development - 조선일보",
+    "abstract": "Telecom Companies Expand Into Robot 'Brain' Development 조선일보",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTm83dEYyYk5ITml1Rl9INTZOSHBTS1hDQVkzWFZ3QWp2LXBRaDRMcldzd0FKZk1hNW9vcjdDQUI0VDVtZVFxOHpDRWh0Nm9mbWE5Q1c5aS1ta2pQRDJTUmdQMVA3Q21FMkJDbGdxSGZjRGtzcEtSTnVHOHNEZWdaeFZNVVdDVU42?oc=5",
+    "authors": [],
+    "published": "Mon, 02 Nov 2026 06:17:24 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:06177bab62f688bc9142",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Telecom Companies Expand Into Robot 'Brain' Development 조선일보",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/telecom-companies-expand-into-robot-brain-development-06177bab.md"
+  },
+  {
+    "kind": "news",
+    "source": "Vietnam.vn",
+    "feed": "Robotics Industry News",
+    "title": "Prospects for strategic cooperation between Vietnam and Italy in the field of robotics. - Vietnam.vn",
+    "abstract": "Prospects for strategic cooperation between Vietnam and Italy in the field of robotics. Vietnam.vn",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdDRYR1k3ZmdSX0hJWG83aGZGSGZoNVVoNW94MWNCdkhrRkxUUzExdFltZDQxeUhLLTA1ZkEyZUJxSUYybGJ6Vm5pWVJrT1J1VVFieWxEeE1hYnRzWHJnMnpxcTQwR2pGUGlTT0d6QU1KeFFOS2J2SU91cVFPU0xMLUVtUE5QQlJhMlhTMnlpblZ2Vl9PNFE?oc=5",
+    "authors": [],
+    "published": "Mon, 02 Nov 2026 02:46:29 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:2371ed674ab690800e4d",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Prospects for strategic cooperation between Vietnam and Italy in the field of robotics. Vietnam.vn",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/prospects-for-strategic-cooperation-between-vietnam-and-italy-in-the-field-2371ed67.md"
+  },
+  {
+    "kind": "news",
+    "source": "Aju Press",
+    "feed": "Asia-Pacific Robotics and AI",
+    "title": "Aei Robot sounds China alarm after Robot World win - Aju Press",
+    "abstract": "Aei Robot sounds China alarm after Robot World win Aju Press",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB1dExPbzgxS0V3N0dyWHkwb09qblN2bUxVQU1LQXA4ZXVBa09EcFFrRnlQY2RWbEJhWHYtUkFMYk9WaWxiYkI1R291UW5KZWtLZHpfaHpmUdIBV0FVX3lxTFB1dExPbzgxS0V3N0dyWHkwb09qblN2bUxVQU1LQXA4ZXVBa09EcFFrRnlQY2RWbEJhWHYtUkFMYk9WaWxiYkI1R291UW5KZWtLZHpfaHpmUQ?oc=5",
+    "authors": [],
+    "published": "Mon, 02 Nov 2026 02:17:13 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:e0e44a4cdeab257cbc23",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Aei Robot sounds China alarm after Robot World win Aju Press",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/aei-robot-sounds-china-alarm-after-robot-world-win-aju-press-e0e44a4c.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "CausalXRL: Explainable Reinforcement Learning through Causal Graph Reasoning",
+    "abstract": "Reinforcement learning is a powerful paradigm for training autonomous agents and has achieved impressive performance in complex environments. However, this success often comes at the cost of interpretability, diminishing trust and complicating efforts to debug and improve agent behavior. To address these challenges, we introduce CausalXRL, a novel framework for explainable reinforcement learning (XRL). A key feature of CausalXRL is its use of causal graph reasoning, which provides transparent, structured, multi-level explanations of agent decision-making. We validate CausalXRL through comprehensive case studies and a two-part evaluation: (1) a quantitative analysis of explanation fidelity and causal-structure learning efficiency in benchmark RL environments, and (2) a qualitative expert study assessing explainability in the real-time strategy (RTS) benchmark MicroRTS. The quantitative results show that CausalXRL can provide faithful explanations while efficiently learning causal structures, and the qualitative expert study suggests that participants found CausalXRL useful for inspecting high-level RTS strategies.",
+    "url": "http://arxiv.org/abs/2610.42028v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.42028v1",
+    "doi": "",
+    "authors": [
+      "Yanming Zhang",
+      "Eric Papenhausen",
+      "Klaus Mueller"
+    ],
+    "published": "2026-10-30T16:55:46Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "peer_reviewed": false,
+    "key": "title:f7038ecedf590a37db1a",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "AI and machine learning",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Reinforcement learning is a powerful paradigm for training autonomous agents and has achieved impressive performance in complex environments. However, this success often comes at the cost of interpretability, diminishing trust and complicating efforts to debug and improve agent behavior.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/causalxrl-explainable-reinforcement-learning-through-causal-graph-reasoning-f7038ece.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "WorkIng: A Real-World and Synthetic Highway Work-Zone Benchmark Dataset for Autonomous Navigation",
+    "abstract": "Highway work zones are critical edge cases for autonomous vehicles (AVs), combining atypical geometries and jurisdiction-specific regulations that existing benchmarks fail to capture: real-world datasets lack 360° multi-modal, full-scene 3D work zone annotation, and no single recorded site can span the layouts and regulatory variants needed for generalizable models. We present WorkIng, a dual-domain benchmark and training resource. WorkIng-Highway provides a 360° multi-modal work zone benchmark with synchronized 128-channel LiDAR, six RGB cameras, and RTK-GPS across 32 km, yielding 12,000+ annotated frames and 227,399 tracked 3D bounding boxes. WorkIng-CARLA complements this with procedural simulation spanning 24 regulation-aware scenarios across six canonical topologies and six international traffic standards, populated by 100+ custom 3D assets. Benchmarking representative 3D detection and end-to-end planning architectures shows that real-world data remains the primary performance driver, and that scenario-stratified synthetic augmentation improves architectures across 2D recognition, 3D detection, and trajectory planning. Resources: https://github.com/cvims/WorkIng",
+    "url": "http://arxiv.org/abs/2610.41772v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41772v1",
+    "doi": "",
+    "authors": [
+      "Xujun Xie",
+      "Dominik Rößle",
+      "Adithya Mohan",
+      "Daniel Cremers",
+      "Torsten Schön"
+    ],
+    "published": "2026-10-30T14:11:34Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "peer_reviewed": false,
+    "key": "title:7ba7da7647beb80fe0b9",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Highway work zones are critical edge cases for autonomous vehicles (AVs), combining atypical geometries and jurisdiction-specific regulations that existing benchmarks fail to capture: real-world datasets lack 360° multi-modal, full-scene 3D work zone annotation, and no single recorded site can span the layouts and regulatory variants needed for generalizable models. We present WorkIng, a dual-domain benchmark and training resource.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/working-a-real-world-and-synthetic-highway-work-zone-benchmark-dataset-for-7ba7da76.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "When the Past Shapes Action: Understanding Embodied Memory",
+    "abstract": "Recent advances in generative foundation models have expanded the capabilities of embodied AI, enabling increasingly general navigation, manipulation, and long-horizon task execution. However, effective interaction with dynamic environments requires more than only strong perception and reasoning: agents must act with partial knowledge and retain, retrieve, and update information from past observations, actions, and experiences. This survey examines embodied memory as a mechanism for preserving decision-relevant information beyond the current observation. We organize existing approaches along two complementary dimensions: six fundamental memory requirements, spanning world-state persistence, task progress, belief maintenance, and experiential learning; and eight architectural categories, including recurrent states, fast weights, visual and symbolic representations, spatial memory, and experience-based systems. We analyze their capabilities and limitations, and examine how existing benchmarks evaluate memory-dependent behavior, distinguishing genuine use of historical information from general task performance. Finally, we identify open challenges in selecting relevant experiences, maintaining consistent beliefs in changing environments, and consolidating knowledge across episodes. Our analysis provides a framework for understanding memory as an essential component of reliable, adaptive, and lifelong-horizon embodied intelligence.",
+    "url": "http://arxiv.org/abs/2610.41688v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41688v1",
+    "doi": "",
+    "authors": [
+      "Siqi Li",
+      "Ziyi Bai",
+      "Xinrun Xu",
+      "Tinglei Huang",
+      "Börje F. Karlsson"
+    ],
+    "published": "2026-10-30T12:52:37Z",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "peer_reviewed": false,
+    "key": "title:42ecef86994722eb6ecd",
+    "other_sources": [],
+    "score": 3.9,
+    "topics": [
+      "Dexterous manipulation and embodied AI",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Recent advances in generative foundation models have expanded the capabilities of embodied AI, enabling increasingly general navigation, manipulation, and long-horizon task execution. However, effective interaction with dynamic environments requires more than only strong perception and reasoning: agents must act with partial knowledge and retain, retrieve, and update information from past observations, actions, and experiences.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/when-the-past-shapes-action-understanding-embodied-memory-42ecef86.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "TwinPast: Benchmarking Historical Evidence Use in Streaming Video Understanding with Evidence Contrastive Video Pairs",
+    "abstract": "High accuracy on streaming video benchmarks does not establish whether a model uses visual history. Our review of OVO-Bench and StreamingBench finds that recent frames suffice for 32% of sampled historical questions, while models also answer many questions correctly from the question and options alone. We introduce TwinPast to test whether answers correctly follow changes in history, using 350 human-reviewed video pairs spanning five historical tasks. Each pair holds the recent video context, question, and ordered options fixed while changing critical historical evidence and the correct answer. Each video is evaluated independently, and PairAcc requires correct answers for both histories. We evaluate 34 model and input configurations. For Qwen3-VL-8B and DeepSeek-Flash, historical inputs improve performance on TwinPast, reversing the recent-frame advantage on existing benchmarks. The strongest evaluated streaming system reaches 49.14% PairAcc, compared with 66.57-91.43% for the evaluated general-purpose models. This gap persists across all five tasks. Case studies further show that models select states from the wrong time or contradict recorded event order despite retaining the relevant evidence. These findings highlight the need to connect historical memory and retrieval with reasoning that uses evidence according to the question's temporal references and event relations.",
+    "url": "http://arxiv.org/abs/2610.41983v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41983v1",
+    "doi": "",
+    "authors": [
+      "Haotian Yang",
+      "Yong Chen",
+      "Cheng Peng",
+      "Haobo Wang",
+      "Zhongle Xie",
+      "Xuanru Li",
+      "Gang Chen"
+    ],
+    "published": "2026-10-30T16:31:23Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "peer_reviewed": false,
+    "key": "title:f7741855c0192be4abf5",
+    "other_sources": [],
+    "score": 3.7,
+    "topics": [
+      "Computer vision and 3D perception",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "High accuracy on streaming video benchmarks does not establish whether a model uses visual history. Our review of OVO-Bench and StreamingBench finds that recent frames suffice for 32% of sampled historical questions, while models also answer many questions correctly from the question and options alone.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/twinpast-benchmarking-historical-evidence-use-in-streaming-video-understand-f7741855.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Hierarchical World Models with Implicit Dynamics",
+    "abstract": "Planning with world models enables test-time adaptation for embodied agents, offering superior generalization over direct policy learning. However, long-horizon tasks remain hindered by cumulative errors and search complexity. Existing hierarchical methods often use rigid macro-actions or latent skills, leading to brittle representations and limited fine-grained control. We introduce ID-WM (Implicit Dynamics World Models), a hierarchical world model that decouples state-space reachability from local control. Our framework utilizes a high-level model to sample feasible transitions across the state manifold and a low-level world model as an inverse dynamics solver to ground these transitions into precise actions. This allows the planner to identify reachable subgoals without being constrained by low-level execution details. By prioritizing local physical feasibility over global behavioral patterns, ID-WM synthesizes novel long-horizon plans from short segments, transcending the specific behavioral modes seen during training. We demonstrate its effectiveness across three navigation and manipulation suites, achieving a 38.5% improvement over state-of-the-art policy and diffusion-based planners. Crucially, by leveraging this hierarchical structure to mitigate compounding errors, our approach yields a 135% performance gain over single-level world model MPC, particularly in complex, unseen configurations for long-horizon tasks. Videos can be viewed at https://id-wm.github.io",
+    "url": "http://arxiv.org/abs/2610.42146v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.42146v1",
+    "doi": "",
+    "authors": [
+      "Gaoyue Zhou",
+      "Yvonne Wu",
+      "Zichen Jeff Cui",
+      "Nicolas Ballas",
+      "Mido Assran",
+      "Lerrel Pinto",
+      "Yann LeCun"
+    ],
+    "published": "2026-10-30T17:59:25Z",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "peer_reviewed": false,
+    "key": "title:799d90a7df27e543733f",
+    "other_sources": [
+      {
+        "source": "arXiv",
+        "url": "http://arxiv.org/abs/2610.42146v1"
+      }
+    ],
+    "score": 3.65,
+    "topics": [
+      "Dexterous manipulation and embodied AI",
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Planning with world models enables test-time adaptation for embodied agents, offering superior generalization over direct policy learning. However, long-horizon tasks remain hindered by cumulative errors and search complexity.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/hierarchical-world-models-with-implicit-dynamics-799d90a7.md"
+  },
+  {
+    "kind": "paper",
+    "source": "OpenAlex",
+    "title": "Foundations of Reinforcement Learning and Control: Connections and New Perspectives",
+    "abstract": "Reinforcement learning and control theory are two adjacent scientific fields that focus on optimizing the controller of unknown dynamical systems using feedback. While both fields have common roots in dynamic programming, they have evolved with distinct methodologies, goals, and cultures. Despite decades of mutual influence, a significant gap persists between the two communities. This tutorial introduces adaptive control, actor-critic reinforcement algorithms, and a new way to combine these two paradigms for data-driven decision making on a classical locomotion control problem. Our aim is to provide a foundation for understanding the core differences between the two approaches and insights to help experts in each field better understand and engage with the tools and approaches of the other.",
+    "url": "https://doi.org/10.1287/educ.2026.0310",
+    "pdf_url": "",
+    "doi": "https://doi.org/10.1287/educ.2026.0310",
+    "authors": [
+      "Claire Vernade",
+      "Onno Eberhard",
+      "Martha White",
+      "Florian Dörfler",
+      "Csaba Szepesvári",
+      "Miroslav Krstic",
+      "Michael Muehlebach"
+    ],
+    "published": "2026-11-01",
+    "categories": [],
+    "peer_reviewed": null,
+    "publication_type": "book-chapter",
+    "key": "doi:10.1287/educ.2026.0310",
+    "other_sources": [
+      {
+        "source": "OpenAlex",
+        "url": "https://doi.org/10.1287/educ.2026.0310"
+      }
+    ],
+    "score": 3.4,
+    "topics": [
+      "Robotics and autonomy",
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Reinforcement learning and control theory are two adjacent scientific fields that focus on optimizing the controller of unknown dynamical systems using feedback. While both fields have common roots in dynamic programming, they have evolved with distinct methodologies, goals, and cultures.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/foundations-of-reinforcement-learning-and-control-connections-and-new-persp-10.1287/.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control",
+    "abstract": "Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize. While pairing a deliberative brain (foundation models) with a reactive cerebellum (fast policies) seems natural for embodied systems, two obstacles remain: methods are built and scored on incompatible stacks, and their asynchronous coordination is difficult. For example, an agent that calls the VLA in the agentic loop can stall the fast execution, while a VLA that calls the agent on errors tends to re-trigger fallbacks repeatedly or completely miss silent failures. To address this, we propose REA (Routed Embodied Agent), a unified runtime where a deliberative System 2, an embodied router System 1 and reactive System 0 policies cooperate under a single golden rule - no running policy waits on the brain. Instead of querying the brain at each failure, REA employs a route memory that stores each policy's measured success ahead of time, a boundary-triggered judge gate that consults the brain on policy execution, and a shared-budget escalation ladder for bounded recovery. Evaluated on 3,000 test episodes across 60 LIBERO-Pro tasks, REA reaches 95.9% success and beats the best single-agent baseline in its own policy pool (94.7%) while reducing control steps by 25% and control time by 17%. In a separate 100-episode RoboTwin 2.0 study, REA achieves 84% success with VLA policies and 86% with VLA+code, compared with 80% for the strongest single VLA baseline MEDex. These results demonstrate learned and programmatic policies operating within the same runtime. REA also transfers to BEHAVIOR-1K and a real Unitree G1 humanoid, achieving the highest observed success among the compared methods.",
+    "url": "http://arxiv.org/abs/2610.42053v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.42053v1",
+    "doi": "",
+    "authors": [
+      "Pengfei Zhou",
+      "Yixing Ma",
+      "Zhengfeiyang Zhang",
+      "Haoyuan Chen",
+      "Zhenglin Wan",
+      "Hexin Wang",
+      "Wangbo Zhao",
+      "Yang You"
+    ],
+    "published": "2026-10-30T17:18:13Z",
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "peer_reviewed": false,
+    "key": "title:3b6a847020ec33986e8b",
+    "other_sources": [
+      {
+        "source": "arXiv",
+        "url": "http://arxiv.org/abs/2610.42053v1"
+      }
+    ],
+    "score": 3.3,
+    "topics": [
+      "Robotics and autonomy",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/rea-a-routed-embodied-agent-runtime-for-asynchronous-brain-cerebellum-contr-3b6a8470.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "A Self-Supervised Pose Estimation Approach for Construction Machines",
+    "abstract": "Pose estimation is a computer vision task used to estimate a skeleton of dynamic systems to predict future movements. Most of the research in this direction is based on a supervised learning approach which requires a massive amount of labeled datasets. In this paper, a self-supervised three-stage model based on a contrastive learning approach is introduced for estimating a skeleton of dynamic construction machines; such as excavators without using any labeled images for the first stage. The whole model structure is divided into three stages: the pre-train stage using the SimCLR contrastive approach, and two fine-tuning stages for the transfer learning and the downstream task. The model can leverage the features and learn from a huge unlabeled dataset called ACID to two small datasets generated from NVIDIA Isaac and MATLAB Simscape simulators as well as transfer the knowledge to a smaller dataset with a ratio of 3.5% from the original ACID dataset. The results show that the proposed approach can improve the accuracy of pose estimation for heavy construction machines in real images by 11% and 13% in comparison to the normal self-supervised approach with two backbones ResNet-50 and HRNet-W32, respectively.",
+    "url": "http://arxiv.org/abs/2610.41673v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41673v1",
+    "doi": "",
+    "authors": [
+      "Alaa Alshubbak",
+      "Daniel Görges"
+    ],
+    "published": "2026-10-30T12:41:01Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "peer_reviewed": false,
+    "key": "title:edaff8351d57b20cd7a3",
+    "other_sources": [],
+    "score": 3.25,
+    "topics": [
+      "Computer vision and 3D perception"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Pose estimation is a computer vision task used to estimate a skeleton of dynamic systems to predict future movements. Most of the research in this direction is based on a supervised learning approach which requires a massive amount of labeled datasets.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/a-self-supervised-pose-estimation-approach-for-construction-machines-edaff835.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Adaptive Coverage Algorithms for Mobile Ad Hoc Networks in Dynamic Worlds",
+    "abstract": "This paper extends an existing framework for the coordination of mobile agents in unknown worlds, by considering the possibility of dynamic instability. In the original problem, known as the Partially Observable Cooperative Guard Art Gallery Problem (POCGAGP) (arXiv:2512.09495), the multi-agent system must establish a communication network which completely covers an initially unknown constrained space. However, the POCGAGP fails to account for the unpredictability often seen in real-world deployment. To address this, the dynamic case (DPOCGAGP) introduces two settings which can influence the mobile network during deployment: Agent Loss and World Change, which represent dynamic changes to the world. Within this study, we present advancements to two state-of-the-art algorithms, the Centralized Agent-Directed Exploration for Network Coverage (CADENCE), and its decentralized analogue, DADENCE, to provide solutions in these cases. We then compare their performance against another state-of-the-art benchmark algorithm, and show that the adapted algorithms outperform across our benchmark test set, which comprises over 4500 test cases of varied size and structure.",
+    "url": "http://arxiv.org/abs/2610.41936v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41936v1",
+    "doi": "",
+    "authors": [
+      "Hugo Gandhi",
+      "Edwin Meriaux",
+      "Antonio Loría"
+    ],
+    "published": "2026-10-30T15:57:29Z",
+    "categories": [
+      "cs.RO",
+      "cs.MA"
+    ],
+    "peer_reviewed": false,
+    "key": "title:4d6a77bbb24146dc14a0",
+    "other_sources": [],
+    "score": 3.2,
+    "topics": [
+      "Swarm and multi-agent robotics"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "This paper extends an existing framework for the coordination of mobile agents in unknown worlds, by considering the possibility of dynamic instability. In the original problem, known as the Partially Observable Cooperative Guard Art Gallery Problem (POCGAGP) (arXiv:2512.09495), the multi-agent system must establish a communication network which completely covers an initially unknown constrained space.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/adaptive-coverage-algorithms-for-mobile-ad-hoc-networks-in-dynamic-worlds-4d6a77bb.md"
+  },
+  {
+    "kind": "news",
+    "source": "The Robot Report",
+    "feed": "The Robot Report",
+    "title": "Why physical AI is the next lucrative frontier",
+    "abstract": "To prove its commercial value, physical AI must get past funding enthusiasm and move into production environments. The post Why physical AI is the next lucrative frontier appeared first on The Robot Report .",
+    "url": "https://www.therobotreport.com/why-physical-ai-next-lucrative-frontier",
+    "authors": [],
+    "published": "Sun, 01 Nov 2026 13:30:41 +0000",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:d8f95a32bd6cfc5d20c7",
+    "other_sources": [],
+    "score": 2.2,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "To prove its commercial value, physical AI must get past funding enthusiasm and move into production environments. The post Why physical AI is the next lucrative frontier appeared first on The Robot Report .",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/why-physical-ai-is-the-next-lucrative-frontier-d8f95a32.md"
+  },
+  {
+    "kind": "news",
+    "source": "wtwcfox",
+    "feed": "AI World News",
+    "title": "Fact Check Team: Artificial intelligence places millions of American jobs at high risk - wtwcfox",
+    "abstract": "Fact Check Team: Artificial intelligence places millions of American jobs at high risk wtwcfox",
+    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxONE5pdnVFRmhpV3ZqTUh2V3hhbHgxWkdVWnoxRFNWd295dWJNTzFEcllIWUtOazFKdm0teERLbTRUeWhVcFZrMFdtQzhZQlNSVDVsamNrT3NCRVpGMk05eDMzSndMMXpJUWZaUEdIdC05c2tVbHZBSUthOFhuRGdQTEdRWEZUb3FocjZuN0VTWE5BTS1neUtiSTJnMDU1bzBXVVdGVXNfNHpETWhkeHN2bndoRFNFMjVtSjEtVjFFYlhIcWRlZklidEdHR21YdVR6dDg5bndnM0YxZEZxX0RHempDNlJzSkx6NzBXVjFHZy1hSlk?oc=5",
+    "authors": [],
+    "published": "Sun, 01 Nov 2026 18:51:26 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:ecd5232ab491fae55caa",
+    "other_sources": [],
+    "score": 2.0,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-02",
+    "summary": "Fact Check Team: Artificial intelligence places millions of American jobs at high risk wtwcfox",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/fact-check-team-artificial-intelligence-places-millions-of-american-jobs-at-ecd5232a.md"
   }
 ]
