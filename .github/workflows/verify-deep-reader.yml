@@ -6,6 +6,9 @@ on:
     paths:
       - 'radar/deep_read.py'
       - 'tests/test_deep_reader.py'
+      - 'radar/guard.py'
+      - 'radar/deliver.py'
+      - 'tests/test_daily_reliability.py'
       - '.github/workflows/verify-deep-reader.yml'
   workflow_dispatch:
 
