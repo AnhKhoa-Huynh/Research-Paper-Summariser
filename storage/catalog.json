@@ -26926,5 +26926,792 @@
     "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
     "summary_mode": "source_excerpt",
     "note_path": "storage/notes/paper/a-class-of-bayesian-conjugate-distributions-on-se-n-3-for-motion-estimation-499d0831.md"
+  },
+  {
+    "kind": "paper",
+    "source": "OpenAlex",
+    "title": "User Understanding of Robot Learning Evaluations through Task Success Rates and Beyond",
+    "abstract": "Robot Foundation Models (RFMs) and related robot learning techniques represent a promising approach to developing general-purpose home robots. Given the broad capabilities of RFMs, users will inevitably ask an RFM-based robot to perform tasks that the RFM was not trained or evaluated on. In these cases, it is crucial that users understand the risks associated with attempting novel tasks due to the relatively high cost of failure. Furthermore, an informed user who understands an RFM’s capabilities will know what situations and tasks the robot can handle. In this paper, we study how non-experts interpret performance information from RFM and similar robot learning evaluations. These evaluations typically report task success rate (TSR) as the primary performance metric. While TSR is intuitive to experts, it is necessary to validate whether novices also use this information as intended. Toward this end, we conducted a study in which users saw real evaluation data, including TSR, failure case descriptions, and videos from multiple published robot learning projects. The results highlight that non-experts use TSR in a manner consistent with expert expectations and highly value other information types, such as failure cases that are not often reported in RFM evaluations. Furthermore, we find that users want access to both real data from previous evaluations of the RFM and estimates from the robot about how well it will do on a novel task.",
+    "url": "https://doi.org/10.1145/3841580.3841602",
+    "pdf_url": "",
+    "doi": "https://doi.org/10.1145/3841580.3841602",
+    "authors": [
+      "Isaac S. Sheidlower",
+      "Jindan Huang",
+      "James Staley",
+      "Bingyu Wu",
+      "Qicong Chen",
+      "Reuben M. Aronson",
+      "Elaine Schaertl Short"
+    ],
+    "published": "2026-11-13",
+    "categories": [],
+    "peer_reviewed": null,
+    "publication_type": "conference-paper",
+    "key": "doi:10.1145/3841580.3841602",
+    "other_sources": [
+      {
+        "source": "OpenAlex",
+        "url": "https://doi.org/10.1145/3841580.3841602"
+      }
+    ],
+    "score": 9.0,
+    "topics": [
+      "Dexterous manipulation and embodied AI",
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-15",
+    "summary": "This paper investigates how non-experts interpret performance evaluations of robot learning systems, specifically examining metrics like task success rates. The authors conducted a user study using real evaluation data, failure case descriptions, and videos to understand how novices assess robot capabilities and risks.",
+    "method": "A user study in which participants viewed real evaluation data, including task success rates, failure case descriptions, and videos from multiple published robot learning projects.",
+    "key_finding": "Non-experts use task success rates in a manner consistent with expert expectations, place high value on unreported failure cases, and desire access to both historical evaluation data and robot-generated performance estimates for novel tasks.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "Understanding how users interpret performance information is crucial for helping non-experts assess risks and capabilities when asking robot foundation models to perform novel tasks.",
+    "summary_mode": "gemini_from_abstract",
+    "note_path": "storage/notes/paper/user-understanding-of-robot-learning-evaluations-through-task-success-rates-10.1145/.md"
+  },
+  {
+    "kind": "paper",
+    "source": "OpenAlex",
+    "title": "Mastering Multi‐State Dynamics: Continuum Damage and Viscoplastic MPM for RL‐Based Dexterous Manipulation",
+    "abstract": "Abstract Robotic manipulation of multi‐state materials—cutting fruit, scooping ice cream, shoveling sand, splitting brittle solids—needs a simulator that handles large deformation, topology change, and two‐way tool–material contact while staying fast enough to drive online reinforcement learning. We present MG‐CD‐MPM , a tool‐centered localized extension of CD‐MPM [WFL*19] in which the implicit Ginzburg–Landau phase‐field damage system is solved on a local patch by preconditioned conjugate gradients using a geometric‐multigrid V‐cycle as the preconditioner. The background MPM discretization remains uniform: only the damage solve is localized. Two‐way rigid‐tool coupling converts MPM contact impulses into forces and torques on the tool, exposing material resistance directly to the policy. The resulting Gym‐like simulator covers soft solids, brittle materials, granular media, and viscoplastic or semi‐fluid media within a unified per‐particle constitutive layer, and we exercise it on six demonstrations: four cutting scenes spanning a soft‐to‐brittle stiffness/toughness spectrum (cut_jelly, cut_tofu, cut_wax, cut_peanut_brittle) plus scoop_icecream (viscoplastic) and shovel_sand (granular). We RL‐train PPO agents (optionally warm‐started from a behavior‐cloning prior) on cut_tofu and cut_peanut_brittle as the closed‐loop case studies; the remaining four demos exercise the same per‐particle constitutive layer under scripted control.",
+    "url": "https://doi.org/10.1111/cgf.70612",
+    "pdf_url": "",
+    "doi": "https://doi.org/10.1111/cgf.70612",
+    "authors": [
+      "Yusen Feng",
+      "Shangbo Luan"
+    ],
+    "published": "2026-11-13",
+    "categories": [],
+    "peer_reviewed": null,
+    "publication_type": "article",
+    "key": "doi:10.1111/cgf.70612",
+    "other_sources": [
+      {
+        "source": "OpenAlex",
+        "url": "https://doi.org/10.1111/cgf.70612"
+      }
+    ],
+    "score": 5.95,
+    "topics": [
+      "Dexterous manipulation and embodied AI",
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-15",
+    "summary": "The authors introduce MG-CD-MPM, a simulator designed to handle complex multi-state material dynamics and two-way tool-material contact for reinforcement learning. The system enables efficient modeling of soft solids, brittle materials, granular media, and viscoplastic substances within a unified framework.",
+    "method": "The method uses a tool-centered localized extension of CD-MPM where an implicit Ginzburg-Landau phase-field damage system is solved on a local patch via preconditioned conjugate gradients using a geometric-multigrid V-cycle preconditioner, combined with a uniform background MPM discretization and two-way rigid-tool coupling.",
+    "key_finding": "The simulator successfully supports six demonstrations spanning soft-to-brittle cutting scenes, viscoplastic scooping, and granular shoveling, and the authors RL-train PPO agents on tofu and peanut brittle cutting tasks.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "It provides a fast, unified simulator capable of handling large deformation, topology changes, and material resistance to drive online reinforcement learning for dexterous manipulation of multi-state materials.",
+    "summary_mode": "gemini_from_abstract",
+    "note_path": "storage/notes/paper/mastering-multi-state-dynamics-continuum-damage-and-viscoplastic-mpm-for-rl-10.1111/.md"
+  },
+  {
+    "kind": "paper",
+    "source": "OpenAlex",
+    "title": "Decomposed Object Manipulation via Dual-Actor Policy",
+    "abstract": "",
+    "url": "https://doi.org/10.1007/978-981-92-7204-4_41",
+    "pdf_url": "",
+    "doi": "https://doi.org/10.1007/978-981-92-7204-4_41",
+    "authors": [
+      "Bin Fan",
+      "Jian-Jian Jiang",
+      "Zhuohao Li",
+      "Xiao-Ming Wu",
+      "Yi-Xiang He",
+      "Yihan Yang",
+      "Shengbang Liu",
+      "Wei-Shi Zheng"
+    ],
+    "published": "2026-11-13",
+    "categories": [],
+    "peer_reviewed": null,
+    "publication_type": "conference-paper",
+    "key": "doi:10.1007/978-981-92-7204-4_41",
+    "other_sources": [],
+    "score": 5.0,
+    "topics": [
+      "Dexterous manipulation and embodied AI"
+    ],
+    "first_seen": "2026-11-15",
+    "summary": "No abstract/excerpt was supplied by this source; read the linked item.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "title_only",
+    "note_path": "storage/notes/paper/decomposed-object-manipulation-via-dual-actor-policy-10.1007/.md"
+  },
+  {
+    "kind": "paper",
+    "source": "OpenAlex",
+    "title": "AssemPlanner: a multi-agent based task planning framework for flexible assembly system",
+    "abstract": "",
+    "url": "https://doi.org/10.1007/s10845-026-03017-9",
+    "pdf_url": "",
+    "doi": "https://doi.org/10.1007/s10845-026-03017-9",
+    "authors": [
+      "Chenhao Zhang",
+      "Chaoran Zhang",
+      "Zhaobo Xu",
+      "Yongbo Yang",
+      "Pingfa Feng",
+      "Long Zeng"
+    ],
+    "published": "2026-11-13",
+    "categories": [],
+    "peer_reviewed": null,
+    "publication_type": "article",
+    "key": "doi:10.1007/s10845-026-03017-9",
+    "other_sources": [],
+    "score": 5.0,
+    "topics": [
+      "Swarm and multi-agent robotics"
+    ],
+    "first_seen": "2026-11-15",
+    "summary": "No abstract/excerpt was supplied by this source; read the linked item.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "title_only",
+    "note_path": "storage/notes/paper/assemplanner-a-multi-agent-based-task-planning-framework-for-flexible-assem-10.1007/.md"
+  },
+  {
+    "kind": "news",
+    "source": "OpenTools",
+    "feed": "Robotics Industry News",
+    "title": "OpenAI Disbands Robotics Team as General-Purpose Models Take Over - OpenTools",
+    "abstract": "OpenAI Disbands Robotics Team as General-Purpose Models Take Over OpenTools",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQWxQRXFlOEU0aVNDY0Z1dEt2VWYxYmt4enlFcnltWHYxUWR6SkNkNy1Oa2hEcFJJRmYxczhISWZDandYUWp5SE1rVXBUSHpXVUN1N1l2YldNNlU4X2tGYkJTcmxVbjZuTFhvbkl5ZmE1SlExWTVtTmlaODBVdTg3cWp3bWU?oc=5",
+    "authors": [],
+    "published": "Sun, 15 Nov 2026 08:26:23 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:f64edc308b469d815b87",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-15",
+    "summary": "OpenAI has dissolved its robotics division as the organization shifts its focus toward general-purpose models. This organizational change reflects a strategic pivot in the company's research and development priorities.",
+    "method": "Not specified in source",
+    "key_finding": "OpenAI has disbanded its robotics team because general-purpose models are taking over.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "It highlights a major strategic shift at OpenAI away from dedicated robotics and toward general-purpose models.",
+    "summary_mode": "gemini_from_rss",
+    "note_path": "storage/notes/news/openai-disbands-robotics-team-as-general-purpose-models-take-over-opentools-f64edc30.md"
+  },
+  {
+    "kind": "news",
+    "source": "eu.36kr.com",
+    "feed": "HRI and Robot Research",
+    "title": "OpenAI Robotics Team Sudden Disbandment: GPT-6 Astra Completely Upends the Entire Industry - eu.36kr.com",
+    "abstract": "OpenAI Robotics Team Sudden Disbandment: GPT-6 Astra Completely Upends the Entire Industry eu.36kr.com",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1sYVFxNXJWTlRyVkUwelIwZnBqenNFM2Q2X2F5b0JjcDhoRFdObEFyTjVzV3dvSmlvazR6UjEzR1Z4cGZ2cTFHTzMxOHM4aVJWUHpV?oc=5",
+    "authors": [],
+    "published": "Sun, 15 Nov 2026 06:25:05 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:02d482d80bfd34176a88",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-15",
+    "summary": "OpenAI Robotics Team Sudden Disbandment: GPT-6 Astra Completely Upends the Entire Industry eu.36kr.com",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/openai-robotics-team-sudden-disbandment-gpt-6-astra-completely-upends-the-e-02d482d8.md"
+  },
+  {
+    "kind": "news",
+    "source": "CASRAI",
+    "feed": "HRI and Robot Research",
+    "title": "Robust AI Carter Robot: Built to Work With People - CASRAI",
+    "abstract": "Robust AI Carter Robot: Built to Work With People CASRAI",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1JTW0tQzYzT3ZaeEIyR1JfYjJob3RVbFBBd01WMjM0ZTNXZWpmSWI1SVJVV1ozdVp5b1E2Nkc0clJOLVVpQ1Q5TnBOZXhSS21CYVQyZGlCMFJnNkpVVkNHVlhXZTBsMThRMldST3pHVjA5RDlGTXpIRg?oc=5",
+    "authors": [],
+    "published": "Sun, 15 Nov 2026 04:23:07 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:6a000a55ab228304ef9e",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-15",
+    "summary": "CASRAI published a report regarding the Robust AI Carter Robot, which is designed to collaborate with humans. The publication highlights the development of this robotic system.",
+    "method": "Not specified in source",
+    "key_finding": "The Robust AI Carter Robot is built to work with people.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "Not specified in source",
+    "summary_mode": "gemini_from_rss",
+    "note_path": "storage/notes/news/robust-ai-carter-robot-built-to-work-with-people-casrai-6a000a55.md"
+  },
+  {
+    "kind": "news",
+    "source": "재경일보",
+    "feed": "Asia-Pacific Robotics and AI",
+    "title": "Tesla highlights its identity as an AI and robotics company over EVs in China : Business/Industry : JKN - 재경일보",
+    "abstract": "Tesla highlights its identity as an AI and robotics company over EVs in China : Business/Industry : JKN 재경일보",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5KRkFXelJnZk9mdHc2bmIyTHhMYzUtUGpjREltTnBicGVJdVlMVmNwWjZCZFpKZXAzdlB5Y2pMa1NYbjhZc1I0UzJsZTIwTGJrMlhYd2lrNlVQelhVWDRZcUhR?oc=5",
+    "authors": [],
+    "published": "Sun, 15 Nov 2026 01:05:03 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:4da25b436dec2f1d6f15",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-15",
+    "summary": "Tesla emphasizes its identity as an artificial intelligence and robotics enterprise rather than strictly an electric vehicle manufacturer within the Chinese market. This corporate positioning highlights a strategic shift in how the company presents its core business focus to consumers and industries in China.",
+    "method": "Not specified in source",
+    "key_finding": "Tesla emphasizes its identity as an AI and robotics company over its electric vehicle business in China.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "It illustrates how Tesla is strategically marketing its brand and technological scope in a major global market.",
+    "summary_mode": "gemini_from_rss",
+    "note_path": "storage/notes/news/tesla-highlights-its-identity-as-an-ai-and-robotics-company-over-evs-in-chi-4da25b43.md"
+  },
+  {
+    "kind": "news",
+    "source": "Menafn",
+    "feed": "Asia-Pacific Robotics and AI",
+    "title": "Expoline Completes International Logistics Project For Humanoid Robots - Menafn",
+    "abstract": "Expoline Completes International Logistics Project For Humanoid Robots Menafn",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOFNwMC1mSGN4U0tTWkZEN19GVjc4d1c2dmxIMG9MYk5LRE1WbjBnWVgwTmdTSkhrU0MzZ2J2VkN2cU54cXAxSWxackFHUzZaS2ZIMUpveDdHQVA2aS1JMko0eHVud1dlV1ZTbG5vbjZEMkVZQjhCQW9RZEZydVE5YWZ5X2xGNUNTZjEwak03YXV6OHRyLXhveHRwaV81RWU3NXc?oc=5",
+    "authors": [],
+    "published": "Fri, 13 Nov 2026 16:08:26 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:4dad2b6cd6e848d367ed",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-15",
+    "summary": "Expoline Completes International Logistics Project For Humanoid Robots Menafn",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/expoline-completes-international-logistics-project-for-humanoid-robots-mena-4dad2b6c.md"
+  },
+  {
+    "kind": "paper",
+    "source": "OpenAlex",
+    "title": "Exploring frontline ambidexterity in robot restaurants: balancing efficiency, human touch and cultural variations",
+    "abstract": "Purpose This study sought to explore frontline ambidexterity dimensions in robot restaurants, theoretically grounded in the employee–robot–customer service triad and cross-cultural differences between Japan and the USA. Design/methodology/approach The study utilized a mixed-methods qualitative–quantitative observational methodology. It adopted a triangulated approach, comprising three main stages: (1) identification of frontline ambidexterity dimensions, (2) exploration of frontline ambidexterity emergent themes in Japanese and USA service triad and (3) analysis of cross-cultural quantitative patterns of frontline ambidexterity dimensions. Findings Via the multi-stage observational research design, the study identifies four distinct dimensions of frontline ambidexterity: parallel, facilitation, intervention and synergy. These dimensions demonstrate that frontline ambidexterity operates through multiple behavioral mechanisms through which employees balance robot-enabled efficiency and human touch within the service triad. The findings further demonstrate that ambidexterity manifests differently across Japan and USA cultural contexts, with statistically significant differences observed for parallel and synergy behaviors. Practical implications This research offers actionable insights for restaurant managers, HR professionals and service robot designers on how to tailor effective and culturally sensitive robot design, implementation strategies and training programs. Originality/value This study is the first to develop a multidimensional framework of frontline ambidexterity within the employee-robot-customer service triad. The cross-cultural comparison between Japan and the USA further offers a forward-looking perspective on how technological advancement reshapes triadic service dynamics as robotic services evolve from novelty (USA) toward normalization (Japan). Methodologically, this study is among the first to employ a mixed qualitative–quantitative observational approach to examine real-world employee–robot–customer interactions, thereby addressing limitations of prior perception-based studies that could not capture the robot as an active linkage in triadic service encounters.",
+    "url": "https://doi.org/10.1108/josm-11-2025-0577",
+    "pdf_url": "",
+    "doi": "https://doi.org/10.1108/josm-11-2025-0577",
+    "authors": [
+      "Hong Ngoc Nguyen",
+      "Valeriya Shapoval",
+      "Midori Yamazaki"
+    ],
+    "published": "2026-11-14",
+    "categories": [],
+    "peer_reviewed": null,
+    "publication_type": "article",
+    "key": "doi:10.1108/josm-11-2025-0577",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-15",
+    "summary": "This study investigates frontline ambidexterity dimensions within robot restaurants by applying the employee-robot-customer service triad and comparing cultural differences between Japan and the USA. Through a mixed-methods observational design, the research identifies four ambidexterity dimensions and highlights distinct cross-cultural variations.",
+    "method": "A mixed-methods qualitative-quantitative observational methodology utilizing a triangulated approach across three stages: identifying frontline ambidexterity dimensions, exploring emergent themes in Japanese and USA service triads, and analyzing cross-cultural quantitative patterns.",
+    "key_finding": "The authors claim to identify four dimensions of frontline ambidexterity (parallel, facilitation, intervention, and synergy) that balance efficiency and human touch, and they report statistically significant cultural differences between Japan and the USA for parallel and synergy behaviors.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "The authors state that this research provides a multidimensional framework of frontline ambidexterity and actionable insights for managers, HR professionals, and designers regarding culturally sensitive robot implementation.",
+    "summary_mode": "gemini_from_abstract",
+    "note_path": "storage/notes/paper/exploring-frontline-ambidexterity-in-robot-restaurants-balancing-efficiency-10.1108/.md"
+  },
+  {
+    "kind": "news",
+    "source": "Island.lk",
+    "feed": "Europe Robotics and AI",
+    "title": "Artificial intelligence and future battlefield: Lessons for Sri Lanka - Island.lk",
+    "abstract": "Artificial intelligence and future battlefield: Lessons for Sri Lanka Island.lk",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOODljOUdxYkdFN01vNlRjLV8xR0M0ZlFfMzVici1rYWdlN0wyenFvMUl0T2ptRm9xSHBSMWdPUjFjUjhQaUxNMzk5STMzbTczSjQ2X0h5SlQtei03QzFCSUxoa3V4REhPbEVEU2dRZ0xnSUIxc1l6cHJhd2h0bGJCLV83TlJRSExsUHdFTEFkM2E?oc=5",
+    "authors": [],
+    "published": "Sun, 15 Nov 2026 05:11:52 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:108eb12c75b05b620fa6",
+    "other_sources": [],
+    "score": 2.0,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-15",
+    "summary": "This news article from Island.lk discusses the integration of artificial intelligence into future battlefields and explores the implications and lessons for Sri Lanka. The publisher examines how emerging technology influences military strategy and defense considerations.",
+    "method": "Not specified in source",
+    "key_finding": "Not specified in source",
+    "limitations": "Not specified in source",
+    "why_it_matters": "It highlights the relevance of modern artificial intelligence developments to the defense and strategic planning of Sri Lanka.",
+    "summary_mode": "gemini_from_rss",
+    "note_path": "storage/notes/news/artificial-intelligence-and-future-battlefield-lessons-for-sri-lanka-island-108eb12c.md"
+  },
+  {
+    "kind": "paper",
+    "source": "OpenAlex",
+    "title": "MLP-Initialized Reinforcement Learning for Exit Timing in SPX Short-Straddle Portfolios",
+    "abstract": "This paper studies exit timing for SPX short-straddle portfolios using a two-stage supervised and reinforcement-learning framework. Historical episodes first generate ex-post optimal hold/exit labels for training a multilayer perceptron (MLP) using only contemporaneously available state variables at deployment. The trained MLP then initializes reinforcement-learning actors that are fine-tuned with a risk-aware trading reward. Out-of-sample evaluation over 2024-2026 shows that the supervised MLP substantially outperforms passive holding and representative fixed-time and profit-and-loss-based exit rules. Across seven independent seeds, MLP-initialized Actor-Critic averages 37.54% cumulative return and a Sharpe ratio of 1.705, compared with 35.01% and 1.651 for the supervised MLP. Actor-Critic trained from scratch averages only 0.18% return. These findings show that oracle-guided supervised learning provides a stable foundation for reward-based policy fine-tuning in a sparse and path-dependent option-exit problem.",
+    "url": "https://doi.org/10.1145/3858063.3858801",
+    "pdf_url": "",
+    "doi": "https://doi.org/10.1145/3858063.3858801",
+    "authors": [
+      "Jianning Wang",
+      "Robert Ślepaczuk",
+      "Paweł Sakowski"
+    ],
+    "published": "2026-11-13",
+    "categories": [],
+    "peer_reviewed": null,
+    "publication_type": "conference-paper",
+    "key": "doi:10.1145/3858063.3858801",
+    "other_sources": [],
+    "score": 2.0,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-15",
+    "summary": "This paper investigates exit timing strategies for SPX short-straddle portfolios using a combined supervised and reinforcement learning approach. The authors demonstrate that initializing reinforcement learning actors with a supervised multilayer perceptron improves out-of-sample trading performance compared to training from scratch or using traditional exit rules.",
+    "method": "A two-stage framework utilizing historical episodes to generate ex-post optimal hold or exit labels, which train a multilayer perceptron using contemporaneously available state variables, followed by reinforcement-learning actors fine-tuned with a risk-aware trading reward.",
+    "key_finding": "Out-of-sample evaluation over 2024-2026 shows that the MLP-initialized Actor-Critic achieves an average cumulative return of 37.54% and a Sharpe ratio of 1.705, outperforming the supervised MLP alone and Actor-Critic trained from scratch.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "The findings demonstrate that oracle-guided supervised learning offers a stable foundation for reward-based policy fine-tuning in sparse and path-dependent option-exit problems.",
+    "summary_mode": "gemini_from_abstract",
+    "note_path": "storage/notes/paper/mlp-initialized-reinforcement-learning-for-exit-timing-in-spx-short-straddl-10.1145/.md"
+  },
+  {
+    "kind": "paper",
+    "source": "OpenAlex",
+    "title": "An overview of machine learning-enhanced iterative methods for systems of linear and nonlinear equations",
+    "abstract": "",
+    "url": "https://doi.org/10.1007/s44379-026-00102-x",
+    "pdf_url": "",
+    "doi": "https://doi.org/10.1007/s44379-026-00102-x",
+    "authors": [
+      "Yuhuang Meng",
+      "Jing Zhao",
+      "Alexander Heinlein"
+    ],
+    "published": "2026-11-13",
+    "categories": [],
+    "peer_reviewed": null,
+    "publication_type": "article",
+    "key": "doi:10.1007/s44379-026-00102-x",
+    "other_sources": [],
+    "score": 2.0,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-15",
+    "summary": "No abstract/excerpt was supplied by this source; read the linked item.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "title_only",
+    "note_path": "storage/notes/paper/an-overview-of-machine-learning-enhanced-iterative-methods-for-systems-of-l-10.1007/.md"
+  },
+  {
+    "kind": "paper",
+    "source": "OpenAlex",
+    "title": "SpaRRTa: A Synthetic Benchmark for Evaluating Spatial Intelligence in Visual Foundation Models",
+    "abstract": "Abstract Visual Foundation Models (VFMs), such as DINO and CLIP, excel in semantic understanding of images but exhibit limited spatial reasoning capabilities, which limits their applicability to embodied systems. As a result, recent work has incorporated some 3D tasks (such as depth estimation) into VFM training. However, VFM performance remains inconsistent across other spatial tasks, raising the question of whether these models truly possess spatial awareness or overfit to specific 3D objectives. To address this question, we introduce the Spatial Relation Recognition Task (SpaRRTa) benchmark, which evaluates the ability of VFMs to identify static directional relations between visible objects. Unlike traditional 3D objectives that focus on precise metric prediction (e.g., surface normal estimation), SpaRRTa probes a fundamental capability underpinning more advanced forms of human-like spatial understanding. SpaRRTa generates an arbitrary number of photorealistic images with diverse scenes and fully controllable object arrangements, along with freely accessible spatial annotations. Evaluating a range of state-of-the-art VFMs, we reveal significant disparities in their ability to encode directional spatial relations. Through our analysis, we provide insights into the mechanisms that support or hinder this form of spatial awareness in modern VFMs. We hope that SpaRRTa will serve as a useful tool for guiding the development of future spatially aware visual models. Our project page can be found at https://sparrta.gmum.net/ .",
+    "url": "https://doi.org/10.1007/s11263-026-03112-7",
+    "pdf_url": "",
+    "doi": "https://doi.org/10.1007/s11263-026-03112-7",
+    "authors": [
+      "Turhan Can Kargin",
+      "Wojciech Jasiński",
+      "Adam Pardyl",
+      "Bartosz Zieliński",
+      "Marcin Przewięźlikowski"
+    ],
+    "published": "2026-11-13",
+    "categories": [],
+    "peer_reviewed": null,
+    "publication_type": "article",
+    "key": "doi:10.1007/s11263-026-03112-7",
+    "other_sources": [
+      {
+        "source": "OpenAlex",
+        "url": "https://doi.org/10.1007/s11263-026-03112-7"
+      },
+      {
+        "source": "OpenAlex",
+        "url": "https://doi.org/10.1007/s11263-026-03112-7"
+      }
+    ],
+    "score": 1.75,
+    "topics": [
+      "Computer vision and 3D perception",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-15",
+    "summary": "Abstract Visual Foundation Models (VFMs), such as DINO and CLIP, excel in semantic understanding of images but exhibit limited spatial reasoning capabilities, which limits their applicability to embodied systems. As a result, recent work has incorporated some 3D tasks (such as depth estimation) into VFM training.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/sparrta-a-synthetic-benchmark-for-evaluating-spatial-intelligence-in-visual-10.1007/.md"
+  },
+  {
+    "kind": "paper",
+    "source": "OpenAlex",
+    "title": "Benchmarking robots for everyday environments: from lab experiments to real-world operations",
+    "abstract": "This study presents an interdisciplinary process for benchmarking service robots in public everyday environments, addressing the gap between laboratory metrics and real-world operation at technology readiness levels 6–7. Three robots were evaluated in three use cases: outdoor park cleaning, pedestrian underpass cleaning, and interactive assistance in a public library. Over three years (2023–2025), seven benchmarking events (a consensus workshop and six on-site evaluations, two per use case) assessed the robots in increasingly realistic settings, from controlled conditions to public operation. An interdisciplinary panel of experts in robotics, human–robot interaction, safety, and economic viability consolidated use-case-specific metrics into a shared evaluation concept refined across three phases. Rather than ranking the robots, the evaluation examined how task fulfillment, interaction quality, safety, and economic viability interact in the transition from laboratory prototype to operational system. Direct quantitative comparability across the heterogeneous use cases remained limited, characteristic of benchmarking at this maturity level. The process yielded cross-case insights: increasing environmental realism introduces challenges that uniform metrics capture only in part; the interaction-quality guideline works best as a modular instrument adapted to each use case; safety was assessed by occupational-safety and product-certification experts who adapted industrial test procedures for public settings; and economic viability proved a cross-cutting dimension. We conclude that benchmarking at higher technology readiness levels is well served by a shared procedure for selecting and documenting metrics across these four categories, with safety as mandatory, rather than by a fixed set of metrics: generalizability lies in the procedure rather than in identical metrics.",
+    "url": "https://doi.org/10.3389/frobt.2026.1913018",
+    "pdf_url": "",
+    "doi": "https://doi.org/10.3389/frobt.2026.1913018",
+    "authors": [
+      "Raphael Memmesheimer",
+      "Martina Overbeck",
+      "Dominik Beyer",
+      "Björn Kral",
+      "Sabine Bellmann",
+      "Sven Schneider",
+      "Jan Zimmermann",
+      "Anna-Maria Meer",
+      "Medina Klicic",
+      "Simone Roth",
+      "Carolin Straßmann",
+      "Alexander Arntz"
+    ],
+    "published": "2026-11-13",
+    "categories": [],
+    "peer_reviewed": null,
+    "publication_type": "article",
+    "key": "doi:10.3389/frobt.2026.1913018",
+    "other_sources": [],
+    "score": 1.65,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-15",
+    "summary": "This study presents an interdisciplinary process for benchmarking service robots in public everyday environments, addressing the gap between laboratory metrics and real-world operation at technology readiness levels 6–7. Three robots were evaluated in three use cases: outdoor park cleaning, pedestrian underpass cleaning, and interactive assistance in a public library.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/benchmarking-robots-for-everyday-environments-from-lab-experiments-to-real-10.3389/.md"
+  },
+  {
+    "kind": "paper",
+    "source": "OpenAlex",
+    "title": "Rhythmic-Semantic Co-Speech Gestures for Emotional Dialogue in Robots",
+    "abstract": "Most data-driven robot systems generate either rhythmic beat-like motion or semantically meaningful iconic gestures, but not both. We present an emotion-aware rhythmic–semantic co-speech gesture system that generates iconic and beat behaviors in real time from text and the robot’s internal emotional state. We propose lightweight models that predict iconic timing and intensity, then fill the remaining spans with emotion-conditioned beats. We train on BEAT2 and deploy on the social robot Haru. In an online user study (N = 60), our method shows stronger speech–gesture alignment and is preferred over baselines.",
+    "url": "https://doi.org/10.1145/3841580.3845664",
+    "pdf_url": "",
+    "doi": "https://doi.org/10.1145/3841580.3845664",
+    "authors": [
+      "Christian Arzate Cruz",
+      "Edwin C. Montiel-Vázquez",
+      "Stefanos Gkikas",
+      "Miguel Mejia Tobar",
+      "Randy Gómez"
+    ],
+    "published": "2026-11-13",
+    "categories": [],
+    "peer_reviewed": null,
+    "publication_type": "conference-paper",
+    "key": "doi:10.1145/3841580.3845664",
+    "other_sources": [],
+    "score": 1.4,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-15",
+    "summary": "Most data-driven robot systems generate either rhythmic beat-like motion or semantically meaningful iconic gestures, but not both. We present an emotion-aware rhythmic–semantic co-speech gesture system that generates iconic and beat behaviors in real time from text and the robot’s internal emotional state.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/rhythmic-semantic-co-speech-gestures-for-emotional-dialogue-in-robots-10.1145/.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "BrickFlow: Connectivity-Guided Brick Reconstruction",
+    "abstract": "Given a set of LEGO parts and an image of an assembled object, our task is to infer the pose of each part to assemble the object. In contrast with traditional 3D reconstruction, doing so requires satisfying discrete physical constraints, which provide structure but render the problem combinatorial and highly sensitive to small pose errors. To learn a prior over how parts fit together, we train a set-conditioned SE(3) flow model on procedurally generated assemblies. We then finetune this model to inject image conditioning, using 1% as much data. However, while the learned flow captures global structure, it does not enforce connectivity. To address this, we introduce an analytic connectivity-field guidance to pull predictions toward connected assemblies at test time. Through this, we demonstrate improved build quality with model size, pretraining, and guidance. We make our models and data available for research purposes at https://kulits.github.io/BrickFlow/",
+    "url": "http://arxiv.org/abs/2611.17321v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.17321v1",
+    "doi": "",
+    "authors": [
+      "Peter Kulits",
+      "Cordelia Schmid"
+    ],
+    "published": "2026-11-12T18:58:51Z",
+    "categories": [
+      "cs.CV",
+      "cs.GR"
+    ],
+    "peer_reviewed": false,
+    "key": "title:c792d2bf412ee62ebdcc",
+    "other_sources": [],
+    "score": 1.05,
+    "topics": [
+      "Computer vision and 3D perception"
+    ],
+    "first_seen": "2026-11-15",
+    "summary": "Given a set of LEGO parts and an image of an assembled object, our task is to infer the pose of each part to assemble the object. In contrast with traditional 3D reconstruction, doing so requires satisfying discrete physical constraints, which provide structure but render the problem combinatorial and highly sensitive to small pose errors.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/brickflow-connectivity-guided-brick-reconstruction-c792d2bf.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "ElasticDino: Dense Semantic Features Using Elastic Deformations",
+    "abstract": "Vision transformers (ViTs) serve as the backbone for countless vision tasks, including dense prediction tasks, such as segmentation and depth estimation, even though the quadratic complexity of self-attention severely limits feature resolution and induces spatial artifacts. In this work, we introduce ElasticDino, a lightweight adapter which produces high-resolution feature maps, adhering to the fine details of the input image. As a key insight, we observe the consistency of artifacts across channels, and simultaneously resolve them to match the input image structure. Using a slim architecture based on spatial deformations, ElasticDino produces pixel-aligned, high-resolution feature maps efficiently. Leveraging deformations allows strictly preserving sharp semantics, and thereby avoiding the smoothness biases inherent to alternative approaches. Due to the absence of ground truth, we employ pixel-level semantic segmentation and depth estimation with linear heads to predict a set of downstream dense tasks, guiding the deformation process without leaking task-specific semantics into the model. We demonstrate superior accuracy over current methods on a range of popular dense task benchmarks, with better computational performance.",
+    "url": "http://arxiv.org/abs/2611.16984v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.16984v1",
+    "doi": "",
+    "authors": [
+      "Ulysse Mizrahi",
+      "Sean Zaretzky",
+      "Dov Danon",
+      "Amit H. Bermano"
+    ],
+    "published": "2026-11-12T15:50:04Z",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "peer_reviewed": false,
+    "key": "title:a74c074aae072c074e71",
+    "other_sources": [],
+    "score": 1.05,
+    "topics": [
+      "Computer vision and 3D perception"
+    ],
+    "first_seen": "2026-11-15",
+    "summary": "Vision transformers (ViTs) serve as the backbone for countless vision tasks, including dense prediction tasks, such as segmentation and depth estimation, even though the quadratic complexity of self-attention severely limits feature resolution and induces spatial artifacts. In this work, we introduce ElasticDino, a lightweight adapter which produces high-resolution feature maps, adhering to the fine details of the input image.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/elasticdino-dense-semantic-features-using-elastic-deformations-a74c074a.md"
+  },
+  {
+    "kind": "paper",
+    "source": "OpenAlex",
+    "title": "Digital twins for intelligent intersections: A literature review",
+    "abstract": "Intelligent intersections play a pivotal role in urban mobility, demanding innovative solutions such as digital twins to enhance safety and efficiency. This literature review investigates the integration and application of digital twins for intelligent intersections, a critical area within smart urban traffic systems. The review systematically categorizes existing research into five key thematic areas: (i) Digital Twin Architectures and Frameworks; (ii) Data Processing and Simulation Techniques; (iii) Artificial Intelligence and Machine Learning for Adaptive Traffic Control; (iv) Safety and Protection of Vulnerable Road Users; and (v) Scaling from Localized Intersections to Citywide Traffic Networks. Each theme is explored comprehensively, highlighting significant advancements, current challenges, and critical insights. The findings reveal that multi-layered digital twin architectures incorporating real-time data fusion and AI-driven decision-making enhances traffic efficiency and safety. Advanced simulation techniques combined with sophisticated AI/ML algorithms demonstrate notable improvements in real-time responsiveness and predictive accuracy for traffic management. Additionally, the integration of digital twins has shown substantial promise in safeguarding vulnerable road users through proactive and adaptive safety strategies. Despite these advancements, key challenges persist, including interoperability of diverse data sources, scalability of digital twins for extensive traffic networks, and managing uncertainty within dynamic urban environments. Addressing these challenges will be essential for the future development and deployment of intelligent, adaptive, and sustainable intersection management systems.",
+    "url": "https://doi.org/10.1016/j.trip.2026.102352",
+    "pdf_url": "",
+    "doi": "https://doi.org/10.1016/j.trip.2026.102352",
+    "authors": [
+      "Alben Rome Bagabaldo",
+      "Jürgen Hackl"
+    ],
+    "published": "2026-11-13",
+    "categories": [],
+    "peer_reviewed": null,
+    "publication_type": "article",
+    "key": "doi:10.1016/j.trip.2026.102352",
+    "other_sources": [
+      {
+        "source": "OpenAlex",
+        "url": "https://doi.org/10.1016/j.trip.2026.102352"
+      }
+    ],
+    "score": 0.95,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-15",
+    "summary": "Intelligent intersections play a pivotal role in urban mobility, demanding innovative solutions such as digital twins to enhance safety and efficiency. This literature review investigates the integration and application of digital twins for intelligent intersections, a critical area within smart urban traffic systems.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/digital-twins-for-intelligent-intersections-a-literature-review-10.1016/.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "AeroZoo: A Benchmark of Well-Posed Flow Problems for Foundation Models of Aerodynamics",
+    "abstract": "Neural surrogates for computational fluid dynamics (CFD) are trained and ranked on datasets that each vary one design family in one flow domain. Such datasets cannot test the least that an aerodynamic foundation model must do: predict CFD-quality incompressible flow in seconds for new shapes in new enclosures. On DrivAerML, larger models and longer training barely lower Transolver's error; doubling the training cases cuts it by about 12% up to 400 cases, exhausting the dataset. We introduce AeroZoo, a benchmark and training corpus of 3,815 time-mean solutions to the unsteady Reynolds-averaged Navier--Stokes (RANS) equations with a transition model, across seven geometry families, eight enclosure configurations and Reynolds numbers from $10^3$ to $10^8$. Each sample poses a well-posed PDE problem in the form a solver receives it: the boundary meshes grouped by condition type, the prescribed values and the fluid properties. The 2,816 samples with a stable time mean form the canonical benchmark: two tasks, engineering metrics and 22 frozen splits, disjoint in geometry, that hold out geometry families, enclosures, boundary-condition layouts and Reynolds ranges. On the random split, boundary-condition tokens cut GeoTransolver's median velocity error from 76.9% to 8.4% of the inlet speed in single-seed runs (uniform inlet flow: 11.0%). ISLA, a transformer for boundary-driven PDEs, reaches 5.3% over four seeds, about 4 times the change from a finer mesh. On the same test samples, a held-out geometry family barely changes ISLA's error relative to uniform flow, and a held-out enclosure or boundary-condition layout raises it 2.4 to 9.2 times. The data and the scoring code will be released.",
+    "url": "http://arxiv.org/abs/2611.17152v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.17152v1",
+    "doi": "",
+    "authors": [
+      "Peter Sharpe",
+      "Carmelo Gonzales",
+      "Corey Adams",
+      "Mehdi Ataei",
+      "Sanjay Choudhry"
+    ],
+    "published": "2026-11-12T17:36:09Z",
+    "categories": [
+      "cs.LG",
+      "cs.CE",
+      "physics.flu-dyn"
+    ],
+    "peer_reviewed": false,
+    "key": "title:a622fbf2102006f4b7e4",
+    "other_sources": [],
+    "score": 0.95,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-15",
+    "summary": "Neural surrogates for computational fluid dynamics (CFD) are trained and ranked on datasets that each vary one design family in one flow domain. Such datasets cannot test the least that an aerodynamic foundation model must do: predict CFD-quality incompressible flow in seconds for new shapes in new enclosures.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/aerozoo-a-benchmark-of-well-posed-flow-problems-for-foundation-models-of-ae-a622fbf2.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Spatiotemporal learning improves quantification of pore-space evolution and fluid displacement",
+    "abstract": "Pore-space evolution and fluid displacement influence how rocks transmit and store fluids, affecting geological carbon storage, underground hydrogen storage and groundwater contaminant transport. A single time-resolved micro-CT experiment may produce tens to hundreds of three-dimensional images, and segmentation is required to quantify physical properties and run image-based simulations. Traditional methods such as thresholding perform poorly on noisy, low-contrast images and need manual adjustment per image; 3D deep learning networks segment each image without temporal information, so their errors vary between images and could be mistaken for physical change. Here we introduce a transformer-based 4D segmentation framework combining spatial and temporal information. It uses sequential images to resolve ambiguous phase assignments and separate physical change from segmentation error. The method is tested on images of mineral dissolution: it measures pore-volume growth and rock boundaries more accurately than an equivalent 3D model that ignores temporal information. It also captures the increase in permeability verified against reference segmentations and flow simulations. The advantage transfers to another dissolution sample without retraining. On two other datasets of fluid displacement, it reduces spurious changes in predicted rock and porosity fluctuations and accurately identifies filling events. Spatiotemporal segmentation turns sequences of hundreds of three-dimensional images into more reliable quantitative measurements of pore-space evolution and fluid displacement without per-image parameter adjustment to support the analysis of time-resolved CT imaging.",
+    "url": "http://arxiv.org/abs/2611.17111v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.17111v1",
+    "doi": "",
+    "authors": [
+      "Zhuangzhuang Ma",
+      "Rukuan Chai",
+      "Qianqian Ma",
+      "Yanghua Wang",
+      "Branko Bijeljic",
+      "Martin J. Blunt"
+    ],
+    "published": "2026-11-12T17:04:50Z",
+    "categories": [
+      "physics.flu-dyn",
+      "cs.CV"
+    ],
+    "peer_reviewed": false,
+    "key": "title:3295b68a746e1d85d9d8",
+    "other_sources": [],
+    "score": 0.95,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-15",
+    "summary": "Pore-space evolution and fluid displacement influence how rocks transmit and store fluids, affecting geological carbon storage, underground hydrogen storage and groundwater contaminant transport. A single time-resolved micro-CT experiment may produce tens to hundreds of three-dimensional images, and segmentation is required to quantify physical properties and run image-based simulations.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/spatiotemporal-learning-improves-quantification-of-pore-space-evolution-and-3295b68a.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "AURA 2.0: From User-Driven Responses to Model-Initiated Conversations in Streaming Video",
+    "abstract": "Most AI assistants respond only when prompted, remaining silent even when events in the video stream offer meaningful opportunities for conversation. To move beyond purely user-driven interaction, we present AURA 2.0, a streaming video large language model that introduces three core upgrades to AURA. The key advance is Model-Initiated Conversation (MIC), which enables the model to identify topics worth discussing in the evolving visual stream and initiate conversations at appropriate moments without a user query. Stream-Aware Tool Calling (SATC) enables the model to invoke external tools using the current visual and conversational context and incorporate returned information into the ongoing interaction. Interactive Visual Grounding (IVG) supports visual grounding in both user inputs and model outputs. The model can identify objects marked by users on video frames and produce frame-aligned bounding boxes to link its responses to specific objects and regions. To develop these capabilities, we construct a dedicated streaming interaction dataset and adopt a three-stage training scheme to integrate the new behaviors with AURA's existing streaming interaction abilities. We further incorporate Long-Horizon Interaction Memory (LHIM) to maintain contextual continuity over extended video streams. Evaluations on public streaming benchmarks show that AURA 2.0 achieves leading performance among open-source streaming models, while targeted evaluations further validate its new interaction capabilities. We open-source the model weights and inference code.",
+    "url": "http://arxiv.org/abs/2611.17048v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.17048v1",
+    "doi": "",
+    "authors": [
+      "Shuhan Li",
+      "Huankang Guan",
+      "Xintong Guo",
+      "Yang Bo",
+      "Yuyang He",
+      "Dunyuan Xu",
+      "Jingyan Chen",
+      "Fang Liu",
+      "Tsz Kin Wan",
+      "Jinpeng Chen",
+      "Zhenqi He",
+      "Yuxuan Hu"
+    ],
+    "published": "2026-11-12T16:31:54Z",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "peer_reviewed": false,
+    "key": "title:2a90d8988e36cc70b1e1",
+    "other_sources": [],
+    "score": 0.95,
+    "topics": [
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-15",
+    "summary": "Most AI assistants respond only when prompted, remaining silent even when events in the video stream offer meaningful opportunities for conversation. To move beyond purely user-driven interaction, we present AURA 2.0, a streaming video large language model that introduces three core upgrades to AURA.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/aura-2-0-from-user-driven-responses-to-model-initiated-conversations-in-str-2a90d898.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "From Foundation VLM to Versatile Driving VLM: A Triplet Incremental Training Approach",
+    "abstract": "Adapting general Vision-Language Models (VLMs) to Autonomous Driving (AD) is thought to require heavy 3D spatial priors or intrusive architectural overhauls to compensate for a lack of spatial grounding. In this work, we present a counterintuitive pilot study: off-the-shelf general VLMs already exhibit remarkable adaptability across diverse driving tasks, while precise metric depth remains the primary missing link, a bottleneck readily addressable via onboard sensors and depth foundation models. To this end, we introduce the Triplet Incremental Training Framework, a non-intrusive paradigm that seamlessly instills 3D geometric awareness into a general VLM backbone while fully preserving its open-world capabilities. Driven by automatically constructed (image, depth, QA pair) triplets, our framework operates via a unified tri-stream training pipeline: an unfrozen primary VLM stream to adapt to driving tasks, an auxiliary depth stream that guides the visual backbone to implicitly imagine 3D scene geometry via explicit geometric constraints, and a frozen twin VLM stream employing logit-level KL distillation to prevent semantic drift. Crucially, the auxiliary depth branch is discarded during deployment, ensuring the enhanced geometric awareness comes with zero inference overhead. We evaluate our framework across four major benchmarks targeting four diverse capabilities spanning 3D spatial perception, driving-oriented language reasoning, end-to-end planning, and general multimodal understanding. Our approach outperforms state-of-the-art driving VLMs, rivals domain-specific expert models in 3D perception, and successfully retains its original general reasoning capabilities. This demonstrates that Triplet Incremental Training offers a unified, deployment-ready paradigm for transforming general foundation models into robust driving intelligences.",
+    "url": "http://arxiv.org/abs/2611.16727v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.16727v1",
+    "doi": "",
+    "authors": [
+      "Shengtao Wu",
+      "Zichao Dong",
+      "Weixuan Qiao",
+      "Xiaolu Liu",
+      "Xin Zhan",
+      "Junbo Chen",
+      "Jianke Zhu"
+    ],
+    "published": "2026-11-12T12:39:25Z",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "peer_reviewed": false,
+    "key": "title:707993ffad043feacac9",
+    "other_sources": [],
+    "score": 0.95,
+    "topics": [
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-15",
+    "summary": "Adapting general Vision-Language Models (VLMs) to Autonomous Driving (AD) is thought to require heavy 3D spatial priors or intrusive architectural overhauls to compensate for a lack of spatial grounding. In this work, we present a counterintuitive pilot study: off-the-shelf general VLMs already exhibit remarkable adaptability across diverse driving tasks, while precise metric depth remains the primary missing link, a bottleneck readily addressable via onboard sensors and dept",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/from-foundation-vlm-to-versatile-driving-vlm-a-triplet-incremental-training-707993ff.md"
   }
 ]
