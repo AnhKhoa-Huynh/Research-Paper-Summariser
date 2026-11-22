@@ -38050,5 +38050,232 @@
     "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
     "summary_mode": "source_excerpt",
     "note_path": "storage/notes/paper/reference-twist-based-velocity-domain-spatiotemporal-calibration-for-mmwave-703d5d8d.md"
+  },
+  {
+    "kind": "news",
+    "source": "Bioengineer.org",
+    "feed": "HRI and Robot Research",
+    "title": "Unified Evaluation Framework Uncovers Accuracy and Realism Trade-Offs in Human Motion Prediction - Bioengineer.org",
+    "abstract": "Unified Evaluation Framework Uncovers Accuracy and Realism Trade-Offs in Human Motion Prediction Bioengineer.org",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSFhEbjE1OWtBNV92dWhDcHRxVXNNa2lGWGEzTmNoT3NVRmtWYnNLN1NWeHZVRXg2d0sxWkhQeG9zbjRRWjBmS0hrVDhfSnJMOE9xajU2andxTkF0dURkV1pwVmU0V2xTTDNITUJJTENhb0Z1dFhmU2hjVUdwZVRGV1ktWWpoVlVhUTlkRkpPUk11akVWYWhpazNNeXljMWk3T3djdE5sUUd6M0ZWY2dnWDlSQmlSYVdnTEpBaENn?oc=5",
+    "authors": [],
+    "published": "Sat, 21 Nov 2026 04:32:02 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:7d2ef73f8bdbd8e862f4",
+    "other_sources": [],
+    "score": 6.0,
+    "topics": [
+      "Human–robot interaction"
+    ],
+    "first_seen": "2026-11-22",
+    "summary": "Bioengineer.org reports on a unified evaluation framework designed for human motion prediction. The publication states that the framework uncovers trade-offs between accuracy and realism.",
+    "method": "Not specified in source",
+    "key_finding": "The evaluation framework reveals accuracy and realism trade-offs in human motion prediction.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "Not specified in source",
+    "summary_mode": "gemini_from_rss",
+    "note_path": "storage/notes/news/unified-evaluation-framework-uncovers-accuracy-and-realism-trade-offs-in-hu-7d2ef73f.md"
+  },
+  {
+    "kind": "news",
+    "source": "Superpower Daily",
+    "feed": "HRI and Robot Research",
+    "title": "Sundae Robotics 11: Beyond the Gripper — Teaching Robots Dexterity Through Touch, Vision, and Play - Superpower Daily",
+    "abstract": "Sundae Robotics 11: Beyond the Gripper — Teaching Robots Dexterity Through Touch, Vision, and Play Superpower Daily",
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNWXNFN2Z3LUtON0RBWnl0dWhtNmcydGd4S3ZuM3VLVmRKSEplSFZIY3VoQnc5VkRhdnRwOEpqMVJGOG9TSmd5WnJWbVdqYXFsdHVHa0pZcmZRaWx0cWcxQXVoSVJodlRYNEg0VFg5MDlyS0tFME9TU0lkQ1VVWGZRbTNPQWdWUWtscE1Dc1RhNHdSemhWTy1KWEtRVjlTQWlueTVpRWxxUHhMSW8yV29UY3U5MW5rbTBUOC1FQXoxOXRTaXJ1cDMtMUFVcTJCZ05wY0NsNUZMWnJtcV9nN01BUEpLQTdLTDNJT1JzbUxfS0FMdkc1ZWR3OQ?oc=5",
+    "authors": [],
+    "published": "Sat, 21 Nov 2026 20:12:29 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:347b0acc5391bbfd3d82",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-22",
+    "summary": "Sundae Robotics 11: Beyond the Gripper — Teaching Robots Dexterity Through Touch, Vision, and Play Superpower Daily",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/sundae-robotics-11-beyond-the-gripper-teaching-robots-dexterity-through-tou-347b0acc.md"
+  },
+  {
+    "kind": "news",
+    "source": "ad-hoc-news.de",
+    "feed": "HRI and Robot Research",
+    "title": "Europe's Robot Safety Rules Get Their Biggest Overhaul Since 2011 — and the Clock Is Ticking Towar - ad-hoc-news.de",
+    "abstract": "Europe's Robot Safety Rules Get Their Biggest Overhaul Since 2011 — and the Clock Is Ticking Towar ad-hoc-news.de",
+    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPX3lMV2NPTlVTc0luV2xsVnZpbmdXM1V4dkhGcUdkSkVybmtKZllOUVVzbjhCUHQtWWdjcUx5N3N0aGdPaWNfLWlRc1VRbFlMeWNhaXQzSjhCOEhuREVGTTdKYnl4MEZpSGlfbE1zWF9UVW5ZaEpIMV9ybjk2ZmpRRG1wYjFVaWhyOWhicXBUOW5nRU9xel8xQ09YTi1uN1Q5TjB3N2ttMDBaWmJtSHVZamVPYmhvaE90cnVSM2lBRDRNRWhQcUpWc3h4OEZsWERfWHd5U3NYT0JvUG0xZW1oUXBFTEdpX056dl9UY0wtakFLbDZ1SmNxcnhEajVlZw?oc=5",
+    "authors": [],
+    "published": "Sat, 21 Nov 2026 17:01:58 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:ba8ad1121e181461ed08",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-22",
+    "summary": "Europe is implementing its most significant overhaul of robot safety rules since 2011. The publisher reports that a strict timeline is in place for these regulatory updates.",
+    "method": "Not specified in source",
+    "key_finding": "Europe's robot safety regulations are undergoing their largest overhaul since 2011 with a ticking clock.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "It highlights major regulatory changes affecting robot safety standards in Europe.",
+    "summary_mode": "gemini_from_rss",
+    "note_path": "storage/notes/news/europe-s-robot-safety-rules-get-their-biggest-overhaul-since-2011-and-the-c-ba8ad112.md"
+  },
+  {
+    "kind": "news",
+    "source": "The Robot Report",
+    "feed": "The Robot Report",
+    "title": "The manufacturing data gap holding back physical AI",
+    "abstract": "Manufacturers looking to deploy autonomous robots must close gaps in industrial data collection, interoperability, and quality feedback to enable reliable decision-making and improve production efficiency. The post The manufacturing data gap holding back physical AI appeared first on The Robot Report .",
+    "url": "https://www.therobotreport.com/the-manufacturing-data-gap-holding-back-physical-ai",
+    "authors": [],
+    "published": "Sat, 21 Nov 2026 22:25:35 +0000",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:a092cad262cc850500bb",
+    "other_sources": [],
+    "score": 2.2,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-22",
+    "summary": "Manufacturers seeking to deploy autonomous robots need to address deficiencies in industrial data collection, interoperability, and quality feedback. Resolving these issues is necessary to support reliable decision-making and enhance production efficiency.",
+    "method": "Not specified in source",
+    "key_finding": "Gaps in industrial data collection, interoperability, and quality feedback currently hinder manufacturers from successfully deploying autonomous robots and achieving reliable decision-making and production efficiency.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "It highlights the critical data-related challenges that must be addressed for manufacturers to successfully deploy physical AI and autonomous robots.",
+    "summary_mode": "gemini_from_rss",
+    "note_path": "storage/notes/news/the-manufacturing-data-gap-holding-back-physical-ai-a092cad2.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+    "abstract": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency, single-frame methods favor sharpness. To overcome this trade-off, we train a single, scalable network that processes both images and video and predicts depth maps at native resolution. Depth Pro 2 produces depth maps that are metrically accurate, sharp, and temporally consistent all at once, outperforming prior work in all of these dimensions. We release a family of models that define a new Pareto frontier in terms of metric accuracy, sharpness, temporal consistency, and runtime. We release code and weights at https://apple-aiml-research.github.io/ml-depth-pro-2/",
+    "url": "http://arxiv.org/abs/2611.26603v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.26603v1",
+    "doi": "",
+    "authors": [
+      "Peiyun Hu",
+      "Marko Mihajlovic",
+      "Lyndon Duong",
+      "Lahav Lipson",
+      "Wei Dong",
+      "Amaël Delaunoy",
+      "Stephan R. Richter",
+      "Vladlen Koltun"
+    ],
+    "published": "2026-11-19T18:55:41Z",
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "peer_reviewed": false,
+    "key": "title:db557465f8c960de2f01",
+    "other_sources": [
+      {
+        "source": "arXiv",
+        "url": "http://arxiv.org/abs/2611.26603v1"
+      }
+    ],
+    "score": 1.05,
+    "topics": [
+      "Computer vision and 3D perception"
+    ],
+    "first_seen": "2026-11-22",
+    "summary": "The authors introduce Depth Pro 2, a scalable approach for estimating dense metric depth from both images and videos at native resolution. The method addresses the traditional trade-off between boundary sharpness and temporal consistency by training a single network to achieve both simultaneously.",
+    "method": "Training a single, scalable network that processes images and video to predict depth maps at native resolution.",
+    "key_finding": "Depth Pro 2 produces depth maps that are metrically accurate, sharp, and temporally consistent, outperforming prior work across all of these dimensions.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "It defines a new Pareto frontier in terms of metric accuracy, sharpness, temporal consistency, and runtime for monocular depth estimation.",
+    "summary_mode": "gemini_from_abstract",
+    "note_path": "storage/notes/paper/depth-pro-2-sharp-and-temporally-consistent-metric-monocular-depth-db557465.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+    "abstract": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to study these functions in VLM concept processing. Its vision encoder and language decoder lenses map intermediate states to a shared semantic space defined by the decoder's output vocabulary to compare concept accessibility across modalities. MC-Lens supports internal concept interventions to examine the role of accessed concepts in downstream computation. (i) Accessibility and selective access. Multimodal concept information is readable in intermediate states and selectively accessible as tasks require. We extend \"readout carriers\" from one name token to a token set to better capture and express concept information and support counterfactual experiments. (ii) Concepts in downstream computation. Counterfactual experiments show that accessed concept information participates in downstream computation and reasoning. (iii) Development of cross-modal alignment and selective access. We develop two J-space metrics tracking the development of cross-modal concept alignment more clearly than hidden state cosine in controlled VLM training. The experiment also shows that reliable selective access develops later than concept accessibility. (iv) Shared functions across models. Across VLM families and sizes, we find shared patterns of concept accessibility, query-dependent selectivity and cross-task intervention effects despite differences in internal organisation. These findings offer an experimental basis to study GWT in multimodal artificial systems and how it can guide cross-modal alignment improvements.",
+    "url": "http://arxiv.org/abs/2611.26590v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.26590v1",
+    "doi": "",
+    "authors": [
+      "Jiahao Huang",
+      "Jun Wang"
+    ],
+    "published": "2026-11-19T18:46:50Z",
+    "categories": [
+      "cs.AI",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "peer_reviewed": false,
+    "key": "title:5e0c5c9d31db8d1f2627",
+    "other_sources": [
+      {
+        "source": "arXiv",
+        "url": "http://arxiv.org/abs/2611.26590v1"
+      }
+    ],
+    "score": 0.95,
+    "topics": [
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-22",
+    "summary": "The study introduces the Multimodal Concept Lens to investigate global workspace theory in vision-language models by mapping intermediate states to a shared semantic space. The authors claim this approach reveals selective concept accessibility, causal downstream participation, and shared functional patterns across different model families.",
+    "method": "The authors introduce the Multimodal Concept Lens, a multimodal Jacobian lens using vision encoder and language decoder lenses to map intermediate states to a shared semantic space defined by the decoder's output vocabulary, alongside counterfactual experiments and two J-space metrics.",
+    "key_finding": "Multimodal concept information is readable and selectively accessible as tasks require, accessed concepts participate in downstream computation and reasoning, reliable selective access develops later than concept accessibility, and shared patterns exist across VLM families and sizes.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "These findings offer an experimental basis to study global workspace theory in multimodal artificial systems and how it can guide cross-modal alignment improvements.",
+    "summary_mode": "gemini_from_abstract",
+    "note_path": "storage/notes/paper/probing-the-conscious-mind-selective-access-and-global-workspace-in-vision-5e0c5c9d.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Contactless Estimation of Respiratory Frequency Using 3D-CNN on Thermal Images",
+    "abstract": "Monitoring physiological parameters such as respiratory rate ($f_R$) is essential for diagnosing and managing various pathological conditions. Thermal imaging offers a promising contactless alternative to traditional methods, which often rely on partially invasive sensors or obtrusive wearable systems. However, existing approaches for $f_R$ estimation from thermal signals typically require extensive pre-processing and manual or semi-automatic region-of-interest (ROI) tracking, limiting their practical applicability. This study proposes a deep learning-based method for estimating $f_R$ directly from thermal videos, eliminating the need for complex pre-processing and ROI tracking. A 3D Convolutional Neural Network (3D-CNN) is developed to operate on raw thermal video data. To address challenges related to small datasets, the model is trained using data augmentation and transfer learning from synthetic datasets. Experimental results demonstrate that the proposed approach achieves a validation $R^2$ score of approximately 0.61 on both pre-processed and raw thermal videos. By simplifying the workflow, this method holds promise for enhancing the feasibility of thermal imaging in real-world applications, such as remote healthcare and driver monitoring in automotive applications.",
+    "url": "http://arxiv.org/abs/2611.26367v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.26367v1",
+    "doi": "",
+    "authors": [
+      "Federica Gioia",
+      "Filippo Pura",
+      "Alberto Greco",
+      "Dario Piga",
+      "Arcangelo Merla",
+      "Marco Forgione"
+    ],
+    "published": "2026-11-19T16:33:11Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "peer_reviewed": false,
+    "key": "title:e73b0bc8adad9a5fabcc",
+    "other_sources": [],
+    "score": 0.95,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-22",
+    "summary": "This study introduces a deep learning approach to estimate respiratory frequency contactlessly from thermal videos. The proposed method utilizes a 3D-CNN trained with data augmentation and transfer learning to bypass the need for extensive pre-processing and manual region-of-interest tracking.",
+    "method": "A 3D Convolutional Neural Network operating on raw thermal video data, trained using data augmentation and transfer learning from synthetic datasets.",
+    "key_finding": "The proposed approach achieves a validation R2 score of approximately 0.61 on both pre-processed and raw thermal videos.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "By simplifying the workflow, this method holds promise for enhancing the feasibility of thermal imaging in real-world applications such as remote healthcare and driver monitoring.",
+    "summary_mode": "gemini_from_abstract",
+    "note_path": "storage/notes/paper/contactless-estimation-of-respiratory-frequency-using-3d-cnn-on-thermal-ima-e73b0bc8.md"
   }
 ]
