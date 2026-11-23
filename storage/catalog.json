@@ -38277,5 +38277,1451 @@
     "why_it_matters": "By simplifying the workflow, this method holds promise for enhancing the feasibility of thermal imaging in real-world applications such as remote healthcare and driver monitoring.",
     "summary_mode": "gemini_from_abstract",
     "note_path": "storage/notes/paper/contactless-estimation-of-respiratory-frequency-using-3d-cnn-on-thermal-ima-e73b0bc8.md"
+  },
+  {
+    "kind": "news",
+    "source": "Bioengineer.org",
+    "feed": "HRI and Robot Research",
+    "title": "Adaptive Dynamic Programming Frameworks Bridge Optimal Control and Real-Time Robot Learning - Bioengineer.org",
+    "abstract": "Adaptive Dynamic Programming Frameworks Bridge Optimal Control and Real-Time Robot Learning Bioengineer.org",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMVpzMGNQWEpMR3FYMG1BRkswZWYtQ05kdGZ3YThmZnBJUEFQckJ3d21WRWtkZ0MtalpmdDZYeWdoZEhFXzI2ZDQxdXdwRjNWZjUwT0swQ1RrZm9sZnBVRVFFck1SYkdNUC1iSmVacmNfS0JrNWMtYnY3RF9LRzJPRUROMDZCOWE2cGIzYkh3R1laUE5CMjRJUVo5MDN1SHVMMUhhZGUtb2N6VHJIdjM3elpoS0pWTDA?oc=5",
+    "authors": [],
+    "published": "Mon, 23 Nov 2026 12:06:25 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:f4172c4e61259fd3bc0e",
+    "other_sources": [],
+    "score": 9.0,
+    "topics": [
+      "Dexterous manipulation and embodied AI",
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Bioengineer.org published an article discussing adaptive dynamic programming frameworks that connect optimal control with real-time robot learning. The publication highlights the role of these frameworks in advancing robotic systems.",
+    "method": "Not specified in source",
+    "key_finding": "Adaptive dynamic programming frameworks bridge optimal control and real-time robot learning, according to Bioengineer.org.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "It connects optimal control with real-time robot learning through adaptive dynamic programming frameworks.",
+    "summary_mode": "gemini_from_rss",
+    "note_path": "storage/notes/news/adaptive-dynamic-programming-frameworks-bridge-optimal-control-and-real-tim-f4172c4e.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "An Autonomous Adaptive Learning System for Robotic Grasping in the Circular Factory",
+    "abstract": "Linear manufacturing typically operates in highly structured settings with standardized objects, allowing robots to execute pre-programmed motions based on precise models. In contrast, circular manufacturing involves dynamic and less controlled environments, where product components can vary due to appearance and physical changes across different product generations. In this context, uncertainty arises from both the unknown or partially observed states of components (e.g., damaged surfaces, altered shapes) and the unstructured disassembly environment, often characterized by heavy clutter, occlusions, and limited sensing viewpoints. This demands a flexible and adaptable robotic grasping system that can cope with unexpected object changes. To address these challenges, this paper proposes an autonomous grasp learning framework designed for highly uncertain and variable conditions. The framework explicitly distinguishes between uncertainty due to noisy or incomplete sensory observations (aleatoric uncertainty) and uncertainty due to limited knowledge and distribution shift (epistemic uncertainty). Moreover, the framework employs an active perception strategy to reduce visual ambiguity: semantic and spatial scene understanding is achieved using vision language models (VLMs), while view planning enables the robot to adjust its viewpoint to improve observability. In addition, the approach leverages large-scale human demonstration data to learn interaction patterns, which are then transferred to robotic end-effectors, enabling robust manipulation in these variable settings. Quantitative validation, including the utility of active vision on disassembled components in practice, is expected to form an important part of future work.",
+    "url": "http://arxiv.org/abs/2611.27782v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27782v1",
+    "doi": "",
+    "authors": [
+      "Yitian Shi",
+      "Rosa Wolf",
+      "Rania Rayyes"
+    ],
+    "published": "2026-11-20T16:10:16Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:949ca1548cb01e6b6db1",
+    "other_sources": [],
+    "score": 8.9,
+    "topics": [
+      "Dexterous manipulation and embodied AI",
+      "Robotics and autonomy",
+      "Computer vision and 3D perception"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "This paper introduces an autonomous grasp learning framework tailored for robotic grasping within variable circular manufacturing environments. The proposed system explicitly separates different types of uncertainty and integrates active perception with human demonstration data to handle unstructured conditions.",
+    "method": "The framework distinguishes between aleatoric and epistemic uncertainty, utilizes vision-language models for semantic and spatial scene understanding, employs view planning for active perception, and leverages large-scale human demonstration data to learn interaction patterns.",
+    "key_finding": "Not specified in source",
+    "limitations": "Quantitative validation and the practical utility of active vision are left for future work.",
+    "why_it_matters": "It addresses the challenges of uncertainty and variability in circular manufacturing, enabling robots to adapt to unexpected object changes and unstructured disassembly environments.",
+    "summary_mode": "gemini_from_abstract",
+    "note_path": "storage/notes/paper/an-autonomous-adaptive-learning-system-for-robotic-grasping-in-the-circular-949ca154.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "SLICR: Strategy Logic-Guided Multi-Agent Reinforcement Learning",
+    "abstract": "Specification-guided reinforcement learning (RL) translates formal specifications of desired behavior of agents into shaped rewards. This paper introduces SLICR, a significant paradigm shift that advances the state of the art to specification-guided RL in adversarial settings under partial observability. We employ Strategy Logic (SL), which allows explicit quantification over agents' strategies and uses the linear temporal logic (LTL) to specify the agents' objectives and constraints. This enables reasoning not only about how agents should act to satisfy a specification, but also about how they should respond to the strategies and behaviors of other agents. We evaluate SLICR on three popular benchmarks: Predator-Prey, Google Research Football, and our home-grown extension of SMAC-HARD, demonstrating its effectiveness, scalability, and ability to adapt to diverse adversarial strategies.",
+    "url": "http://arxiv.org/abs/2611.27865v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27865v1",
+    "doi": "",
+    "authors": [
+      "Arshia Rafieioskouie",
+      "Matthew Lucas",
+      "Tzu-Han Hsu",
+      "Borzoo Bonakdarpour"
+    ],
+    "published": "2026-11-20T17:13:50Z",
+    "categories": [
+      "cs.AI",
+      "cs.LO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:6e36ee2c9db4c705f71d",
+    "other_sources": [],
+    "score": 7.95,
+    "topics": [
+      "Swarm and multi-agent robotics",
+      "AI and machine learning",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Specification-guided reinforcement learning (RL) translates formal specifications of desired behavior of agents into shaped rewards. This paper introduces SLICR, a significant paradigm shift that advances the state of the art to specification-guided RL in adversarial settings under partial observability.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/slicr-strategy-logic-guided-multi-agent-reinforcement-learning-6e36ee2c.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Task2Hand: A Contact-Grounded Skill for Parametric Dexterous-Hand Morphology Design",
+    "abstract": "Dexterous hand design demands repeated expert work across geometry, robot-description code, collision debugging, grasp initialization, and policy training. We present Task2Hand, a Skill: a specification package that turns a functional manipulation brief into a parameterized hand model and routes every candidate through cost-ordered contact, dynamics, and learning gates. Each gate returns a status and an evidence record; on failure, the Skill records the earliest blocker, revises one bounded parameter group, and reruns the cheaper gates. The agent generates, validates, and trains autonomously within declared bounds, and escalates trade-offs, plateaus, and conflicting evidence to a human who sets the next design direction. An evidence-driven design trajectory for bidirectional in-hand manipulation yielded SAGE Hand (Skill-Aware Generative Embodiment): four fingers, 16 actuated DoF, an integrated guiding palm, compact roots, cylindrical tips, and a collision-cleared opposable thumb. Under a matched training protocol, SAGE Hand reaches 45.6% task success on a hexagonal prism against 37.3% for the LEAP hand, and 70.8% on a bicolor cylinder against 51.6%. Dense simulated tactile input more than halves the cylinder drop rate. In a controlled iteration study, the Skill path preserves capture at 164/165 trials while the path without the Skill degrades to 14/165, confirming that the gates act as a regression guard during refinement. Accepted candidates pack with URDF/MJCF, metrics, checkpoints, and a provenance manifest.",
+    "url": "http://arxiv.org/abs/2611.27967v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27967v1",
+    "doi": "",
+    "authors": [
+      "Haoyang Wang",
+      "Weibo Gao",
+      "Zhengxiong Li",
+      "Lingfeng Tao"
+    ],
+    "published": "2026-11-20T18:48:12Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:b9a52e0490bbd91d5cea",
+    "other_sources": [],
+    "score": 7.85,
+    "topics": [
+      "Dexterous manipulation and embodied AI",
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Dexterous hand design demands repeated expert work across geometry, robot-description code, collision debugging, grasp initialization, and policy training. We present Task2Hand, a Skill: a specification package that turns a functional manipulation brief into a parameterized hand model and routes every candidate through cost-ordered contact, dynamics, and learning gates.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/task2hand-a-contact-grounded-skill-for-parametric-dexterous-hand-morphology-b9a52e04.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "What Must a Model Tell a Planner? Outcome Interfaces for Risk-Aware Planning After Robot Damage",
+    "abstract": "When a robot is damaged, it must decide which routes it can still afford, and the amount of risk it may accept can change from one mission to the next. We argue that whether a learned model helps such a robot depends on its decision interface, that is, on what the model hands to the planner. A decision policy tells the planner what to do, whereas an outcome model, a kind of world model, predicts the consequences of each route. We study simulated Unitree Go2 quadrupeds and H1 humanoids with weakened motors, added payloads, or reduced foot friction. We compare four interfaces. The first is a decision policy, and the second is the same policy trained with fixed penalties for infeasible routes. The third is an outcome model that predicts the feasibility and travel time of each route. The fourth, which we call a capability contract, is an outcome model that predicts the chance of success and the travel time of the robot on each terrain and composes them along a route. All share the same collected experience, matched tuning and risk calibration, and an uncertainty guard. Two comparatively low-risk probes let the capability contract rank hazardous terrains about as well as four new trials on every hazard. At a calibrated 5% limit on selecting empirically infeasible routes, outcome models cut declined missions from about 32% to 7-8% on Go2 and from 57% to 35-36% on H1 compared with the plain policy. Fixed penalties narrow this gap, but the best penalty changes with the risk target. Predicting outcomes lets the planner preserve missions by changing routes as risk requirements tighten.",
+    "url": "http://arxiv.org/abs/2611.27939v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27939v1",
+    "doi": "",
+    "authors": [
+      "Hassan Iqbal",
+      "Krishna Kumar"
+    ],
+    "published": "2026-11-20T18:12:49Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:4311825797df5e5549d5",
+    "other_sources": [],
+    "score": 5.9,
+    "topics": [
+      "Robotics and autonomy",
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "When a robot is damaged, it must decide which routes it can still afford, and the amount of risk it may accept can change from one mission to the next. We argue that whether a learned model helps such a robot depends on its decision interface, that is, on what the model hands to the planner.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/what-must-a-model-tell-a-planner-outcome-interfaces-for-risk-aware-planning-43118257.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Humanoid robots for safety-critical electrical switching: A perception-informed runtime constraint filter",
+    "abstract": "Humanoid robots can reduce personnel exposure in electrical switching, but safe control is challenging because the tool must reach a target switch next to similar devices, where an imprecise operator command can contact a non-target switch. This study proposes a runtime safety filter that checks each operator command during virtual-reality teleoperation of a humanoid robot. The filter integrates a scene model estimated from the robot head camera and a target-conditioned control barrier function quadratic program that keeps the tool away from the non-target switch while passing safe commands unchanged. In real-world experiments on a Unitree G1 humanoid robot, with six rounds at each of two standing positions, target operations succeed in all ten rounds with an unchanged target and no non-target actuation. A simulation study achieves 9/9 safe completions, compared with 5/9 for raw teleoperation, demonstrating the feasibility of the method for humanoid switching operations.",
+    "url": "http://arxiv.org/abs/2611.27845v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27845v1",
+    "doi": "",
+    "authors": [
+      "Songyang Liu",
+      "Yu Hou",
+      "Yuqing Hu",
+      "Shuai Li"
+    ],
+    "published": "2026-11-20T16:58:59Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:340551412548cbd0315f",
+    "other_sources": [],
+    "score": 5.45,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Humanoid robots can reduce personnel exposure in electrical switching, but safe control is challenging because the tool must reach a target switch next to similar devices, where an imprecise operator command can contact a non-target switch. This study proposes a runtime safety filter that checks each operator command during virtual-reality teleoperation of a humanoid robot.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/humanoid-robots-for-safety-critical-electrical-switching-a-perception-infor-34055141.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "BRINA: Bottom-Referenced Inertial Navigation with AKAZE, a Sonar SLAM for Autonomous Marine Vehicles",
+    "abstract": "Forward-looking sonar (FLS) provides reliable underwater perception where optical sensing is limited, but its use for navigation is hindered by the unobserved elevation of each return. As a result, motion estimated directly from sonar images suffers from an unknown metric scale that is commonly resolved using a Doppler velocity log (DVL). We present BRINA (Bottom-Referenced Inertial Navigation with AKAZE), a sonar-inertial SLAM system for marine vehicles that uses the FLS as its only exteroceptive sensor. BRINA estimates the sonar altitude from the first seabed return in each beam and uses it to project matched features onto the seabed, providing metric odometry without a DVL. We further derive a bound relating the remaining scale error to seabed tilt and slope variability. The method is evaluated in simulation with an autonomous underwater vehicle, and in field experiments with uncrewed surface vehicles over ten missions, using two FLS systems under different operating conditions.",
+    "url": "http://arxiv.org/abs/2611.27817v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27817v1",
+    "doi": "",
+    "authors": [
+      "Adolfo Damiano Cafaro",
+      "Patrizio Mariani",
+      "Roberto Galeazzi"
+    ],
+    "published": "2026-11-20T16:43:43Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:fc86f62c094a9a6d0cd9",
+    "other_sources": [],
+    "score": 5.2,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Forward-looking sonar (FLS) provides reliable underwater perception where optical sensing is limited, but its use for navigation is hindered by the unobserved elevation of each return. As a result, motion estimated directly from sonar images suffers from an unknown metric scale that is commonly resolved using a Doppler velocity log (DVL).",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/brina-bottom-referenced-inertial-navigation-with-akaze-a-sonar-slam-for-aut-fc86f62c.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Beyond Self-Critique: Epistemic Convergence Control for Multi-Agent Research Verification",
+    "abstract": "Multi-agent systems for scientific claim verification increasingly rely on role-structured LLM debate to pressure-test hypotheses. However, when debating agents are instantiated from the same underlying base model, they share identical latent representations, making self-critique bias structurally inevitable. Static fixed-iteration protocols compound this by either halting prematurely before evidence stabilizes or wasting inference compute after convergence. We present \\sys{}, a multi-agent research verification framework that addresses both failure modes. First, we introduce an asymmetric role architecture comprising an Advocate, Skeptic, and Arbitrator with opposing epistemic directives, producing significantly lower role-embedding similarity (0.852 vs.\\ 0.918 for symmetric Multi-Agent Debate [MAD], $p = 5.82 \\times 10^{-8}$) and surfacing more contested claims (22.0\\% vs.\\ 15.4\\%). Second, we propose the Belief-Delta ($\\DB$) convergence criterion, an evidence-grounded stopping rule that eliminates over-iteration (0.0\\% vs.\\ 62.5\\% for Fixed-$3$) while cutting LLM calls by 2.4$\\times$. Third, each supported claim is anchored to a verbatim literature snippet audited by an independent NLI classifier, achieving a 21.7\\% hallucination rate (comparable to 25.9\\% for a Self-Refine critic, $p = 0.61$) while establishing auditable evidence grounding. Across 200 runs on 40 research hypotheses evaluated with DeepSeek-R1-32B, \\sys{} balances compute efficiency with rigorous epistemic verification.",
+    "url": "http://arxiv.org/abs/2611.27839v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27839v1",
+    "doi": "",
+    "authors": [
+      "Chrisantus Eze"
+    ],
+    "published": "2026-11-20T16:56:17Z",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "peer_reviewed": false,
+    "key": "title:669bfa068de24f383097",
+    "other_sources": [],
+    "score": 5.0,
+    "topics": [
+      "Swarm and multi-agent robotics"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Multi-agent systems for scientific claim verification increasingly rely on role-structured LLM debate to pressure-test hypotheses. However, when debating agents are instantiated from the same underlying base model, they share identical latent representations, making self-critique bias structurally inevitable.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/beyond-self-critique-epistemic-convergence-control-for-multi-agent-research-669bfa06.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning",
+    "abstract": "Vision-language models (VLMs) exhibit strong semantic understanding but remain limited in their ability to reason about metric 3D space in the physical world. Existing VLMs typically infer 3D scene structure from one or more images without known camera calibration or cross-view geometric constraints. This makes metric 3D inference inherently ambiguous and leaves it unclear whether their spatial predictions are grounded in visual evidence or driven primarily by semantic priors. In contrast, calibrated stereo provides explicit cross-view geometry that resolves this ambiguity and offers a more reliable foundation for metric 3D perception and geometric generalization. We investigate how VLMs can learn transferable 3D representations directly from calibrated binocular observations. To this end, we introduce StereoVLM, the first geometry-aware binocular VLM for metric 3D spatial reasoning. StereoVLM follows a hierarchical learning paradigm spanning from cross-view correspondence and disparity estimation to calibration-conditioned metric depth perception and semantic spatial reasoning. We further find that disparity supervision generalizes substantially better than direct binocular depth supervision on unseen environments. To evaluate these capabilities, we introduce Stereo3D-Bench, a comprehensive benchmark across three levels, from point-level geometry to object-level spatial reasoning. StereoVLM-8B achieves 95.17% depth accuracy ($δ_1$) and a 66.98 average object-level score on Stereo3D-Bench. Intervention results further indicate that the model's performance on Stereo3D-Bench benefits from valid cross-view geometry and cannot be explained solely by additional visual tokens or semantic priors. Hierarchical geometric supervision also yields average gains of 3.54 points across five spatial benchmarks and 4.3 percentage points in RoboCasa manipulation success.",
+    "url": "http://arxiv.org/abs/2611.27915v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27915v1",
+    "doi": "",
+    "authors": [
+      "Chi Yan",
+      "Guoyang Zhao",
+      "Wentao Yuan",
+      "Yixiao Ge",
+      "Yanning Zhou",
+      "Dan Xu"
+    ],
+    "published": "2026-11-20T17:52:02Z",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:01ce296fcf6ac1896c9c",
+    "other_sources": [
+      {
+        "source": "arXiv",
+        "url": "http://arxiv.org/abs/2611.27915v1"
+      },
+      {
+        "source": "arXiv",
+        "url": "http://arxiv.org/abs/2611.27915v1"
+      }
+    ],
+    "score": 4.95,
+    "topics": [
+      "Dexterous manipulation and embodied AI",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Vision-language models (VLMs) exhibit strong semantic understanding but remain limited in their ability to reason about metric 3D space in the physical world. Existing VLMs typically infer 3D scene structure from one or more images without known camera calibration or cross-view geometric constraints.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/stereovlm-binocular-vision-language-models-for-metric-3d-spatial-reasoning-01ce296f.md"
+  },
+  {
+    "kind": "news",
+    "source": "Facebook",
+    "feed": "HRI and Robot Research",
+    "title": "ABS-CBN News. . ROBOT GYM? A new gym in Munich is teaching humanoid robots to handle everyday tasks, use tools, and work more safely alongside humans. #DWDigital - Facebook",
+    "abstract": "ABS-CBN News. . ROBOT GYM? A new gym in Munich is teaching humanoid robots to handle everyday tasks, use tools, and work more safely alongside humans. #DWDigital Facebook",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZW9KRDQ3ZGpMSkFubHhkUDVzaGVoT1RYQ1pnWUNaUkx6bGNZYXZnbjdwM211Rld4SlVtNm9pYVdrZ3FkNDRvbjkyd3JNRXFOUVc3dXN3c2sya0poZ0kxSFpsUWZQMVA4YjlZb2tnY1FFVXVxclloaEVBb0lmaUh6WDc3VGY1UGRpOHg4bWVHVERjWWdCbzVpS05zN1BveGh6Z0dYVHN0QTNNMEZqc3NOZENUajZKc1NjREJJOHJEMzlfeDBXSnpGZTVTa2xIV1BaWjQ5VmphVWY?oc=5",
+    "authors": [],
+    "published": "Sun, 22 Nov 2026 23:40:52 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:fe77ff4cde66bae22c35",
+    "other_sources": [],
+    "score": 4.25,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "ABS-CBN News. . ROBOT GYM?",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/abs-cbn-news-robot-gym-a-new-gym-in-munich-is-teaching-humanoid-robots-to-h-fe77ff4c.md"
+  },
+  {
+    "kind": "news",
+    "source": "Robotics & Automation News",
+    "feed": "Robotics Industry News",
+    "title": "Nvidia expands Isaac robotics platform with new humanoid and AI development tools - Robotics & Automation News",
+    "abstract": "Nvidia expands Isaac robotics platform with new humanoid and AI development tools Robotics & Automation News",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQQ3dVOHhUYzFCTXh2OFkyUWhSRnNuV0NyVHFyTENBYVlNZ21sU1FyR1JNQTR5UEVTS0VObEg1RVNEa2YxejdTZFBMZGk5UWFPeVhmRjdtS1ExSnJTMXlObHpfS240TFVwV29tZHdIdW9sQW44NE9vNF82UVZlaXR4QmdtRVVETjVPZkJLa29iTk12b1lrVnoyV2pXUkNpVlh0cDVjUTRxRzJ2UFJPTWNqbV9vMVpTVU1saWxrWTNHVjFRbVBxa2FoYWpyeU9tSFBxdjU5WA?oc=5",
+    "authors": [],
+    "published": "Sun, 22 Nov 2026 19:59:30 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:8a1becc92f4197b827de",
+    "other_sources": [
+      {
+        "source": "Robotics & Automation News",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQQ3dVOHhUYzFCTXh2OFkyUWhSRnNuV0NyVHFyTENBYVlNZ21sU1FyR1JNQTR5UEVTS0VObEg1RVNEa2YxejdTZFBMZGk5UWFPeVhmRjdtS1ExSnJTMXlObHpfS240TFVwV29tZHdIdW9sQW44NE9vNF82UVZlaXR4QmdtRVVETjVPZkJLa29iTk12b1lrVnoyV2pXUkNpVlh0cDVjUTRxRzJ2UFJPTWNqbV9vMVpTVU1saWxrWTNHVjFRbVBxa2FoYWpyeU9tSFBxdjU5WA?oc=5"
+      }
+    ],
+    "score": 4.25,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Nvidia has announced an expansion of its Isaac robotics platform by introducing new development tools specifically for humanoid robots and artificial intelligence. According to Robotics & Automation News, this update aims to enhance the capabilities and development processes within the robotics industry.",
+    "method": "Not specified in source",
+    "key_finding": "Nvidia expanded the Isaac robotics platform with new humanoid and AI development tools.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "It highlights ongoing developments in robotics platforms and AI tools by industry players.",
+    "summary_mode": "gemini_from_rss",
+    "note_path": "storage/notes/news/nvidia-expands-isaac-robotics-platform-with-new-humanoid-and-ai-development-8a1becc9.md"
+  },
+  {
+    "kind": "news",
+    "source": "Robotics & Automation News",
+    "feed": "Robotics Industry News",
+    "title": "Gobano Robotics reports 99.5 percent success rate for autonomous laundry robot - Robotics & Automation News",
+    "abstract": "Gobano Robotics reports 99.5 percent success rate for autonomous laundry robot Robotics & Automation News",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZC1ubDU3dG01ajVncThzRkgyd0tCck1VVTRpWTViazh0Tl95ZXBPeDNZSE12RTVsZ1FDODlGV3dHYV85OFhfSFVIOHRDYWF5amltNmFHUzF3c1dqcVFBWFFRSXVUVDk5X2JJLWR4VUQwaUJJcEMzaEFzNFZGQU5vd2NpRURnLWZIZGNGNWVNZk0yVzV5Q0ZrQ0M0eFJDZ3ZMVGVvZnhlWGtMRk5DUnRuMUdhMlU0TDdhMDdzSVhqY2paWDhjMTlCVWFVUTZVUTBR?oc=5",
+    "authors": [],
+    "published": "Sun, 22 Nov 2026 15:56:51 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:3bc10ce9e48e4815e269",
+    "other_sources": [],
+    "score": 4.25,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Gobano Robotics reports 99.5 percent success rate for autonomous laundry robot Robotics & Automation News",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/gobano-robotics-reports-99-5-percent-success-rate-for-autonomous-laundry-ro-3bc10ce9.md"
+  },
+  {
+    "kind": "news",
+    "source": "The Japan Times",
+    "feed": "Robotics Industry News",
+    "title": "Visions of Japan overrun by humanoid robot imports inspire startups - The Japan Times",
+    "abstract": "Visions of Japan overrun by humanoid robot imports inspire startups The Japan Times",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSVI5NG1kS0VuZ3ZXaFBiM0hDZm9aRGt4bWY0aWFSc3Q5c0hob2tWUnBBcWZPbkpzcktXVVBid3UzMVZ6MnlUOExnaVhrcHRKR01GQlV5OTdaMmEyS3ZSQ1RtcXNzcHdFZWJfUy1kT0hYU21lczE4Y0RtRVJvMUlDMmJwV1k?oc=5",
+    "authors": [],
+    "published": "Mon, 23 Nov 2026 05:18:00 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:ee3c2e98642236105d47",
+    "other_sources": [],
+    "score": 4.25,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "The Japan Times reports that fears of an influx of humanoid robot imports are motivating new startups in Japan. This trend highlights growing domestic entrepreneurial activity in response to anticipated foreign robotic competition.",
+    "method": "Not specified in source",
+    "key_finding": "Visions of Japan being overrun by humanoid robot imports have inspired the creation of new startups, according to The Japan Times.",
+    "limitations": "Not specified in source",
+    "why_it_matters": "It sheds light on how perceived threats from foreign technology imports can stimulate domestic startup creation and industrial response.",
+    "summary_mode": "gemini_from_rss",
+    "note_path": "storage/notes/news/visions-of-japan-overrun-by-humanoid-robot-imports-inspire-startups-the-jap-ee3c2e98.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Real-time neuromorphic audio and vision perception for autonomous robotic applications: Integration and experimental evaluation on a rover platform",
+    "abstract": "Neuromorphic sensing and computing offer a promising alternative to conventional deep learning pipelines for mobile robots, where perception must run continuously under tight latency and energy constraints. However, most neuromorphic solutions are still evaluated offline or on isolated benchmarks, and their integration into complete robotic systems remains largely unexplored. In this technical report, a four-wheel rover platform is presented that combines three real-time perception pipelines: a classical audio tagging pipeline based on Pretrained Audio Neural Networks (PANNs) running on an NVIDIA Jetson GPU, a neuromorphic audio pipeline in which a spiking neural network (SNN) is deployed on the SynSense Xylo Audio~2 chip, and a neuromorphic vision pipeline in which events from an event-based camera are processed by the SpikeYOLO spiking detector for traffic cone detection. On the Xylo chip, the whole processing chain---from the microphone signal to the classification of low- and high-pitched sounds---is performed on-chip, while the host only configures the device and reads the output neurons. All models are deployed as containerised services and integrated through ROS~2, and a configurable action dispatcher maps the detected classes to robot behaviours, closing the loop between perception and actuation. The platform is demonstrated in a proof-of-concept scenario in which the robot reacts to sound classes detected by both audio pipelines and detects traffic cones with the event camera, showing the feasibility of integrating neuromorphic hardware into a multimodal robotic platform operating in real time.",
+    "url": "http://arxiv.org/abs/2611.27953v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27953v1",
+    "doi": "",
+    "authors": [
+      "Guillem Fustier-Castillo",
+      "Ruben Ribes-Serrano",
+      "Javier Naranjo-Alcazar",
+      "Vicent Ortiz-Castello",
+      "Pedro Zuccarello"
+    ],
+    "published": "2026-11-20T18:27:26Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:886e93e2b438cfb03515",
+    "other_sources": [],
+    "score": 4.25,
+    "topics": [
+      "Robotics and autonomy",
+      "AI and machine learning",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Neuromorphic sensing and computing offer a promising alternative to conventional deep learning pipelines for mobile robots, where perception must run continuously under tight latency and energy constraints. However, most neuromorphic solutions are still evaluated offline or on isolated benchmarks, and their integration into complete robotic systems remains largely unexplored.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/real-time-neuromorphic-audio-and-vision-perception-for-autonomous-robotic-a-886e93e2.md"
+  },
+  {
+    "kind": "paper",
+    "source": "OpenAlex",
+    "title": "InterReal: a unified physics-based imitation framework for learning human-object interaction skills",
+    "abstract": "Interaction is one of the core abilities of humanoid robots. However, most existing frameworks focus on non-interactive whole-body control, which limits their practical applicability. In this work, we develop InterReal, a unified physics-based imitation learning framework for Real-world human-object Interaction (HOI) control. InterReal enables humanoid robots to track HOI reference motions, facilitating the learning of fine-grained interactive skills and their deployment in real-world settings. Within this framework, we first introduce a HOI motion data augmentation scheme with hand-object contact constraints, and utilize the augmented motions to improve policy stability under object perturbations. Second, we propose an automatic reward learner to address the challenge of large-scale reward shaping. A meta-policy guided by critical tracking error metrics explores and allocates reward signals to the low-level reinforcement learning objective, which enables more effective learning of interactive policies. Experiments on HOI tasks of Box-picking and Box-pushing demonstrate that InterReal achieves the best tracking accuracy and the highest task success rate compared to recent baselines. Furthermore, we validate the framework on the real-world robot Unitree G1, which demonstrates its practical effectiveness and robustness beyond simulation.",
+    "url": "https://doi.org/10.1007/s44336-026-00046-z",
+    "pdf_url": "",
+    "doi": "https://doi.org/10.1007/s44336-026-00046-z",
+    "authors": [
+      "Dayang Liang",
+      "Yuhang Lin",
+      "Xinzhe Liu",
+      "Jiyuan Shi",
+      "Yunlong Liu",
+      "Chenjia Bai"
+    ],
+    "published": "2026-11-22",
+    "categories": [],
+    "peer_reviewed": null,
+    "publication_type": "article",
+    "key": "doi:10.1007/s44336-026-00046-z",
+    "other_sources": [],
+    "score": 4.1,
+    "topics": [
+      "Dexterous manipulation and embodied AI",
+      "Robotics and autonomy",
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Interaction is one of the core abilities of humanoid robots. However, most existing frameworks focus on non-interactive whole-body control, which limits their practical applicability.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/interreal-a-unified-physics-based-imitation-framework-for-learning-human-ob-10.1007/.md"
+  },
+  {
+    "kind": "news",
+    "source": "finance.biggo.com",
+    "feed": "Robotics Industry News",
+    "title": "Humanoid Robots Are the Wrong Form Factor | Ajay Agarwal｜MTS - finance.biggo.com",
+    "abstract": "Humanoid Robots Are the Wrong Form Factor | Ajay Agarwal｜MTS finance.biggo.com",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4QXFxNlM0UlZzbXlvMjhFQjNoU3NNdmtrQ2NKUDF6NFp2Skd1M0p0SGhVUHJnTTRGcFM3THowU3F4RE9LbC02R1RwSGFNblMwZ0IzV0NUamRhVVo5RDZ3?oc=5",
+    "authors": [],
+    "published": "Sun, 22 Nov 2026 23:43:12 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:2a7c1f1c781416dcaf45",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Humanoid Robots Are the Wrong Form Factor | Ajay Agarwal｜MTS finance.biggo.com",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/humanoid-robots-are-the-wrong-form-factor-ajay-agarwal-mts-finance-biggo-co-2a7c1f1c.md"
+  },
+  {
+    "kind": "news",
+    "source": "아시아경제",
+    "feed": "Asia-Pacific Robotics and AI",
+    "title": "Dynamic Solution Seeks FDA Approval for 'X-Hand' Rehabilitation Robot Hand, Targets North American Market - 아시아경제",
+    "abstract": "Dynamic Solution Seeks FDA Approval for 'X-Hand' Rehabilitation Robot Hand, Targets North American Market 아시아경제",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FVFdKU202TGFtSHFZQ3pzZDk2U3puWnBMQU8xcjU2U1ZBbDZmbHpOc2JpSTBtQzRqc3ktVGxhXzVqWHBLbG5OYWlhcl9iLUpEWmRHSEdSXzVNQkk2VGNrM2pNNEU?oc=5",
+    "authors": [],
+    "published": "Sun, 22 Nov 2026 23:35:30 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:72eb6a1d120ddadf62aa",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Dynamic Solution Seeks FDA Approval for 'X-Hand' Rehabilitation Robot Hand, Targets North American Market 아시아경제",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/dynamic-solution-seeks-fda-approval-for-x-hand-rehabilitation-robot-hand-ta-72eb6a1d.md"
+  },
+  {
+    "kind": "news",
+    "source": "BGR",
+    "feed": "Robotics Industry News",
+    "title": "How A Robot Built A Structure In Space Without Human Intervention - BGR",
+    "abstract": "How A Robot Built A Structure In Space Without Human Intervention BGR",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPczJHb284ZDl4MXdOQnV5WnEtcVMxSEFxS3JxQ0JFZFk2MnBLOWlOUDlZaTc5NHhLX05zOVRMYXBDT1BlcVRVRE93TXAwTkViSDFTdktXU1F4SGVULXp4eDJpVlBBSWZSXzRYazBLSENxRFJiRXJpbFNMUUs4TDVraWxB?oc=5",
+    "authors": [],
+    "published": "Sun, 22 Nov 2026 16:17:00 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:f81d52f5f0019c389518",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "How A Robot Built A Structure In Space Without Human Intervention BGR",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/how-a-robot-built-a-structure-in-space-without-human-intervention-bgr-f81d52f5.md"
+  },
+  {
+    "kind": "news",
+    "source": "Chosunbiz",
+    "feed": "Asia-Pacific Robotics and AI",
+    "title": "China's rare earth export curbs hamper South Korea's robotics industry - Chosunbiz",
+    "abstract": "China's rare earth export curbs hamper South Korea's robotics industry Chosunbiz",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM3JYUU5uNEphNHNIdlBNTjFVcWM3ZVhrVVltNGRLUV9LdWlSNUE2MWRUZ0RsMXBxS3A5cGVtM0tPQkhuYjBpWi1HZnh6akJQWlhfdHBocmxYU21KVjZCS2o5YnZfOU5Ub2JBTVlhSHV6Zm5uNUJtN2hSaFl4Skg1ZUFldEtuQXRhQmx6ZkpsOWZCUmhHYnfSAZYBQVVfeXFMTTNyWFFObjRKYTRzSHZQTU4xVXFjN2VYa1VZbTRkS1FfS3VpUjVBNjFkVGdEbDFwcUtwOXBlbTNLT0JIbmIwaVotR2Z4empCUFpYX3RwaHJsWFNtSlY2QktqOWJ2XzlOVG9iQU1ZYUh1emZubjVCbTdoUmhZeEpINWVBZXRLbkF0YUJsemZKbDlmQlJoR2J3?oc=5",
+    "authors": [],
+    "published": "Sat, 21 Nov 2026 21:00:00 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:bcb1b5923025afd42c28",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "China's rare earth export curbs hamper South Korea's robotics industry Chosunbiz",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/china-s-rare-earth-export-curbs-hamper-south-korea-s-robotics-industry-chos-bcb1b592.md"
+  },
+  {
+    "kind": "news",
+    "source": "EU-Startups",
+    "feed": "Europe Robotics and AI",
+    "title": "Theseus Robotics secures €455k to put robots to work in supermarkets across Europe and US - EU-Startups",
+    "abstract": "Theseus Robotics secures €455k to put robots to work in supermarkets across Europe and US EU-Startups",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQLTZUaGpsSnF1d0lVZjZ4ankwc2lRSU5hU1NtM0RaSDVYVmNMdHJoVlJyM29Ubi00bldPNHk3UFljSGRfdER5NS02Y2xSdFYxNktmVWxkTG9pNEtrVk9QRkFiSG1YYzNhRFh4TkdFQWNueDJOWUxlV0x3LThxMEpLQl9wZ3NjSHV1YUd0NHBxMFNnOG45dDJNYmdXdW9xeDFuZTdGdnNNQ1hEN0FWZFhRNFhFbkQySU9jMXZObzJTTUgyUU5w?oc=5",
+    "authors": [],
+    "published": "Mon, 23 Nov 2026 11:15:57 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:c0cdbe11ef42809f8ab3",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Theseus Robotics secures €455k to put robots to work in supermarkets across Europe and US EU-Startups",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/theseus-robotics-secures-455k-to-put-robots-to-work-in-supermarkets-across-c0cdbe11.md"
+  },
+  {
+    "kind": "news",
+    "source": "朝日新聞",
+    "feed": "Asia-Pacific Robotics and AI",
+    "title": "From dance floor to war: China readies humanoid robots for combat - 朝日新聞",
+    "abstract": "From dance floor to war: China readies humanoid robots for combat 朝日新聞",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBzV3VlMkU0VWxrTHEtVXVBSUdiTUZCejE2YjNaLVVSTlo3azdERFB3bHlhUGFCYlZWcXpkb2ZwaEY2V1U0R29icVJGWHBidTdCOV9kamFTV1VjMnJ3NlE?oc=5",
+    "authors": [],
+    "published": "Mon, 23 Nov 2026 08:03:49 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:45599a4a17ce471838dd",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "From dance floor to war: China readies humanoid robots for combat 朝日新聞",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/from-dance-floor-to-war-china-readies-humanoid-robots-for-combat-45599a4a.md"
+  },
+  {
+    "kind": "news",
+    "source": "Seoul Economic Daily",
+    "feed": "Asia-Pacific Robotics and AI",
+    "title": "IL Signs Exclusive Korean Supply Deal With China's Robot Hand Unicorn XYNOVA - Seoul Economic Daily",
+    "abstract": "IL Signs Exclusive Korean Supply Deal With China's Robot Hand Unicorn XYNOVA Seoul Economic Daily",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZklqYzZDUlpvdEk3aGk5VEZocE1Yd1hjc0N2VWNnN1kzRE5NZWJJeUctMUpHV3hNZzREcDdzd3VvMXd3bWtsNTFpa0ZxX1I5SEkwWERzV3JsSzBsX1RPNmlkY1JZWWE5N3VEelREcnJyVlV0dXpRczBVTGxCTVllZnhxcWV5YW5oaWZZdUg5Rm5BOU1DSzNhVFR6V2d4N0U?oc=5",
+    "authors": [],
+    "published": "Mon, 23 Nov 2026 02:17:59 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:6a16751d39385d7b2b1c",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "IL Signs Exclusive Korean Supply Deal With China's Robot Hand Unicorn XYNOVA Seoul Economic Daily",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/il-signs-exclusive-korean-supply-deal-with-china-s-robot-hand-unicorn-xynov-6a16751d.md"
+  },
+  {
+    "kind": "news",
+    "source": "Bioengineer.org",
+    "feed": "HRI and Robot Research",
+    "title": "Framework Limits Moral Status Claims for Socially Responsive Humanoid Robots - Bioengineer.org",
+    "abstract": "Framework Limits Moral Status Claims for Socially Responsive Humanoid Robots Bioengineer.org",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQm9udkZXNW5nOWpIYzlVakNPNlhuU21zMzJsdkJ5Yk1fSDNoTXBPWEUzTGJLcDBLOGxOWmdnMmxES0daM0pGVTZzd2Fab3pQVU9leWV2Qm5jM0xtRW1uUHpQWUJFMnV6RU5Ed3lSWmNnNnpNcVF4QmcyN3NJakZ5RnVucHV2N0xJRGl4MVB2SlQ2T21qVEdpQlNKT29IekdKYlA0?oc=5",
+    "authors": [],
+    "published": "Mon, 23 Nov 2026 00:24:13 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:e592f951dad25c586622",
+    "other_sources": [],
+    "score": 4.0,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Framework Limits Moral Status Claims for Socially Responsive Humanoid Robots Bioengineer.org",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/framework-limits-moral-status-claims-for-socially-responsive-humanoid-robot-e592f951.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Integrating Generative Artificial Intelligence with Learning Style Models: Opportunities, Challenges, and Future Directions",
+    "abstract": "Generative Artificial Intelligence (Generative AI) has emerged as a powerful tool for transforming learning. This review examines how Generative AI can be integrated with established learning style models (VARK, Kolb, Felder-Silverman, and Honey & Mumford) to support student engagement in large online classes. Following PRISMA 2020 guidelines, we searched Scopus, IEEE Xplore, and Google Scholar (2015 to 2026) and included 41 studies that met the eligibility criteria. The review maps Generative AI capabilities to learning style preferences, synthesizes existing implementations, highlights benefits and challenges, and proposes pathways for future research and practice. Despite ongoing debates regarding the empirical validity of learning styles, Generative AI enables flexible, multimodal, and real-time adaptation. This study offers practical insights for educators and developers seeking to build more effective, learner centered learning systems",
+    "url": "http://arxiv.org/abs/2611.27868v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27868v1",
+    "doi": "",
+    "authors": [
+      "Malithi Nawarathne",
+      "Prasanna Haddela",
+      "Nuwan Kodagoda"
+    ],
+    "published": "2026-11-20T17:14:52Z",
+    "categories": [
+      "cs.AI"
+    ],
+    "peer_reviewed": false,
+    "key": "title:92e64190531cb721e2cd",
+    "other_sources": [],
+    "score": 2.7,
+    "topics": [
+      "AI and machine learning",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Generative Artificial Intelligence (Generative AI) has emerged as a powerful tool for transforming learning. This review examines how Generative AI can be integrated with established learning style models (VARK, Kolb, Felder-Silverman, and Honey & Mumford) to support student engagement in large online classes.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/integrating-generative-artificial-intelligence-with-learning-style-models-o-92e64190.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Search-RSI: Expanding Search Worlds Along Multimodal Agents' Capability Frontier",
+    "abstract": "Multimodal search agents answer knowledge intensive visual questions by grounding them in retrieved evidence, and recent recipes train them on multi hop tasks that are synthesized from knowledge graphs and grown online to keep pace with the agent. These recipes, however, treat the searchable world as fixed: a new question can be well formed and verifiable while its evidence is absent from the retrieval backend, so the agent issues the right query, retrieves nothing, and is penalized as if its policy were at fault. Such unreachable negatives accumulate with every round of growth. We propose Search-RSI, a recursive self improvement framework that expands the search world along the agent's capability frontier. In each round, the current policy diagnoses its partially mastered regions of a task space spanned by hop depth, relation rarity, and distractor density; new tasks there are grown together with their evidence; and the same policy decides how they are used: candidates on which its probes disagree feed reinforcement learning, while those beyond its reach become hint guided demonstrations of its own. Keeping the policy inside this loop matters: an improver frozen at the start of training loses 3.2 points. On nine multimodal search benchmarks, Search-RSI keeps improving where static task growth saturates, raising the average accuracy of the recipe it builds on by 9.8 and 9.5 points at 9B and 27B, of which 7.0 points are out of reach for a world that is merely made consistent. The loop uses no external model and only privileged task structure that is removed before training, at 1.27x the compute of static growth.",
+    "url": "http://arxiv.org/abs/2611.27780v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27780v1",
+    "doi": "",
+    "authors": [
+      "Chengchao Lv",
+      "Yin Wang",
+      "Chunzheng Zhu",
+      "Wanli Chang"
+    ],
+    "published": "2026-11-20T16:09:46Z",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "peer_reviewed": false,
+    "key": "title:88689f19a621e25baab3",
+    "other_sources": [
+      {
+        "source": "arXiv",
+        "url": "http://arxiv.org/abs/2611.27780v1"
+      }
+    ],
+    "score": 2.7,
+    "topics": [
+      "AI and machine learning",
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Multimodal search agents answer knowledge intensive visual questions by grounding them in retrieved evidence, and recent recipes train them on multi hop tasks that are synthesized from knowledge graphs and grown online to keep pace with the agent. These recipes, however, treat the searchable world as fixed: a new question can be well formed and verifiable while its evidence is absent from the retrieval backend, so the agent issues the right query, retrieves nothing, and is pe",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/search-rsi-expanding-search-worlds-along-multimodal-agents-capability-front-88689f19.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "DistDNA: Language Model Fingerprinting under Stochastic Decoding",
+    "abstract": "Behavioral fingerprints identify a large language model (LLM) from its responses to a shared set of prompts, enabling applications such as verifying whether a deployed model corresponds to the checkpoint it claims to be. Deployed models, however, are commonly served with stochastic decoding, under which the same model may produce different responses to an identical prompt, depending on an unknown temperature and top-$p$ setting. Existing representations such as LLM DNA provide limited treatment of this variation. A natural remedy is to characterize models by their response distributions, which, however, raises two challenges. First, each distribution must be estimated from only a small number of sampled responses. Second, a change in decoding setting can alter responses to the same extent as a change of checkpoint. Consequently, fingerprint distances alone provide an incomplete basis for model identity, and identification typically relies on a classifier trained jointly on fingerprints from many checkpoints. We propose DistDNA, which represents a model by its prompt-conditional response distributions and compares models by promptwise maximum mean discrepancy (MMD). The model under examination is assigned to the known checkpoint whose reference fingerprints, collected at several decoding settings, lie nearest to its own, without training a classifier. We show that finite sampling adds variance-dependent terms to the expected squared fingerprint distance, with these terms decreasing as $O(1/R)$ for equal response counts, where $R$ is the number of responses per prompt. Experiments across 115 model checkpoint entries demonstrate that DistDNA improves identification accuracy over the strongest baseline, LLM DNA, by 10.36%.",
+    "url": "http://arxiv.org/abs/2611.27831v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27831v1",
+    "doi": "",
+    "authors": [
+      "Lifan Hu",
+      "Qian Yu",
+      "Zhaomin Wu",
+      "Bingsheng He"
+    ],
+    "published": "2026-11-20T16:52:51Z",
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "peer_reviewed": false,
+    "key": "title:6cc137ca4355148f8091",
+    "other_sources": [],
+    "score": 2.25,
+    "topics": [
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Behavioral fingerprints identify a large language model (LLM) from its responses to a shared set of prompts, enabling applications such as verifying whether a deployed model corresponds to the checkpoint it claims to be. Deployed models, however, are commonly served with stochastic decoding, under which the same model may produce different responses to an identical prompt, depending on an unknown temperature and top-$p$ setting.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/distdna-language-model-fingerprinting-under-stochastic-decoding-6cc137ca.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Feasibility of Multifrequency Neural Network-Based Wave Inversion in Ultrasound Time-Harmonic Elastography",
+    "abstract": "Ultrasound time-harmonic elastography (THE) is a non-invasive imaging technique that measures soft-tissue stiffness. Relying on the same principle of time-harmonic shear wave excitation as established magnetic resonance elastography (MRE), THE offers full field-of-view stiffness mapping at short acquisition times and sub-second temporal resolution across organs. However, reconstruction of shear wave speed maps from acquired tissue wavefields remains challenging due to speckle noise and sparse spatial coverage of the lateral component. Deep learning methods have shown promising results for image reconstruction in transient-based ultrasound elastography modalities but remain unexplored in THE. In MRE, MF-ElastoNet, a 2D multifrequency neural network-based wave reconstruction method trained on synthetic physics-based wave data, has shown high generalizability across dynamic ranges and resolutions. We investigated the potential of a multifrequency neural network-based wave inversion for THE, by performing a first feasibility analysis. To this end, we adapted the processing pipeline of MF-ElastoNet from MRE to THE. We tested our approach on THE acquired phantom data from the algorithms for mapping elastic modulus Challenge, as well as on in vivo liver THE in 4 healthy volunteers and 14 patients with focal liver lesions, including benign focal nodular hyperplasia, and malignant hepatocellular carcinoma and adenocarcinoma. MF-ElastoNet was successfully adapted to THE with in vivo liver testing. Compared with k-MDEV, the state-of-the-art wave inversion method for THE, Bland-Altman analysis showed a mean bias of -0.02 m/s (95% limits of agreement: -0.36 to 0.33 m/s).",
+    "url": "http://arxiv.org/abs/2611.27792v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27792v1",
+    "doi": "",
+    "authors": [
+      "Héloïse Bustin",
+      "Tom Meyer",
+      "Paul Spiesecke",
+      "Jakob Jordan",
+      "Anja Hennemuth",
+      "Ingolf Sack"
+    ],
+    "published": "2026-11-20T16:25:16Z",
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "peer_reviewed": false,
+    "key": "title:5b7627f722b0b8cc16ea",
+    "other_sources": [],
+    "score": 2.25,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Ultrasound time-harmonic elastography (THE) is a non-invasive imaging technique that measures soft-tissue stiffness. Relying on the same principle of time-harmonic shear wave excitation as established magnetic resonance elastography (MRE), THE offers full field-of-view stiffness mapping at short acquisition times and sub-second temporal resolution across organs.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/feasibility-of-multifrequency-neural-network-based-wave-inversion-in-ultras-5b7627f7.md"
+  },
+  {
+    "kind": "news",
+    "source": "The Robot Report",
+    "feed": "The Robot Report",
+    "title": "Special Report: Engineering Focus on Motion Control",
+    "abstract": "The Robot Report looks at recent advances in automation for manufacturing, from improvements in technologies and use cases to the potential of humanoids and AI. The post Special Report: Engineering Focus on Motion Control appeared first on The Robot Report .",
+    "url": "https://www.therobotreport.com/special-report-engineering-focus-on-motion-control",
+    "authors": [],
+    "published": "Mon, 23 Nov 2026 15:16:26 +0000",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:36d3f8f4409a09cb1d2e",
+    "other_sources": [],
+    "score": 2.2,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "The Robot Report looks at recent advances in automation for manufacturing, from improvements in technologies and use cases to the potential of humanoids and AI. The post Special Report: Engineering Focus on Motion Control appeared first on The Robot Report .",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/special-report-engineering-focus-on-motion-control-36d3f8f4.md"
+  },
+  {
+    "kind": "news",
+    "source": "The Robot Report",
+    "feed": "The Robot Report",
+    "title": "NVIDIA reinstates Jensen Huang after 11-day absence",
+    "abstract": "The NVIDIA board reversed its decision following discussions with Huang and senior U.S. government officials, amid growing pressure from the White House, investors and technology executives. The post NVIDIA reinstates Jensen Huang after 11-day absence appeared first on The Robot Report .",
+    "url": "https://www.therobotreport.com/nvidia-reinstates-jensen-huang-after-11-day-absence",
+    "authors": [],
+    "published": "Mon, 23 Nov 2026 14:20:46 +0000",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:7be0225487659bd82822",
+    "other_sources": [],
+    "score": 2.2,
+    "topics": [
+      "Robotics and autonomy"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "The NVIDIA board reversed its decision following discussions with Huang and senior U.S. government officials, amid growing pressure from the White House, investors and technology executives. The post NVIDIA reinstates Jensen Huang after 11-day absence appeared first on The Robot Report .",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/nvidia-reinstates-jensen-huang-after-11-day-absence-7be02254.md"
+  },
+  {
+    "kind": "news",
+    "source": "JournalArta",
+    "feed": "AI World News",
+    "title": "Artificial Intelligence Models Differ From Brains, York Study Finds - JournalArta",
+    "abstract": "Artificial Intelligence Models Differ From Brains, York Study Finds JournalArta",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdGZHRzVRWjJMX0FyUWlvV3lLYlZfX0FHMU9rQ3RUXzYyWEtteDdIRmNoSUo5cUwzODZTb2FJVWFGVFdxVHJnRVNiTVBzRzhWZ2czR3FWMm5tWWZydTROME9hNlpGNTVvN04yeEkzX1czT1Y5NlgwUzQ4a2ZtcFhYSTFGcm5ORVh5NTR6N0xMOGxvdjFjZ2Z1UA?oc=5",
+    "authors": [],
+    "published": "Sun, 22 Nov 2026 12:10:29 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:4844b99561b605116ad9",
+    "other_sources": [],
+    "score": 2.0,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Artificial Intelligence Models Differ From Brains, York Study Finds JournalArta",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/artificial-intelligence-models-differ-from-brains-york-study-finds-journala-4844b995.md"
+  },
+  {
+    "kind": "news",
+    "source": "news.lavx.hu",
+    "feed": "Open AI Models and Tools",
+    "title": "Z.ai Introduces GLM-5.4, Its First Loop Transformer Model - news.lavx.hu",
+    "abstract": "Z.ai Introduces GLM-5.4, Its First Loop Transformer Model news.lavx.hu",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZHF5Y2dkRkw1d0pEUFd4N1lFUFVDbVFxb0o5R0wwWHBCS2FMUU0ydjBxdEc2MGJjYVJ5eFF0Tm1oa1o5QnNVUThKT0tXUUZHZ3JzeG9RTm45Nm5hU1pjVmh5VTJMbnRWOVNuUzQ0a3lGa1N3LWtQdXdTemI2OTB2YVF5VDdrRzNkWGdCdllR?oc=5",
+    "authors": [],
+    "published": "Mon, 23 Nov 2026 12:29:20 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:913aa20d4add3c587139",
+    "other_sources": [],
+    "score": 2.0,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Z.ai Introduces GLM-5.4, Its First Loop Transformer Model news.lavx.hu",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/z-ai-introduces-glm-5-4-its-first-loop-transformer-model-news-lavx-hu-913aa20d.md"
+  },
+  {
+    "kind": "news",
+    "source": "Pasquale Pillitteri",
+    "feed": "Open AI Models and Tools",
+    "title": "Z.ai launches GLM-5.4, its first loop transformer with 750 billion parameters - Pasquale Pillitteri",
+    "abstract": "Z.ai launches GLM-5.4, its first loop transformer with 750 billion parameters Pasquale Pillitteri",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPc1JVSXpqa2l3b05MQW9lbk1NTVprcWZxV19jYWpDQ2lJZ2oyUWJxTkJGcmNkWC1MdmlJNERleGxMd2RyQXNGZWd3NTM0VjlZNHM0OGZ2WVpQVkVLRDQ0c1lxSnNsWEYtcEwzd3R2aDhSSEVfOEc0NVBqWFY1a3ZqWVUxUDVZZXc?oc=5",
+    "authors": [],
+    "published": "Mon, 23 Nov 2026 12:06:18 GMT",
+    "doi": "",
+    "pdf_url": "",
+    "categories": [],
+    "key": "title:6d8efa309b33d1d5e9cd",
+    "other_sources": [],
+    "score": 2.0,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Z.ai launches GLM-5.4, its first loop transformer with 750 billion parameters Pasquale Pillitteri",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/news/z-ai-launches-glm-5-4-its-first-loop-transformer-with-750-billion-parameter-6d8efa30.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "The Dual-Tier Sentiment Framework: Scalable Multimodal UX Attribution in Web Search",
+    "abstract": "Sustaining user experience (UX) quality in large-scale web search requires scalable evaluation. Traditional surveys are slow and bottleneck rapid A/B testing, while automated metrics often lack the granularity to diagnose visual-spatial UX anomalies. To address this, we introduce the Dual-Tier Sentiment Framework, a novel industrial architecture for automated UX attribution. Tier 1 (Macro System) acts as a scalable user sentiment regression detector, utilizing a fine-tuned encoder-decoder LLM (based on Gemini XS) on telemetry features. Through multi-task regularization and contextual feature engineering, this tier achieves a +9.8% PR-AUC gain on over 500,000 held-out records, matching baseline recall on all validated regressions with $\\sim$20% relative precision gain among the 12 held-out experiments. In production, it reduces measurement latency from weeks to hours and cuts survey overhead by over 40%. Tier 2 (Micro System) provides granular diagnostics by employing a Multimodal LLM (Gemini 3.0 Pro) to natively assess visual renderings and spatial layout of web result blocks, quantifying \"User Toil\" as the estimated effort required to reach a satisfactory result. Enhanced by RL-based automated prompt optimization and an AI judge for win/loss patterns, the MLLM yields a $>$6.5% F1 score improvement, offering deep insights into content quality and layout friction. Ultimately, this framework enables scalable, accurate, and diagnostic UX attribution, processing O(100k) live experiment queries daily.",
+    "url": "http://arxiv.org/abs/2611.27899v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27899v1",
+    "doi": "",
+    "authors": [
+      "Yi Ding",
+      "Gaurav Kumar",
+      "Rui Min",
+      "Isabella Ye",
+      "Bhavika Goyal",
+      "Emilio Antunez",
+      "Huihui Chen",
+      "Ke Xu",
+      "Xiaowei Sun",
+      "Xin Xu",
+      "Huijie Feng",
+      "Pradyumna Narayana"
+    ],
+    "published": "2026-11-20T17:38:26Z",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "peer_reviewed": false,
+    "key": "title:1c982b96ba7fc3310515",
+    "other_sources": [],
+    "score": 2.0,
+    "topics": [
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Sustaining user experience (UX) quality in large-scale web search requires scalable evaluation. Traditional surveys are slow and bottleneck rapid A/B testing, while automated metrics often lack the granularity to diagnose visual-spatial UX anomalies.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/the-dual-tier-sentiment-framework-scalable-multimodal-ux-attribution-in-web-1c982b96.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Autonomous quantum machine learning via Riemannian gradient-based optimization",
+    "abstract": "Quantum machine learning models typically rely on repeated quantum measurements and classical optimization during training, making the quantum-to-classical information-extraction process a fundamental bottleneck for scalability. We propose a framework for autonomous self-training quantum machine learning, based on Riemannian gradient optimization, in which the optimization proceeds entirely within the quantum domain without requiring quantum measurements or classical feedback. We derive the Riemannian gradient update rules for a broad class of learning tasks and identify sufficient conditions under which the resulting training dynamics can be realized fully autonomously. Within this regime, we establish an exponential convergence guarantee, in the training iterations, for sufficiently small step sizes, and further analyze the training cost in terms of the growth of the circuit depth. Importantly, we further show that the trained model can automatically discover symmetries hidden in the training data without $\\textit{a priori}$ specification. For the canonical examples of quantum phase classification and unitary learning with a hidden symmetry, our numerical study indicates that learning can be achieved at low circuit depths with only a few distinct training examples. Our results thus establish autonomous quantum machine learning as a promising paradigm that removes the classical optimization loop while retaining strong theoretical guarantees and practical performances.",
+    "url": "http://arxiv.org/abs/2611.27815v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27815v1",
+    "doi": "",
+    "authors": [
+      "Kasidit Srimahajariyapong",
+      "Thiparat Chotibut",
+      "Suwannachad Suwannajitt",
+      "Tithivich Paka",
+      "Ricard Puig",
+      "Yudai Suzuki",
+      "Marek Gluza",
+      "Zoë Holmes",
+      "Supanut Thanasilp"
+    ],
+    "published": "2026-11-20T16:42:26Z",
+    "categories": [
+      "quant-ph",
+      "cond-mat.stat-mech",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "peer_reviewed": false,
+    "key": "title:be2aa1b65df025edcb29",
+    "other_sources": [],
+    "score": 2.0,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Quantum machine learning models typically rely on repeated quantum measurements and classical optimization during training, making the quantum-to-classical information-extraction process a fundamental bottleneck for scalability. We propose a framework for autonomous self-training quantum machine learning, based on Riemannian gradient optimization, in which the optimization proceeds entirely within the quantum domain without requiring quantum measurements or classical feedback",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/autonomous-quantum-machine-learning-via-riemannian-gradient-based-optimizat-be2aa1b6.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Redesigning Neural Networks to Not be Confidently Wrong even to Strong Adversarial Attacks",
+    "abstract": "Early deep learning models attempted to simulate visual perception using a neural hierarchy that alternated between two types of layer: one modelled on cortical simple cells (that was designed to increase selectivity), and one modelled on cortical complex cells (that aimed to increase tolerance). We show that such a neural network (NN) architecture, when implemented with novel components that are better able to learn selective and tolerant representations, is capable of accurate and robust image classification and improved alignment between the behaviour of the model and the perceptual abilities of humans. Firstly, the proposed models are shallow, fewer than ten layer-pairs, which is more consistent with the rapid feedforward object categorisation performed by the biological visual system. Secondly, they are far less prone to producing classification predictions with high confidence for samples from unknown classes or for image consisting of pure noise, and hence, like humans are not easily fooled into perceiving objects that are not present in the image. Thirdly, for the proposed NNs adversarial samples cause predictions with low confidence, enabling them to be accurately identified. In contrast to humans, our networks still do not correctly classify adversarial samples. However, the behaviour of our networks is a significant step towards human-like behaviour compared to standard DNNs that produce highly confident, but incorrect, classification predictions for adversarial samples. The increased robustness to adversarial and unknown samples is achieved while maintaining competitive performance in terms of generalisation to novel samples from the training categories. This enables models of this type to be competitive with state-of-the-art DNNs across multiple different evaluation metrics and benchmark tasks.",
+    "url": "http://arxiv.org/abs/2611.27811v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27811v1",
+    "doi": "",
+    "authors": [
+      "Michael W. Spratling",
+      "Heiko H. Schütt"
+    ],
+    "published": "2026-11-20T16:38:30Z",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "peer_reviewed": false,
+    "key": "title:9c2dcee66f4a6627412e",
+    "other_sources": [
+      {
+        "source": "arXiv",
+        "url": "http://arxiv.org/abs/2611.27811v1"
+      }
+    ],
+    "score": 2.0,
+    "topics": [
+      "Computer vision and 3D perception",
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Early deep learning models attempted to simulate visual perception using a neural hierarchy that alternated between two types of layer: one modelled on cortical simple cells (that was designed to increase selectivity), and one modelled on cortical complex cells (that aimed to increase tolerance). We show that such a neural network (NN) architecture, when implemented with novel components that are better able to learn selective and tolerant representations, is capable of accur",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/redesigning-neural-networks-to-not-be-confidently-wrong-even-to-strong-adve-9c2dcee6.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "SLP-Bench: Evaluating and Improving Acoustic Claims of Reasoning Audio Language Models on Clinical Speech",
+    "abstract": "Audio language models (ALMs) can answer clinical questions from speech, outperforming baselines built on handcrafted acoustic features. Reasoning ALMs generate a chain of thought that refers to properties of the speaker's voice before predicting. Each statement the model makes about the voice needs to be checked against clinicians' perceptual ratings of the same recording. On clinical speech, existing evaluations score only the final answer. We introduce Speech Language Pathologist Bench (SLP-Bench), a benchmark grading each acoustic claim in the chain of thought against clinicians' perceptual ratings of the same recording. It covers five clinician-rated datasets and 25 perceptual dimensions, and assesses claims for factuality, stability under resampling, and consistency across reworded and different questions. Across ten open-weight reasoning ALMs evaluated zero-shot, claim balanced accuracy ranges from 0.52 to 0.58, claims change under resampling and rewording, and the most consistent models are not the most factual. Fine-tuning a 7B ALM with GRPO on a reward for claims that agree with clinicians raises its claim balanced accuracy from 0.54 to 0.60 and its mean kappa from 0.39 to 0.61, while preserving answer accuracy on per-dimension questions. SLP-Bench is available upon request, subject to approval by the providers of each dataset.",
+    "url": "http://arxiv.org/abs/2611.27810v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27810v1",
+    "doi": "",
+    "authors": [
+      "Côme Hosxe",
+      "Rachid Riad",
+      "Quentin Spinat"
+    ],
+    "published": "2026-11-20T16:36:57Z",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG",
+      "cs.SD"
+    ],
+    "peer_reviewed": false,
+    "key": "title:2b96ff3fddaa2121e817",
+    "other_sources": [],
+    "score": 2.0,
+    "topics": [
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Audio language models (ALMs) can answer clinical questions from speech, outperforming baselines built on handcrafted acoustic features. Reasoning ALMs generate a chain of thought that refers to properties of the speaker's voice before predicting.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/slp-bench-evaluating-and-improving-acoustic-claims-of-reasoning-audio-langu-2b96ff3f.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Neural Defend ARCAS 290M: A Robust Foundation Model for AI-Generated Audio Detection",
+    "abstract": "Voice cloning now needs only seconds of audio, and detectors tuned to one dataset often fail when the generator, channel, or language changes. We introduce ARCAS 290M, Neural Defend's foundation model for detecting AI-generated audio. A single frozen production model, with no benchmark-specific fine-tuning, generalizes across text-to-speech, voice-conversion, and codec-language-model generators, telephone and Bluetooth channels, recording conditions, and languages. We evaluate it on the complete official test sets of ten public benchmarks, scoring every recording exactly as released, and against commercial systems on independent leaderboards. ARCAS 290M ranks first among all systems on the Podonos leaderboard and has the lowest equal error rate among commercial detectors on ASVspoof5. It separates real from AI-generated speech almost perfectly on ASVspoof5, SpeechFake, and ShiftySpeech, and detects nearly all AI-generated speech in Hindi, Tamil, Bengali, and Telugu. On every benchmark with a published zero-shot comparison, including in-the-wild audio, partial fakes, and the conditions hardest for the field, it surpasses the strongest reported detector by a wide margin. These results establish ARCAS 290M as a general-purpose foundation for AI-generated audio detection in fraud prevention, platform safety, and media verification.",
+    "url": "http://arxiv.org/abs/2611.27784v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27784v1",
+    "doi": "",
+    "authors": [
+      "Sivashankar Selvarajan",
+      "Piyush Verma",
+      "Sumit Kumar",
+      "Sharayu N. Deshmukh"
+    ],
+    "published": "2026-11-20T16:11:09Z",
+    "categories": [
+      "cs.SD",
+      "cs.AI"
+    ],
+    "peer_reviewed": false,
+    "key": "title:1d0e38842aa9b2e5cf03",
+    "other_sources": [],
+    "score": 2.0,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Voice cloning now needs only seconds of audio, and detectors tuned to one dataset often fail when the generator, channel, or language changes. We introduce ARCAS 290M, Neural Defend's foundation model for detecting AI-generated audio.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/neural-defend-arcas-290m-a-robust-foundation-model-for-ai-generated-audio-d-1d0e3884.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Generalist Action Critic: Harnessing Frontier Models in Autonomous Driving",
+    "abstract": "Frontier models have demonstrated remarkable general-purpose reasoning capabilities, opening new possibilities for intelligent decision making in the physical world. In autonomous driving, many recent approaches seek to leverage these capabilities through additional adaptation for action output, particularly in scenarios where existing models underperform. We introduce Generalist Action Critic (GAC), a zero-shot framework that combines frontier models' general-purpose reasoning with the planning competence of specialized driving models through an inference-time harness. In GAC, specialized planners generate multiple candidate trajectories and make an initial selection, while a frozen frontier model serves as an action critic that assesses the selected trajectory against scene evidence and either retains it or reselects from the available candidates. The harness combines camera images with spatial overlays, provides driving context and reasoning principles through textual instructions, and regulates the information available at each stage to support trajectory assessment and reselection. On HUGSIM, GAC raises DrivoR's HD-Score to 43.2, achieving state-of-the-art performance among methods trained without additional simulation data. GAC also consistently improves closed-loop driving safety across three planners, with relative HD-Score gains of up to 32.1%. Experiments on NAVSIM v1 further reveal how GAC improves planning performance by correcting up to 52.13% of eligible unsafe trajectory selections while introducing new failures in only 0.67% of originally high-quality selections. These results demonstrate the potential of harnessing frontier models to improve driving safety through inference-time cooperation with specialized planners.",
+    "url": "http://arxiv.org/abs/2611.27804v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27804v1",
+    "doi": "",
+    "authors": [
+      "Yun Yan",
+      "Shizhi Hu",
+      "Zhichao Li",
+      "Yang Guan",
+      "Shiqi Liu",
+      "Jiaxin Gao",
+      "Xiangteng Zhang",
+      "Wenbo Ding",
+      "Jiuhua Zhao",
+      "Hui Guo",
+      "Xintao Yan",
+      "Keqiang Li"
+    ],
+    "published": "2026-11-20T16:32:53Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:0216b94ba27da45dec11",
+    "other_sources": [],
+    "score": 1.9,
+    "topics": [
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Frontier models have demonstrated remarkable general-purpose reasoning capabilities, opening new possibilities for intelligent decision making in the physical world. In autonomous driving, many recent approaches seek to leverage these capabilities through additional adaptation for action output, particularly in scenarios where existing models underperform.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/generalist-action-critic-harnessing-frontier-models-in-autonomous-driving-0216b94b.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Interactive Semi-Parametric On-Track Learning for Vehicle Dynamics in Autonomous Racing",
+    "abstract": "Autonomous racing requires an accurate vehicle dynamics model near the limits of handling, yet a mismatch between the nominal and actual dynamics inevitably remains. To reduce this mismatch, existing methods learn from on-track data, i.e., data collected while the vehicle drives on the track under racing conditions, by adapting the physical parameters of the nominal model or by learning a residual that captures the remaining mismatch. However, these on-track learning methods typically handle either the physical parameters or the residual separately, which restricts their ability to resolve the mismatch. To address this limitation, we propose an interactive semi-parametric learning framework that learns both the physical parameters and the residual under a single shared prediction-error objective. Since updating one changes the learning target of the other, they are recursively updated in turn, each guided by the other's latest update. Each update is then accepted only if it does not increase the shared objective, so that the objective is guaranteed to be non-increasing and convergent over the recursion. Numerical simulations and hardware experiments show that the proposed framework outperforms the baselines. Compared with the nominal model, it reduces the one-step prediction errors of lateral velocity and yaw rate by 90.0% and 81.6% in simulation and by 54.0% and 59.4% on hardware.",
+    "url": "http://arxiv.org/abs/2611.27932v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27932v1",
+    "doi": "",
+    "authors": [
+      "Jungbin Kim",
+      "Youngim Nam",
+      "Cheolhyeon Kwon"
+    ],
+    "published": "2026-11-20T18:08:14Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:7440fbc31fa2d78deb71",
+    "other_sources": [],
+    "score": 1.2,
+    "topics": [],
+    "first_seen": "2026-11-23",
+    "summary": "Autonomous racing requires an accurate vehicle dynamics model near the limits of handling, yet a mismatch between the nominal and actual dynamics inevitably remains. To reduce this mismatch, existing methods learn from on-track data, i.e., data collected while the vehicle drives on the track under racing conditions, by adapting the physical parameters of the nominal model or by learning a residual that captures the remaining mismatch.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/interactive-semi-parametric-on-track-learning-for-vehicle-dynamics-in-auton-7440fbc3.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "EvoTER: Evolving Embodied Agents via Tool-Use Experience and Reflection",
+    "abstract": "Long-horizon embodied tasks require agents to ground instructions in changing observations, coordinate heterogeneous tools, and recover from failures that can propagate through downstream operations. Although existing LLM-based agents retain experience and refine reusable skills, successful local repairs do not by themselves establish complete-task gains over the current shared procedure library. We present EvoTER, an experience-driven framework that enables embodied agents to self-evolve tool-use skills without updating model parameters. EvoTER operates through a three-role evolution loop: Explorer records tool-use trajectories; Diagnoser distills successful and failed executions into skills for tool selection, parameter computation, postcondition checks, and recovery; and Validator retains candidate revisions only when they improve complete-task success in fresh sessions. In simulation, EvoTER improves overall task success from a pre-evolution baseline of 53.60% to 80.40%. In real-world experiments, simulation initialization reduces the attempts required to acquire short-horizon skills, while continued real-world evolution improves long-horizon success from 20% to 80%-100% across tasks and enables the evolving skill library to incorporate new tool functionality introduced after simulation development. Project page: https://evoter-project.github.io/",
+    "url": "http://arxiv.org/abs/2611.27797v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27797v1",
+    "doi": "",
+    "authors": [
+      "Yingting Zhou",
+      "Yuyin Zhou",
+      "Yongliang Wang",
+      "Haoran Li",
+      "Dongbin Zhao"
+    ],
+    "published": "2026-11-20T16:28:51Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "peer_reviewed": false,
+    "key": "title:3c52f767b6bba64b67c7",
+    "other_sources": [],
+    "score": 1.2,
+    "topics": [],
+    "first_seen": "2026-11-23",
+    "summary": "Long-horizon embodied tasks require agents to ground instructions in changing observations, coordinate heterogeneous tools, and recover from failures that can propagate through downstream operations. Although existing LLM-based agents retain experience and refine reusable skills, successful local repairs do not by themselves establish complete-task gains over the current shared procedure library.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/evoter-evolving-embodied-agents-via-tool-use-experience-and-reflection-3c52f767.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "SUPERVISE: A Unified Framework for Standardized and Reproducible Superpixel Evaluation",
+    "abstract": "Image segmentation into superpixels is a widely used technique in computer vision, with a large body of work developed over the years. Yet, its evaluation remains poorly standardized, as methods are compared under heterogeneous protocols, across inconsistent scale ranges, and with redundant or misaligned metric subsets. In this work, we introduce SUPERVISE (SUperpixel PERformance VISualization and Evaluation), a unified and reproducible benchmark that addresses these longstanding inconsistencies. Built on a scale-normalized protocol based on interpolation over the actual number of generated superpixels, SUPERVISE enables fair and consistent cross-method comparisons. We leverage this standardized framework to conduct the first large-scale statistical analysis of 20 evaluation metrics across 7 datasets and 31 methods, revealing strong inter-metric correlations and significant redundancy that challenge common evaluation practices. These findings provide empirical support for reporting a compact set of representative metrics. SUPERVISE is released as a lightweight, modular framework built on precomputed shared label maps, making large-scale reproducible evaluation accessible to the community. All code, label maps, and evaluation results are publicly available at: https://github.com/waldo-j/supervise",
+    "url": "http://arxiv.org/abs/2611.27753v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27753v1",
+    "doi": "",
+    "authors": [
+      "Julien Walther",
+      "Rémi Giraud",
+      "Michaël Clément"
+    ],
+    "published": "2026-11-20T15:43:13Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "peer_reviewed": false,
+    "key": "title:189a05fae1ae29bbad57",
+    "other_sources": [],
+    "score": 1.05,
+    "topics": [
+      "Computer vision and 3D perception"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Image segmentation into superpixels is a widely used technique in computer vision, with a large body of work developed over the years. Yet, its evaluation remains poorly standardized, as methods are compared under heterogeneous protocols, across inconsistent scale ranges, and with redundant or misaligned metric subsets.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/supervise-a-unified-framework-for-standardized-and-reproducible-superpixel-189a05fa.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Model Carving: Training Transformers That Optimize Their Own Topology",
+    "abstract": "Machine learning has largely kept separate the choice of architecture and the process of training. A classic Transformer, for instance, trains a fixed set of attention and MLP sublayers at every layer, in the same order, and optimizes the weights within. This uniformity is a convention rather than a principled design choice, and it is likely suboptimal: the best architecture for a given task may be smaller, more efficient, and far from uniform. We believe that, ideally, training itself should shape the model's topology. To this end, we introduce Model Carving, which learns both a Transformer's weights and its architecture in a single run. By applying learnable, scalar gates to each sublayer, we allow the training loss to remove the model's own components during training -- freeing a smaller heterogeneous network inside. We evaluate Model Carving by pre-training standard Transformers from 140M to 2.7B parameters and looped Transformers from 140M to 1.3B. At equal training compute, carved models reach a lower validation loss than dense models trained with up to 1.7 times more compute. Furthermore, carved models also outperform size-matched models produced by pruning or distillation, suggesting that the best way to obtain small models for edge devices is to carve them during training, not to compress a large one afterwards. This advantage both grows with scale and carries over to downstream tasks such as few-shot evaluation and generation. Because the removed sublayers no longer run, carved models also cost up to 34% fewer FLOPs per token and decode up to 1.6 times faster without cost in quality. Our results show that architecture, like weights, should be learned and not fixed in advance, and that inside every large transformer is a smaller, faster, stronger one waiting to be carved out.",
+    "url": "http://arxiv.org/abs/2611.27962v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27962v1",
+    "doi": "",
+    "authors": [
+      "Kaden Zheng",
+      "Pratyusha Sharma"
+    ],
+    "published": "2026-11-20T18:41:39Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "peer_reviewed": false,
+    "key": "title:2a5a77d62b2dfe93c00b",
+    "other_sources": [],
+    "score": 0.95,
+    "topics": [
+      "AI and machine learning"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Machine learning has largely kept separate the choice of architecture and the process of training. A classic Transformer, for instance, trains a fixed set of attention and MLP sublayers at every layer, in the same order, and optimizes the weights within.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/model-carving-training-transformers-that-optimize-their-own-topology-2a5a77d6.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "Auditable Financial Knowledge Graphs: Schema-Driven Construction and Intrinsic Quality Evaluation",
+    "abstract": "Financial documents combine narrative disclosures, accounting metrics, corporate structures, management commentary, and time-dependent facts, making them difficult to represent using conventional chunk-based retrieval-augmented generation systems. This paper presents an auditable, schema-driven methodology for constructing temporal financial knowledge graphs from page-delimited documents parsed using a general purpose document intelligence service. Overlapping document windows undergo phased large language model extraction of structural entities, quantitative observations, and domain-specific relationships. Candidate graph elements are validated against predefined schemas and consolidated through scope-aware exact, normalized, fuzzy, embedding-based, and LLM-assisted entity resolution. Temporal merge constraints, deterministic edge deduplication, conflict-aware property management, and fine-grained provenance preserve issuer identity, reporting-period validity, and traceability to source evidence. The contributions of this work comprise the proposed methodology for financial knowledge graph construction, the creation of an evidence-grounded temporal knowledge graph from heterogeneous financial documents, and an intrinsic framework for evaluating the quality of the resulting graph. The evaluation framework assesses seven weighted dimensions, two hard validation gates, and structural diagnostics. By separating graph-quality assessment from downstream retrieval and answer generation, the framework supports systematic diagnosis and iterative refinement of the constructed graph.",
+    "url": "http://arxiv.org/abs/2611.27835v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27835v1",
+    "doi": "",
+    "authors": [
+      "Samarth Sarin",
+      "Lovepreet Singh",
+      "Dhagash Mehta"
+    ],
+    "published": "2026-11-20T16:54:47Z",
+    "categories": [
+      "cs.AI",
+      "cs.CE"
+    ],
+    "peer_reviewed": false,
+    "key": "title:ac379c8d01763b25831e",
+    "other_sources": [],
+    "score": 0.95,
+    "topics": [
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Financial documents combine narrative disclosures, accounting metrics, corporate structures, management commentary, and time-dependent facts, making them difficult to represent using conventional chunk-based retrieval-augmented generation systems. This paper presents an auditable, schema-driven methodology for constructing temporal financial knowledge graphs from page-delimited documents parsed using a general purpose document intelligence service.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/auditable-financial-knowledge-graphs-schema-driven-construction-and-intrins-ac379c8d.md"
+  },
+  {
+    "kind": "paper",
+    "source": "arXiv",
+    "title": "RoSci: Exploring Robustness in Science VLMs",
+    "abstract": "Recent advancements in Vision-Language Models (VLMs) enable significant progress in scientific tasks. However, these models are generally assumed to be presented with complete and accurate information, overlooking the challenges of erroneous/missing information in wild scenarios. To address this gap, we introduce the concept of Scientific Model Robustness, which defines a model's ability to detect anomalies, assess solvability, and perform self-calibration when faced with Information Error (inconsistencies) or Information Loss (insufficiency). Specifically, we present RoSci-Bench, a diagnostic benchmark of 1,220 samples using a seed-variant strategy across six degradation types. To address VLM fragility, we further propose RoSci-Agent, a framework that employs a Parse-Verify-Decide pipeline to vet premises before reasoning. The evaluated VLMs sometimes answer questions whose premises are invalid or incomplete. RoSci-Agent achieves a higher Overall Robustness Score than the evaluated standalone VLMs. RoSci-Bench gives the multimodal reasoning community a common test of when models answer, request clarification, or reject a scientific question.",
+    "url": "http://arxiv.org/abs/2611.27750v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.27750v1",
+    "doi": "",
+    "authors": [
+      "Junying Wang",
+      "Yijin Guo",
+      "Yalun Wu",
+      "Ziheng Jiao",
+      "Farong Wen",
+      "Qihang Yan",
+      "Wenzhe Li",
+      "Ye Shen",
+      "Qi Jia",
+      "Chunyi Li",
+      "Zicheng Zhang",
+      "Guangtao Zhai"
+    ],
+    "published": "2026-11-20T15:41:48Z",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "peer_reviewed": false,
+    "key": "title:5faa8a7f05f502fc4b7c",
+    "other_sources": [],
+    "score": 0.95,
+    "topics": [
+      "NLP and language models"
+    ],
+    "first_seen": "2026-11-23",
+    "summary": "Recent advancements in Vision-Language Models (VLMs) enable significant progress in scientific tasks. However, these models are generally assumed to be presented with complete and accurate information, overlooking the challenges of erroneous/missing information in wild scenarios.",
+    "method": "Not established from the available metadata.",
+    "key_finding": "Not independently verified.",
+    "limitations": "Full text has not been assessed.",
+    "why_it_matters": "Matched your configured research topics; inspect the source for relevance.",
+    "summary_mode": "source_excerpt",
+    "note_path": "storage/notes/paper/rosci-exploring-robustness-in-science-vlms-5faa8a7f.md"
   }
 ]
